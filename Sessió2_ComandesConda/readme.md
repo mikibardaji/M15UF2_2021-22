@@ -30,6 +30,7 @@ Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en
 
   `conda deactivate`
 - Per instal·lar paquets, per exemple de **python**,  La instrucció la trobem a google posant "install python en conda" i surt la instrucció. Aquesta instrucció es troba també al apartat *Using Packages and Channels del CheatSheet*
+
   `conda install -n BIO -c anaconda python`
 - Per ***instal·lar jupiterLab***, busquem la instrucció també a google i l'apliquem al nostre entorn BIO 
 - 
