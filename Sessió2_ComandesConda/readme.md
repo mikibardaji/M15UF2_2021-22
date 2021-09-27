@@ -13,8 +13,8 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 
 #### Comandes
 
-Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html# "cheatsheet de Conda")](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf "cheatsheet de Conda")
-- Pwer saber tota la informació de la instal·lació de conda.
+Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html# "cheatsheet de Conda")]
+- Per saber tota la informació de la instal·lació de conda.
 
 `conda info`
 - Per actualitzar l'ultima versió
