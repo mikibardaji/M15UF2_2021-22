@@ -1,5 +1,5 @@
 # Comandes per Conda (Gestor de entorns/Gestor de paquets)
-##                  Pablo Garcia, Miquel Angel Bardají
+##              <center>Pablo Garcia, Miquel Angel Bardají</center>
 
 ## Comandes bàsiques pel gestor Conda.
 
