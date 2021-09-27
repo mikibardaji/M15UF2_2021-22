@@ -33,7 +33,7 @@ Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en
 
 `conda install -n BIO -c anaconda python`
 - Per ***instal·lar jupiterLab***, busquem la instrucció també a google i l'apliquem al nostre entorn BIO 
-- 
+
 `conda install -n BIO -c conda-forge jupyterlab`
 
 
