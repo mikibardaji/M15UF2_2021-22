@@ -24,7 +24,7 @@ Llenguatge interpretat. Interprets de python
 [cheatsheet JupiterLab](https://blog.ja-ke.tech/assets/jupyterlab-shortcuts/Shortcuts.png "cheatsheet JupiterLab")
 
 
-####comandes bàsiques
+#### comandes bàsiques
 ```python
 print("Hello World!");
 ```
