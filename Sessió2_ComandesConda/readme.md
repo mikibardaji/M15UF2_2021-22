@@ -22,19 +22,19 @@ Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en
  `conda update -n base conda `
 - Per crear un entorn de BIO 
 
-      `conda create --name BIO `
+`conda create --name BIO `
 - Per canviar d´entorn, i canvies a l'entorn que has creat.
 
-    `conda activate BIO`
+`conda activate BIO`
 - Per desactivar 
 
-  `conda deactivate`
+`conda deactivate`
 - Per instal·lar paquets, per exemple de **python**,  La instrucció la trobem a google posant "install python en conda" i surt la instrucció. Aquesta instrucció es troba també al apartat *Using Packages and Channels del CheatSheet*
 
-  `conda install -n BIO -c anaconda python`
+`conda install -n BIO -c anaconda python`
 - Per ***instal·lar jupiterLab***, busquem la instrucció també a google i l'apliquem al nostre entorn BIO 
 - 
-    `conda install -n BIO -c conda-forge jupyterlab`
+`conda install -n BIO -c conda-forge jupyterlab`
 
 
 		 
