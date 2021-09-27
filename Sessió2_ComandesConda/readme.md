@@ -11,30 +11,38 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 - Per veure el propietari **ls -lisah /home/alumne/anaconda3/bin/conda**
 - Comanda friki **ls -lisah $(which conda)**, la sortida de la comanda interior, es la entrada de la comanda més exterior.
 
-#### Comandes
+#### Comandes bàsiques
 
-Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html# "cheatsheet de Conda")]
-- Per saber tota la informació de la instal·lació de conda.
+### Introducció a python
 
-`conda info`
-- Per actualitzar l'ultima versió
+Llenguatge interpretat. Interprets de python
+- **python3**
+- **ipython** (depen del python3), versió amb format enriquit i amb colors.
+- **jupiterlab** (va al navegador i treballar amb ipython) ficarem per executarlo a la consola 
+```jupiter lab``` 
 
- `conda update -n base conda `
-- Per crear un entorn de BIO 
+[cheatsheet JupiterLab](https://blog.ja-ke.tech/assets/jupyterlab-shortcuts/Shortcuts.png "cheatsheet JupiterLab")
 
-`conda create --name BIO `
-- Per canviar d´entorn, i canvies a l'entorn que has creat.
 
-`conda activate BIO`
-- Per desactivar 
+####comandes bàsiques
+```python
+print("Hello World!");
+```
 
-`conda deactivate`
-- Per instal·lar paquets, per exemple de **python**,  La instrucció la trobem a google posant "install python en conda" i surt la instrucció. Aquesta instrucció es troba també al apartat *Using Packages and Channels del CheatSheet*
+>Hello World!
 
-`conda install -n BIO -c anaconda python`
-- Per ***instal·lar jupiterLab***, busquem la instrucció també a google i l'apliquem al nostre entorn BIO 
+Funciones
+```python
+In [3]: def say_hello():
+...:     print("Hello World!!!")
+...:     print("Dawbio")
+...: 
+In [4]:  say_hello():
 
-`conda install -n BIO -c conda-forge jupyterlab`
+```
+>Hello World!!!
+>Dawbio
+
 
 
 		 
