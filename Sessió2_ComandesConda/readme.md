@@ -18,10 +18,10 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 Llenguatge interpretat. Interprets de python
 - **python3**
 - **ipython** (depen del python3), versió amb format enriquit i amb colors.
-- **jupiterlab** (va al navegador i treballar amb ipython) ficarem per executarlo a la consola 
+- **jupiterlab** (va al navegador i treballar amb ipython),[cheatsheet JupiterLab](https://blog.ja-ke.tech/assets/jupyterlab-shortcuts/Shortcuts.png "cheatsheet JupiterLab"), ficarem per executarlo a la consola 
 ```jupiter lab``` 
 
-[cheatsheet JupiterLab](https://blog.ja-ke.tech/assets/jupyterlab-shortcuts/Shortcuts.png "cheatsheet JupiterLab")
+
 
 
 #### comandes bàsiques
@@ -42,6 +42,9 @@ In [4]:  say_hello():
 ```
 >Hello World!!!
 >Dawbio
+
+
+		
 
 
 
