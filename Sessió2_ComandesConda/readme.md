@@ -10,3 +10,9 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 - Per saber on es conda, executem **which -a conda**.
 - Per veure el propietari **ls -lisah /home/alumne/anaconda3/bin/conda**
 - Comanda friki **ls -lisah $(which conda)**, la sortida de la comanda interior, es la entrada de la comanda més exterior.
+#####Comandes
+Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html# "cheatsheet de Conda")](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf "cheatsheet de Conda")
+- Si fem la instrucció **conda info** , ens surt la  última versió.
+ - Per actualitzar l`última versió **conda update -n base conda**.
+  - Per crear un entorn de BIO **conda create --name BIO **
+  - Per canviar d´entorn **conda activate BIO**, i canvies a l'entorn que has creat.
