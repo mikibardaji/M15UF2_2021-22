@@ -37,4 +37,4 @@ Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en
     `conda install -n BIO -c conda-forge jupyterlab`
 
 
-		
+		 
