@@ -14,10 +14,19 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 #### Comandes
 
 Les treurem d´un [[cheatsheet de Conda](https://docs.conda.io/projects/conda/en/latest/user-guide/cheatsheet.html# "cheatsheet de Conda")](https://docs.conda.io/projects/conda/en/4.6.0/_downloads/52a95608c49671267e40c689e0bc00ca/conda-cheatsheet.pdf "cheatsheet de Conda")
-- Si fem la instrucció **conda info** , ens surt la  última versió.
- - Per actualitzar l`última versió **conda update -n base conda**.
-  - Per crear un entorn de BIO **conda create --name BIO **
-  - Per canviar d´entorn **conda activate BIO**, i canvies a l'entorn que has creat.
-  - Per desactivar **conda deactivate**.
-  - Per instal·lar paquets, per exemple de python, **conda install -n BIO -c anaconda python**. La instrucció la trobem a google posant "install python en conda" i surt la instrucció. Aquesta instrucció es troba també al apartat *Using Packages and Channels del CheatSheet*
-  - ***Per instal·lar jupiterLab***, busquem la instrucció també a google i l'apliquem al nostre entorn BIO **conda install -n BIO -c conda-forge jupyterlab**
+- Pwer saber tota la informació de la instal·lació de conda.
+`conda info`
+- Per actualitzar l'ultima versió
+ `conda update -n base conda `
+- Per crear un entorn de BIO 
+      `conda create --name BIO `
+- Per canviar d´entorn, i canvies a l'entorn que has creat.
+    `conda activate BIO`
+- Per desactivar 
+  `conda deactivate`
+- Per instal·lar paquets, per exemple de **python**,  La instrucció la trobem a google posant "install python en conda" i surt la instrucció. Aquesta instrucció es troba també al apartat *Using Packages and Channels del CheatSheet*
+  `conda install -n BIO -c anaconda python`
+- Per ***instal·lar jupiterLab***, busquem la instrucció també a google i l'apliquem al nostre entorn BIO 
+    `conda install -n BIO -c conda-forge jupyterlab`
+	`code`
+		
