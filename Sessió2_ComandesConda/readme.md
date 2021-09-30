@@ -26,13 +26,14 @@ Llenguatge interpretat. Interprets de python
 
 
 #### comandes bàsiques
+Imprimir per pantalla
 ```python
 print("Hello World!");
 ```
 
 >Hello World!
 
-Funciones
+Declaracions de funcions
 ```python
 In [3]: def say_hello():
 ...:     print("Hello World!!!")
@@ -43,6 +44,21 @@ In [4]:  say_hello():
 ```
 >Hello World!!!
 >Dawbio
+
+###### ***Punts bàsics python***
+
+- Python per defecte es **tipat dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que una variable pot canviar de tipus durant el programa. **Exemple**
+
+    var1 = 1;
+    print (var1);
+ > 1
+
+ Canviem posteriorment i li assignem el String "Hola"
+     var1 = "Hola";
+    print(var1);
+> Hola
+
+ Java es explícit, que vol dir que una variable durant tot el programa serà del mateix tipus durant tota l´execució.
 
 
 		
