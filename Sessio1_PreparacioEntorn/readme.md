@@ -91,13 +91,20 @@ Instal·lació conda --> sudo conda install -n BIO conda-forge jupyter-lab
 #### Entorno JupiterLab
 
 **Area de trabajo** 
+
   2 modos de trabajo --> 1 Edición
+  
                      --> 2 Comandos
 				   
   2 tipos de celda --> Python (tecla Escape y después'y')
+  
                    --> Markdown (tecla Escape y después 'm')
-**Abreviaturas**				 
+		   
+		   
+**Abreviaturas**
+
 	Shift+Intro --> Ejecutar una celda e ir a la siguiente
-	 Ctrl + Intro --> Ejecuta una celda y se queda en la misma.
+	
+	Ctrl + Intro --> Ejecuta una celda y se queda en la misma.
 	 
 
