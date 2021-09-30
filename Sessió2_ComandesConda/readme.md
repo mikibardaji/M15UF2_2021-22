@@ -45,7 +45,7 @@ In [4]:  say_hello():
 >Hello World!!!
 >Dawbio
 
-###### ***Punts bàsics python***
+##### ***Punts bàsics python***
 
 - Python per defecte es **tipat dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que una variable pot canviar de tipus durant el programa. **Exemple**
 
