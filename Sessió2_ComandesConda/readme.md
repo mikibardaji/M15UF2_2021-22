@@ -22,7 +22,24 @@ Llenguatge interpretat. Interprets de python
 
 ```jupiter lab``` 
 
+##### ***Punts bàsics python***
 
+- Python per defecte es **tipat implicit i dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que no ens falta declarar el tipus de la variable al utilitzar per primer cop una variable(*implicit*), i una variable pot canviar de tipus durant el programa(*dinamic*). **Exemple**
+
+```python
+    var1 = 1;
+    print (var1);
+```
+ > 1
+
+ Canviem posteriorment i li assignem el String "Hola"
+ ```python
+     var1 = "Hola";
+    print(var1);
+```
+> Hola
+
+ **Java** es explícit i estatic, al definir la variable tens que dir, quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
 
 
 #### comandes bàsiques
@@ -45,28 +62,16 @@ In [4]:  say_hello():
 >Hello World!!!
 >Dawbio
 
-##### ***Punts bàsics python***
+**Tabulacions obligatories despres dels :** 
+   Els claudàtors(corchetes) dels if's i del while, es substitueix per un tabulador.
 
-- Python per defecte es **tipat implicit i dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que no ens falta declarar el tipus de la variable al utilitzar per primer cop una variable(*implicit*), i una variable pot canviar de tipus durant el programa(*dinamic*). **Exemple**
-
+**if**
+El tabulador s´utilitza al if i al else
 ```python
-    var1 = 1;
-    print (var1);
+if (s=="HOLA"):
+    print ("HOLA")
+elif (s=="Adios"):
+   print("Era adios")
+else:
+    print("No es hola")
 ```
- > 1
-
- Canviem posteriorment i li assignem el String "Hola"
- ```python
-     var1 = "Hola";
-    print(var1);
-```
-> Hola
-
- Java es explícit i estatic, al definir la variable tens que dir, quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
-
-
-		
-
-
-
-		 
