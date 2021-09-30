@@ -47,7 +47,7 @@ In [4]:  say_hello():
 
 ##### ***Punts bàsics python***
 
-- Python per defecte es **tipat dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que una variable pot canviar de tipus durant el programa. **Exemple**
+- Python per defecte es **tipat implicit i dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que no ens falta declarar el tipus de la variable al utilitzar per primer cop una variable(*implicit*), i una variable pot canviar de tipus durant el programa(*dinamic*). **Exemple**
 
 ```python
     var1 = 1;
@@ -62,7 +62,7 @@ In [4]:  say_hello():
 ```
 > Hola
 
- Java es explícit, que vol dir que una variable durant tot el programa serà del mateix tipus durant tota l´execució.
+ Java es explícit i estatic, al definir la variable tens que dir, quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
 
 
 		
