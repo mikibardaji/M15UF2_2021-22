@@ -17,7 +17,7 @@ Farem la instal·lació Linux amb un disc dur extraible bootable.
 
 ## Passos a seguir pel usb bootable
 
- 1. Executar el BalenaEtcher, esculleixes la ISO(l'escolliada) i t'assegures de triar el disc de 4 GB, **no el disc dur del PC**
+ 1. Executar el BalenaEtcher, esculleixes la ISO(elegida) i t'assegures de triar el disc de 4 GB, **no el disc dur del PC**
  2. Arrancar amb el usb enlloc del disc dur. Amb la tecla que sigui
 > **Firmware**, el software dins del hardware per a que funcioni.
 >
@@ -28,8 +28,9 @@ Farem la instal·lació Linux amb un disc dur extraible bootable.
 > UUID: Universal Unique ID
  3. Arrancar en **mode UEFI el usb** → Hi ha l´opció try demo, que és recomanable i les opcions a escollir 
     · Software  Angles-Irlanda
-    - Escollir l´opciò **Clean Storm**, borra tots els fitxers , aquí agafes el disc dur extern. Aquest moment has de triar el disc dur i no equivocarte
-    - No escollir l´opció encriptar el disc dur, perque si hi ha un problema, desde fora es pot ajudar una mica més.
+    · Elegir keyboard-Español amb especificació català si volem
+    - Escollir l´opciò **Clean Storm**, borra tots els fitxers , aquí agafes el disc dur extern. Aquest moment has de triar el disc dur (SSD) i no equivocarte
+    - No escollir l´opció encriptar el password, perque si hi ha un problema, desde fora es pot ajudar una mica més.
 
 # Utilitats i comandes ubuntu
 
