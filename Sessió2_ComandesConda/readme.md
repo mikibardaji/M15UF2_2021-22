@@ -65,7 +65,7 @@ In [4]:  say_hello():
 **Tabulacions obligatories despres dels :** 
    Els claudàtors(corchetes) dels if's i del while, es substitueix per un tabulador.
 
-**if**
+· **if**
 El tabulador s´utilitza al if i al else
 ```python
 if (s=="HOLA"):
@@ -75,3 +75,35 @@ elif (s=="Adios"):
 else:
     print("No es hola")
 ```
+
+· **Operadors lògics AND/OR/XOR/NOT**
+A diferencia de java s'escriuen amb lletres
+```python
+if (n>2) AND (n<5):
+    print ("esta entre 2 y 5")
+elif (n>5) OR (n<2):
+   print("Fora de 2 y 5")
+else:
+    print("es un altre cas")
+```
+
+· **pass**
+Es la paraula per no fer cap acció dintre de un if
+```python
+if (n>2) AND (n<5):
+    print ("esta entre 2 y 5")
+else:
+    pass
+```
+
+. **listas**
+```python
+l1 = [0,1,2,3]
+lx = [0,1,True,"Hola"]
+```
+Per saber la longitud de una llista
+```python
+len(lx)
+```
+
+
