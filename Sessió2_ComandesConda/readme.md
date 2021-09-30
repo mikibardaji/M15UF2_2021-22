@@ -49,13 +49,17 @@ In [4]:  say_hello():
 
 - Python per defecte es **tipat dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que una variable pot canviar de tipus durant el programa. **Exemple**
 
+```python
     var1 = 1;
     print (var1);
+```
  > 1
 
  Canviem posteriorment i li assignem el String "Hola"
+ ```python
      var1 = "Hola";
     print(var1);
+```
 > Hola
 
  Java es explícit, que vol dir que una variable durant tot el programa serà del mateix tipus durant tota l´execució.
