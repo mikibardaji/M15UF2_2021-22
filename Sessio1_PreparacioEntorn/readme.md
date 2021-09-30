@@ -67,7 +67,8 @@ Farem la instal·lació Linux amb un disc dur extraible bootable.
 		
 		Un cop instal·lat i perquè s'adoni del canvi, **tanquem la terminal i la tornem a obrir**.
 		 Ajuda --> Ctrl-C (tancar proces amb linux)
-		 	Si sense voler no ens ha parat a la pregunta conda init (hem apretat el enter mentre s´estaven descomprimint arxius) --> Llavors fiquem ./ conda_init (executable al directori actual, ens hem de ficar a "~/anaconda3/bin")
+		 
+		 Si sense voler no ens ha parat a la pregunta conda init (hem apretat el enter mentre s´estaven descomprimint arxius) --> Llavors fiquem ./ conda_init (executable al directori actual, ens hem de ficar a "~/anaconda3/bin")
 			
 ## Comandes bàsiques pel gestor Conda.
 
