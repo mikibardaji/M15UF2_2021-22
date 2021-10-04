@@ -60,6 +60,13 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 
 #### comandes bàsiques
+
+* [Imprimir Pantalla](#print)
+* [Declaracions funcions](#funcions)
+* [Contenido 3](#item3)
+* [Contenido 4](#item4)
+
+<a name="print"></a>
 Imprimir per pantalla
 ```python
 print("Hello World!");
@@ -67,6 +74,7 @@ print("Hello World!");
 
 >Hello World!
 
+<a name="funcions"></a>
 Declaracions de funcions
 ```python
 In [3]: def say_hello():
