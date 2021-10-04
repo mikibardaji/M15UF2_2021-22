@@ -82,7 +82,7 @@ In [4]:  say_hello():
 **Tabulacions obligatories despres dels :** 
    Els claudàtors(corchetes) dels if's i del while, es substitueix per un tabulador.
 
-· **if**
+##### **if**
 El tabulador s´utilitza al if i al else
 ```python
 if (s=="HOLA"):
@@ -93,7 +93,7 @@ else:
     print("No es hola")
 ```
 
-· **Operadors lògics AND/OR/XOR/NOT**
+##### **Operadors lògics AND/OR/XOR/NOT**
 A diferencia de java s'escriuen amb lletres
 ```python
 if (n>2) AND (n<5):
@@ -104,7 +104,7 @@ else:
     print("es un altre cas")
 ```
 
-· **pass**
+##### **pass**
 Es la paraula per no fer cap acció dintre de un if
 ```python
 if (n>2) AND (n<5):
@@ -113,7 +113,7 @@ else:
     pass
 ```
 
-. **llistes**
+##### **llistes**
 
 Comencen per 0, com a molts llenguatges.
 
@@ -142,3 +142,18 @@ msg
 > msg ='Dijo "Vete de asqui!"'
 
 amb python "a" == 'a' es TRUE
+
+#### **Tuples**
+
+Tupla es una llista de sol lectura, millor no utilitzar
+```python
+t = ("a","b","c")
+t
+```
+
+> ('a', 'b', 'c')
+
+
+#### **Diccionari**
+
+Diccionari, Hash, Tabla Hash, Has Map, son tots sinònims.
