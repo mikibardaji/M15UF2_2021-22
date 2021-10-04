@@ -233,4 +233,31 @@ Diccionari, Hash, Tabla Hash, Has Map, Mapa son tots sinònims. Es diferent de A
 | "Albert" | 342  |
 | "Carlos" |  782 |
 
+Nomenclatura per diccionaris
+- () Brackets
+- [] Square Brackets
+- {} Curly Brackets
+- <> Angle Brackets
+
+```python
+d = {"Roger": 111,
+    "Dani":   234,
+    "Mar":    342,
+    "Albert": 567,
+    "Carlos": 478 }
+d["Roger"]
+```
+> 111
+
+```python
+for keys in d:
+    print(keys)
+```
+
+>Roger
+>Dani
+>Mar
+>Albert
+>Carlos
+
 
