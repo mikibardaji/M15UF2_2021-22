@@ -30,6 +30,16 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 ##### ***Punts bàsics python***
 
+##Bibliografia Python
+
+· [Tutorial pàgina oficial Python](https://docs.python.org/es/3/tutorial/)
+
+· [Revolunet](https://pythonbooks.revolunet.com/)
+
+· [Pildoras informaticas](https://www.youtube.com/watch?v=G2FCfQj-9ig)
+
+· [Python cheatsheets](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
+
 - Python per defecte es **tipat implicit i dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que no ens falta declarar el tipus de la variable al utilitzar per primer cop una variable(*implicit*), i una variable pot canviar de tipus durant el programa(*dinamic*). **Exemple**
 
 ```python
@@ -47,15 +57,6 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
  **Java** es explícit i estatic, al definir la variable tens que dir, quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
 
-##Aprenent python
-
-· [Tutorial pàgina oficial Python](https://docs.python.org/es/3/tutorial/)
-
-· [Revolunet](https://pythonbooks.revolunet.com/)
-
-· [Pildoras informaticas](https://www.youtube.com/watch?v=G2FCfQj-9ig)
-
-· [Python cheatsheets](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 
 
 #### comandes bàsiques
@@ -113,6 +114,9 @@ else:
 ```
 
 . **llistes**
+
+Comencen per 0, com a molts llenguatges.
+
 ```python
 l1 = [0,1,2,3]
 lx = [0,1,True,"Hola"]
@@ -121,3 +125,16 @@ Per saber la longitud d´una llista
 ```python
 len(lx)
 ```
+
+Diferencies amb java, la comilla i la comilla simple és el mateix
+
+```python
+l=["a","b","c"]
+```
+
+però serveix per poder ficar cometes dobles dins de la simple
+
+```python
+msg ='Dijo "Vete de asqui!"'
+```
+
