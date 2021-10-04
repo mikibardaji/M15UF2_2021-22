@@ -63,8 +63,14 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 * [Imprimir Pantalla](#print)
 * [Declaracions funcions](#funcions)
-* [Contenido 3](#item3)
-* [Contenido 4](#item4)
+* [If](#if)
+* [Bucles for/while](#bucles)
+* [Funció range](#range)
+* [Operadors lògics](#logics)
+* [Instrucció pass](#pass)
+* [Llistes](#llistes)
+* [Tuples](#tuples)
+* [Diccionari](#diccionari)
 
 <a name="print"></a>
 Imprimir per pantalla
@@ -90,6 +96,7 @@ In [4]:  say_hello():
 **Tabulacions obligatories despres dels :** 
    Els claudàtors(corchetes) dels if's i del while, es substitueix per un tabulador.
 
+<a name="if"></a>
 ##### **if**
 El tabulador s´utilitza al if i al else
 ```python
@@ -102,6 +109,7 @@ else:
 ```
 
 
+<a name="bucles"></a>
 ##### **bucles (while/for)**
 
 ***while***
@@ -138,7 +146,7 @@ Segona forma de fer la inicialització
 for number in range(1,11):
     print(number)
 ``` 
-
+<a name="range"></a>
 **Range tiene tres formas:**
  1. Con 1 parámetro
  2. Con 2 parámetros
@@ -154,7 +162,7 @@ list(range(1, 11))
 list(range(1, 11, 2))
 ``` 
 
-
+<a name="logics"></a>
 ##### **Operadors lògics AND/OR/XOR/NOT**
 A diferencia de java s'escriuen amb lletres
 ```python
@@ -165,7 +173,7 @@ elif (n>5) OR (n<2):
 else:
     print("es un altre cas")
 ```
-
+<a name="pass"></a>
 ##### **pass**
 Es la paraula per no fer cap acció dintre de un if
 ```python
@@ -175,6 +183,7 @@ else:
     pass
 ```
 
+<a name="llistes"></a>
 ##### **llistes**
 
 Comencen per 0, com a molts llenguatges.
@@ -205,6 +214,7 @@ msg
 
 amb python "a" == 'a' es TRUE
 
+<a name="tuples"></a>
 #### **Tuples**
 
 Tupla es una llista de sol lectura, millor no utilitzar
@@ -215,7 +225,7 @@ t
 
 > ('a', 'b', 'c')
 
-
+<a name="diccionari"></a>
 #### **Diccionari**
 
 Diccionari, Hash, Tabla Hash, Has Map, Mapa son tots sinònims. Es diferent de Arrays...
