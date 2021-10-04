@@ -91,11 +91,14 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 **Area de trabajo** 
 
   2 modes de treball 
+  
   --> 1 Edició
   --> 2 Comandes
 				   
   2 tipus de cel·la 
+  
   --> Python (tecla ESC i despres'y')
+  
   --> Markdown (tecla ESC i despres 'm')
 		   
 		   
