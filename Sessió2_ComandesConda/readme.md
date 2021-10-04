@@ -320,8 +320,19 @@ for key, item in d.items():
     print(key, item)
 dict_reverse2
 ```
+```python
+#Solution 3 with only keys
+# items() example
+
+dict_reverse3 = {}
+for key in d.keys():
+    tel = d[key]
+    dict_reverse2[tel] = key
+dict_reverse3
+```
 
 > {111: 'Roger', 234: 'Dani', 342: 'Mar', 567: 'Albert', 478: 'Carlos'}
+
 
 
 <a name="ajuda"></a>
