@@ -1,4 +1,4 @@
-# Comandes per Conda (Gestor de entorns/Gestor de paquets)
+# Comandes per Conda (Gestor de entorns/Gestor de paquets) i primeres passes Python
 ##              <center>Pablo Garcia, Miquel Angel Bardají</center>
 
 ## Comandes bàsiques pel gestor Conda.
