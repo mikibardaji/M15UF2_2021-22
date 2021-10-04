@@ -96,7 +96,57 @@ else:
 
 ##### **bucles (while/for)**
 
+***while***
 El while funciona exactament igual que Java.
+
+```python
+count = 1
+while (count <= 10):
+    print(count)
+    count += 1
+```
+
+***for***
+Es diferent... ja que necessita un array inicialitzat.
+
+
+```python
+numbers = [1,2,3,4,5,6,7,8,9,10]
+for number in numbers:
+    print(number)
+```
+
+Inicialitzem, el array amb la funció **range()**, ficant el punt d'inici(inclusiu) i el punt final(exclusiu)
+
+```python
+# Solution 3
+numbers = range(1,11)
+for number in numbers:
+    print(number)
+``` 
+Segona forma de fer la inicialització
+
+```python
+for number in range(1,11):
+    print(number)
+``` 
+
+**Range tiene tres formas:**
+ 1. Con 1 parámetro
+ 2. Con 2 parámetros
+ 3. Con 3 parámetros
+
+# Range devuelve un "Generador", no una lista.
+# Si quiero una lista, tengo que convertirla
+# manualmente con list(...)
+
+```python
+list(range(10))
+
+list(range(1, 11))
+
+list(range(1, 11, 2))
+``` 
 
 
 ##### **Operadors lògics AND/OR/XOR/NOT**
