@@ -81,6 +81,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 * [Tuples](#tuples)
 * [Diccionari](#diccionari)
     * [Exercicis amb diccionaris](#exercici_diccionari)
+    * [Comprenhension](#comprenhension)
 * [Utilitat Ajuda](#ajuda)
 
 <a name="print"></a>
@@ -329,6 +330,26 @@ for key in d.keys():
     tel = d[key]
     dict_reverse2[tel] = key
 dict_reverse3
+```
+<a name="comprenhension"></a>
+**Comprenhension**
+·Hi ha "Dict Comprenhensions" y "List Comprenhensions"
+·Per a llegir o escriure una comprenhension, es comença pel mig (pel "for")
+·Dict comprenhension
+
+    ```d2 = {key:value for key,value in dictionary_source.items()```
+
+·List comprenhension
+
+    ```d2 = {elem for elem in List_source```
+
+```python
+# Solution 4 Comprenhemsion 
+#Como crear una nueva coleccion a partir de otra en una linea
+#Existe Dict Comprenhensio y List Comprenhension
+
+dict_reverse_oneline = {tel:name for name, tel in d.items()}
+dict_reverse_oneline
 ```
 
 > {111: 'Roger', 234: 'Dani', 342: 'Mar', 567: 'Albert', 478: 'Carlos'}
