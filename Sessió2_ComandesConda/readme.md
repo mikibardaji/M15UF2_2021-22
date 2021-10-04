@@ -284,6 +284,8 @@ for keys in d:
 >Carlos
 
 <a name="ajuda"></a>
+**Documentació funcions**
+
 Per saber totes les funcions associades al objecte es com java...
 ```
  nom_objecte. <Tab> -> Autocomplete
