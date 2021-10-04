@@ -71,6 +71,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 * [Llistes](#llistes)
 * [Tuples](#tuples)
 * [Diccionari](#diccionari)
+* [Utilitat Ajuda](#ajuda)
 
 <a name="print"></a>
 Imprimir per pantalla
@@ -282,4 +283,9 @@ for keys in d:
 
 >Carlos
 
-
+<a name="ajuda"></a>
+Per saber totes les funcions associades al objecte es com java...
+```
+ nom_objecte. <Tab> -> Autocomplete
+ nom_objecte.nom_funcio <Tab>+<Shift> Documentació de la funció
+```
