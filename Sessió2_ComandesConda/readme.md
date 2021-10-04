@@ -314,6 +314,10 @@ for key, item in d.items():
     print(key, item)
 dict_reverse2
 ```
+
+> {111: 'Roger', 234: 'Dani', 342: 'Mar', 567: 'Albert', 478: 'Carlos'}
+
+
 <a name="ajuda"></a>
 **Documentació funcions**
 
