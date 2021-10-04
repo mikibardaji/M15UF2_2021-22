@@ -83,8 +83,11 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 - Comanda friki **ls -lisah $(which conda)**, la sortida de la comanda interior, es la entrada de la comanda més exterior.
 
 **Comandes instal·lació**
-· Instal·lació python --> sudo conda install -n BIO  ???
-· Instal·lació jupyter Lab --> sudo conda install -n BIO conda-forge jupyter-lab
+
+· Instal·lació python --> 
+    sudo conda install -n BIO anaconda python (directori oficial)
+· Instal·lació jupyter Lab --> 
+    sudo conda install -n BIO conda-forge jupyter-lab (directori no oficial)
 
 
 #### Entorno JupiterLab
