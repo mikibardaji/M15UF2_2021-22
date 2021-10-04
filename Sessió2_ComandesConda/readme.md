@@ -364,6 +364,8 @@ l2 = [ num**2 for num in numbers]
 l2
 ```
 
+> [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
+
 <a name="ajuda"></a>
 **Documentació funcions**
 
