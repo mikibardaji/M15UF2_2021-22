@@ -82,6 +82,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 * [Diccionari](#diccionari)
     * [Exercicis amb diccionaris](#exercici_diccionari)
     * [Comprenhension](#comprenhension)
+        * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
 * [Utilitat Ajuda](#ajuda)
 
 <a name="print"></a>
@@ -354,7 +355,14 @@ dict_reverse_oneline
 
 > {111: 'Roger', 234: 'Dani', 342: 'Mar', 567: 'Albert', 478: 'Carlos'}
 
+<a name="exercici2_comprenhension"></a>
 
+A partir d'una llista, del 1 al 10, crear una nova llista, amb els valors al quadrat
+```python
+numbers = range(1,11)
+l2 = [ num**2 for num in numbers]
+l2
+```
 
 <a name="ajuda"></a>
 **Documentació funcions**
