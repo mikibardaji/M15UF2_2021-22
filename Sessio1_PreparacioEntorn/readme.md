@@ -40,6 +40,7 @@
       - Es pot utilitzar **ls -lisah /bin/python3**, i es veu on es troba el executable i es veu quin executable realment utilitza, quant a la terminal escrivim python3. Al llistat pot sortir ***blau claret***, que vol dir que es executable.
 	  
 	  - Per veure la teva ruta del sistema, que necessitarem per instalar la nostra versió de python,  on es troben els python de sistema, per no fer-los malbe, posem la comanda **echo $PATH | sed -E "s/:/\n/g"**.
+	  
 	  Per la instal·lació de la teva versió, instal·larem **Conda --> (Anaconda)**, conda és un software que permet 2 coses:
 	      - **Gestor de entorns**(virtual): Un directori amb llibreries i executables, aillats de la resta.
 		  - **Gestor de paquets** (*conjunt d´arxius necessaris per un executable o llibreria(codi que es pot executar desde un executable)*). 
