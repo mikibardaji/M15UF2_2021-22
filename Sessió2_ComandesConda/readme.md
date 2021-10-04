@@ -74,6 +74,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 * [Llistes](#llistes)
 * [Tuples](#tuples)
 * [Diccionari](#diccionari)
+    * [Exercicis amb diccionaris](#exercici_diccionari)
 * [Utilitat Ajuda](#ajuda)
 
 <a name="print"></a>
@@ -285,7 +286,34 @@ for keys in d:
 >Albert
 
 >Carlos
+<a name="exercici_diccionari"></a>
+*Exercici* Crear un nou diccionari on les claus del primer siguin els valors del segon i els valors, passin a ser les claus.
 
+
+```python
+# Solution "for" 1
+
+dict_reverse = {}
+
+for key, value in d.items():
+    name = key
+    tel  = value
+    dict_reverse[tel] = name
+
+dict_reverse
+```
+
+Una segona solució, seria... 
+
+```python
+#Solution 2 items() example
+d.items()
+dict_reverse2 = {}
+for key, item in d.items():
+    dict_reverse2[item] = key
+    print(key, item)
+dict_reverse2
+```
 <a name="ajuda"></a>
 **Documentació funcions**
 
