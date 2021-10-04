@@ -74,7 +74,7 @@
 
 
 #### Comandes comprovacions previes a la instal·lació de python3
-Al arrancar el terminal et sortira la paraula (base), és el interpret de conda.
+Al arrancar el terminal et sortira la paraula (base), és el interpret de conda, i el entorn base que crea per defecte.
 Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de teclat), però això tanca el terminal, al tornar a obrir sortirà.
 - Per saber que tenim python d´anaconda, podem ficar la instrucció **which -a python3**, i veiem el nou python.
 - Per saber on es conda, executem **which -a conda**.
@@ -82,26 +82,26 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 - Comanda friki **ls -lisah $(which conda)**, la sortida de la comanda interior, es la entrada de la comanda més exterior.
 
 **Comandes instal·lació**
-Instal·lació python --> sudo conda install -n BIO  
-Instal·lació conda --> sudo conda install -n BIO conda-forge jupyter-lab
+· Instal·lació python --> sudo conda install -n BIO  ???
+· Instal·lació jupyter Lab --> sudo conda install -n BIO conda-forge jupyter-lab
 
 
 #### Entorno JupiterLab
 
 **Area de trabajo** 
 
-  2 modos de trabajo 
-  --> 1 Edición
-  --> 2 Comandos
+  2 modes de treball 
+  --> 1 Edició
+  --> 2 Comandes
 				   
-  2 tipos de celda 
-  --> Python (tecla Escape y después'y')
-  --> Markdown (tecla Escape y después 'm')
+  2 tipus de cel·la 
+  --> Python (tecla ESC i despres'y')
+  --> Markdown (tecla ESC i despres 'm')
 		   
 		   
 **Abreviaturas**
 
-	Shift+Intro --> Ejecutar una celda e ir a la siguiente
-	Ctrl + Intro --> Ejecuta una celda y se queda en la misma.
+	Shift+Intro --> Executar una cel·la i anar a la següent
+	Ctrl + Intro --> Executar una cel·la i es queda a la mateixa.
 	 
 
