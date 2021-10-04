@@ -46,9 +46,13 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 ##Aprenent python
 
 · [Tutorial pàgina oficial Python](https://docs.python.org/es/3/tutorial/)
+
 · [Revolunet](https://pythonbooks.revolunet.com/)
+
 · [Pildoras informaticas](https://www.youtube.com/watch?v=G2FCfQj-9ig)
-· [Python cheatsheets]()
+
+· [Python cheatsheets](https://www.pythoncheatsheet.org/)
+
 
 #### comandes bàsiques
 Imprimir per pantalla
