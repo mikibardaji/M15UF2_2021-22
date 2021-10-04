@@ -322,7 +322,7 @@ dict_reverse2
 ```
 ```python
 #Solution 3 with only keys
-# items() example
+# keys() example
 
 dict_reverse3 = {}
 for key in d.keys():
