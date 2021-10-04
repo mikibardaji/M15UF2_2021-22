@@ -85,9 +85,9 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 **Comandes instal·lació**
 
 · Instal·lació python --> 
-    sudo conda install -n BIO anaconda python (directori oficial)
+    ```sudo conda install -n BIO anaconda python (directori oficial)```
 · Instal·lació jupyter Lab --> 
-    sudo conda install -n BIO conda-forge jupyter-lab (directori no oficial)
+    ```sudo conda install -n BIO conda-forge jupyter-lab (directori no oficial)```
 
 
 #### Entorno JupiterLab
