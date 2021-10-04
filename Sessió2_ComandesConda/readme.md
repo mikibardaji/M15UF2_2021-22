@@ -15,9 +15,7 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 ```conda create -n nombreenv python=x.x```
 
 
-#### Comandes bàsiques
-
-### Introducció a python
+## Introducció a python
 
 Llenguatge interpretat. Interprets amb els que podem treballar amb python
 - **python3**
