@@ -14,6 +14,10 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 
 ```conda create -n nombreenv python=x.x```
 
+Per activarla, un cop ja es troba creada es 
+
+```conda activate nombreEntorno```
+
 
 ## Introducció a python
 
@@ -51,7 +55,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 · [Pildoras informaticas](https://www.youtube.com/watch?v=G2FCfQj-9ig)
 
-· [Python cheatsheets](https://www.pythoncheatsheet.org/)
+· [Python cheatsheets](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 
 
 #### comandes bàsiques
