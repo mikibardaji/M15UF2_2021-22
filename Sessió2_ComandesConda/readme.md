@@ -136,9 +136,7 @@ for number in range(1,11):
  2. Con 2 parámetros
  3. Con 3 parámetros
 
-# Range devuelve un "Generador", no una lista.
-# Si quiero una lista, tengo que convertirla
-# manualmente con list(...)
+Range devuelve un "Generador", no una lista. Si quiero una lista, tengo que convertirla, manualmente con list(...)
 
 ```python
 list(range(10))
