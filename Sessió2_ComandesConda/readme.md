@@ -43,7 +43,12 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
  **Java** es explícit i estatic, al definir la variable tens que dir, quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
 
-[Tutorial pàgina oficial Python](https://docs.python.org/es/3/tutorial/)
+##Aprenent python
+
+· [Tutorial pàgina oficial Python](https://docs.python.org/es/3/tutorial/)
+· [Revolunet](https://pythonbooks.revolunet.com/)
+· [Pildoras informaticas](https://www.youtube.com/watch?v=G2FCfQj-9ig)
+· [Python cheatsheets]()
 
 #### comandes bàsiques
 Imprimir per pantalla
