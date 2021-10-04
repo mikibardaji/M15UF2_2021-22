@@ -93,6 +93,12 @@ else:
     print("No es hola")
 ```
 
+
+##### **bucles (while/for)**
+
+El while funciona exactament igual que Java.
+
+
 ##### **Operadors lògics AND/OR/XOR/NOT**
 A diferencia de java s'escriuen amb lletres
 ```python
