@@ -1,6 +1,11 @@
 # Comandes per Conda (Gestor de entorns/Gestor de paquets) i primeres passes Python
 ##              <center>Pablo Garcia, Miquel Angel Bardají</center>
 
+
+* [Comandes bàsiques gestor Conda](#conda)
+* [Introducció Python](#python)
+
+<a name="conda"></a>
 ## Comandes bàsiques pel gestor Conda.
 
 #### Comprovacions previes
@@ -22,6 +27,7 @@ Per desactivar l'entorn, trobant-nos al entorn s'utilitza
 
 ```conda deactivate```
 
+<a name="python"></a>
 ## Introducció a python
 
 Llenguatge interpretat. Interprets amb els que podem treballar amb python
