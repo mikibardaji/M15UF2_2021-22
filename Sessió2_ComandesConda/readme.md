@@ -136,5 +136,8 @@ però serveix per poder ficar cometes dobles dins de la simple
 
 ```python
 msg ='Dijo "Vete de asqui!"'
+msg
 ```
+
+> msg ='Dijo "Vete de asqui!"'
 
