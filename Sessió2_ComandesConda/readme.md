@@ -141,3 +141,4 @@ msg
 
 > msg ='Dijo "Vete de asqui!"'
 
+amb python "a" == 'a' es TRUE
