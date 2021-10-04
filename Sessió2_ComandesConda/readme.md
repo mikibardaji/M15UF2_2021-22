@@ -210,4 +210,27 @@ t
 
 #### **Diccionari**
 
-Diccionari, Hash, Tabla Hash, Has Map, son tots sinònims.
+Diccionari, Hash, Tabla Hash, Has Map, Mapa son tots sinònims. Es diferent de Arrays...
+
+**Arrays**
+|Claus   | Valors   |
+| :------------: | :------------: |
+|0   | "Roger"  |
+| 1  |  "Dani" |
+| 2  |  "Mar" |
+| 3  |  "Albert" |
+| 4  |  "Carlos" |
+
+- Amb un diccionari les claus, poden ser del tipus que vulgui, no sol enters. *exemple: Strings*
+- Les claus tenen que ser uniques, no pot haver-hi repetides.
+
+**Diccionari**
+|  Claus | Valors   |
+| :------------: | :------------: |
+|  "Roger" | 111  |
+| "Dani"  |  222 |
+| "Mar" |  223 |
+| "Albert" | 342  |
+| "Carlos" |  782 |
+
+
