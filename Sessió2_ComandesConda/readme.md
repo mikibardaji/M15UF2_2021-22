@@ -301,7 +301,7 @@ for keys in d:
 Per una de les possibles solucions al exercici s'introdueix un nou concepte el de comprenhension
 
 <a name="comprenhension"></a>
-**Comprenhension**
+##### **Comprenhension**
 ·Hi ha "Dict Comprenhensions" y "List Comprenhensions"
 ·Per a llegir o escriure una comprenhension, es comença pel mig (pel "for")
 ·Dict comprenhension
