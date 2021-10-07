@@ -356,6 +356,68 @@ slic[2:]
 
 > ['c', 'd', 'e', 'f', 'g', 'h']
 
+```python
+# Del principi a la 5 lletra
+slic[:5]
+```
+
+> ['a', 'b', 'c', 'd', 'e']
+
+```python
+#Tota la llista retornant una copia
+slic[:]
+```
+
+> ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+
+```python
+#Si fiques un index fora de límits del array, no dona error outofBounds del segon índex
+slic[2:2000]
+```
+
+> ['c', 'd', 'e', 'f', 'g', 'h']
+
+```python
+#Llegir tota una llista saltant de X en X, es un tercer parametre "step"
+slic[0:8:2]
+```
+
+> ['a', 'c', 'e', 'g']
+
+```python
+#Índex negatius, comencen pel final de la llista. El -1 és el final de la llista.
+slic[-1]
+```
+
+> 'h'
+
+```python
+#Puc fer rangs amb índexs negatius
+slic[-8:-1]
+```
+
+> ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+
+```python
+slic[-8:] #fins la h. No puc ficar el índex final
+```
+
+> ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
+
+```python
+#Exemple avançat. Invertir una secuencia
+slic[::-1]
+```
+
+> ['h', 'g', 'f', 'e', 'd', 'c', 'b', 'a']
+
+```python
+"Hola Mundo"[::-2]
+```
+
+> 'onMao'
+
 <a name="ajuda"></a>
 **Documentació funcions**
 
