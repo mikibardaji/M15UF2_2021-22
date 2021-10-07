@@ -294,6 +294,7 @@ for keys in d:
 >Albert
 
 >Carlos
+
 <a name="exercici_diccionari"></a>
 *Exercici* Crear un nou diccionari on les claus del primer siguin els valors del segon i els valors, passin a ser les claus.
 
