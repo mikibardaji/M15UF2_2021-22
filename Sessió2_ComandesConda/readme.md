@@ -17,7 +17,7 @@ Per poder sortir de l'interpret, NO ES CTRL-C, sinò es Ctrl-D (fi d'ordres de t
 - Comanda friki **ls -lisah $(which conda)**, la sortida de la comanda interior, es la entrada de la comanda més exterior.
 - **Crear el teu propi entorn** [tutorial](https://www.devacademy.es/entornos-virtuales-en-python-anaconda).
 
-```conda create -n nombreenv python=x.x```
+<center>```conda create -n nombreenv python=x.x```</center>
 
 Per activarla, un cop ja es troba creada es 
 
