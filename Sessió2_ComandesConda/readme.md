@@ -84,7 +84,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
     * [Comprenhension](#comprenhension)
     * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
 * [Slices](#slices)
-* [Arrays Avançants](#arraysup)
+* [Arrays Avançats](#arraysup)
 * [Utilitat Ajuda python](#ajuda)
 
 <a name="print"></a>
