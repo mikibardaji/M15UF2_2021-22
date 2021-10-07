@@ -37,9 +37,9 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 ```jupiter lab``` 
 
-##### ***Punts bàsics python***
+### ***Punts bàsics python***
 
-##Bibliografia Python
+#### Bibliografia Python
 
 · [Tutorial pàgina oficial Python](https://docs.python.org/es/3/tutorial/)
 
@@ -82,7 +82,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 * [Diccionari](#diccionari)
     * [Exercicis amb diccionaris](#exercici_diccionari)
     * [Comprenhension](#comprenhension)
-        * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
+    * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
 * [Utilitat Ajuda](#ajuda)
 
 <a name="print"></a>
