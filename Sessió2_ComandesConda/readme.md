@@ -317,7 +317,7 @@ Per una de les possibles solucions al exercici s'introdueix un nou concepte el d
 
 <a name="exercici2_comprenhension"></a>
 
-***Exercici 2*** A partir d'una llista, del 1 al 10, crear una nova llista, amb els valors al quadrat
+***Exercici 2*** A partir d'una llista, que va del 1 al 10, crear amb una linea , una nova llista, amb els valors al quadrat de la primera
 
 [Solucions exercici2](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B32_ComandesConda/exercici2.md "exercici2")
 
