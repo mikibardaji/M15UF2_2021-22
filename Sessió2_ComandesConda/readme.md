@@ -321,8 +321,6 @@ Per una de les possibles solucions al exercici s'introdueix un nou concepte el d
 [Solucions exercici2](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B32_ComandesConda/exercici2.md "exercici2")
 
 
-> [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
-
 <a name="ajuda"></a>
 **Documentació funcions**
 
