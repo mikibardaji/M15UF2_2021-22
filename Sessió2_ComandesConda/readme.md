@@ -297,7 +297,7 @@ for keys in d:
 
 <a name="exercici_diccionari"></a>
 *Exercici* Crear un nou diccionari on les claus del primer siguin els valors del segon i els valors, passin a ser les claus.
-
+[exercici1](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B32_ComandesConda/exercici1.md "exercici1")
 
 ```python
 # Solution "for" 1
