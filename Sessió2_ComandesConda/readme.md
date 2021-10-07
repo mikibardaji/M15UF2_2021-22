@@ -296,7 +296,7 @@ for keys in d:
 >Carlos
 
 <a name="exercici_diccionari"></a>
-*Exercici* Crear un nou diccionari on les claus del primer siguin els valors del segon i els valors, passin a ser les claus.
+*Exercici 1* Crear un nou diccionari on les claus del primer siguin els valors del segon i els valors, passin a ser les claus.
 
 Per una de les possibles solucions al exercici s'introdueix un nou concepte el de comprenhension
 
@@ -316,9 +316,10 @@ Per una de les possibles solucions al exercici s'introdueix un nou concepte el d
 
 <a name="exercici2_comprenhension"></a>
 
-*Exercici* A partir d'una llista, del 1 al 10, crear una nova llista, amb els valors al quadrat
+*Exercici 2* A partir d'una llista, del 1 al 10, crear una nova llista, amb els valors al quadrat
 
 [Solucions exercici2](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B32_ComandesConda/exercici2.md "exercici2")
+
 
 
 <a name="ajuda"></a>
