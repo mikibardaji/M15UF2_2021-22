@@ -83,7 +83,8 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
     * [Exercicis amb diccionaris](#exercici_diccionari)
     * [Comprenhension](#comprenhension)
     * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
-* [Utilitat Ajuda](#ajuda)
+* [Slices](#slices)
+* [Utilitat Ajuda python](#ajuda)
 
 <a name="print"></a>
 Imprimir per pantalla
