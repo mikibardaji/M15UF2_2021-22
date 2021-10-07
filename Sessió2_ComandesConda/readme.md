@@ -323,6 +323,39 @@ Per una de les possibles solucions al exercici s'introdueix un nou concepte el d
 
 
 
+<a name="slices"></a>
+##### **Slices**
+
+Es una opció per retallar diferents llistes, de maneres diferents.
+
+```python
+#Indexes = 0..7 (8 letters)
+# len -1 = últim índex
+
+slic = ["a","b","c","d","e","f","g","h"]
+len(slic)
+
+#del 2 al 7
+slic[2:7]
+```
+
+> ['c', 'd', 'e', 'f', 'g']
+
+
+```python
+#del 2 al final
+slic[2:len(slic)]
+```
+
+> ['c', 'd', 'e', 'f', 'g', 'h']
+
+```python
+#del 2 al final
+slic[2:]
+```
+
+> ['c', 'd', 'e', 'f', 'g', 'h']
+
 <a name="ajuda"></a>
 **Documentació funcions**
 
