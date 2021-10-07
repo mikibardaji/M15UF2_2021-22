@@ -85,6 +85,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
     * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
 * [Slices](#slices)
 * [Arrays Avançats](#arraysup)
+* [Bucles e indexs Avançats](#buclessup)
 * [Utilitat Ajuda python](#ajuda)
 
 <a name="print"></a>
@@ -424,7 +425,7 @@ slic[::-1]
 
 Hi ha 3 o més tipus de Strings. 
 
-###### *Arrays Normals*
+####### *Arrays Normals*
 
 ```python
 s = "Hola Mundo. \n ¿Que tal estas?"
@@ -434,7 +435,7 @@ print(s)
 > Hola Mundo. 
 > ¿Que tal estas?
 
-###### *Raw Strings No interpreta els càracters de ESCAPE*
+####### *Raw Strings No interpreta els càracters de ESCAPE*
 
 ```python
 r = r"Hola Mundo.\n¿Que tal estàs?"
@@ -443,7 +444,7 @@ print(r)
 
 > Hola Mundo.\n¿Que tal estàs?
 
-###### *Format Strings. Van be per imprimir variables*
+####### *Format Strings. Van be per imprimir variables*
 
 ```python
 name = "Bardaji"
@@ -454,9 +455,132 @@ print(frase_format)
 ```
 
 > Hello Bardaji and hello Pablo
+
 > Hello Bardaji and hello Pablo
 
+<a name="buclesup"></a>
+##### **Bucles avançats, recuperar el index i crear tuples**
+Utilitzem normalment els index, si vols o necessites els índexs, utilitzem el while.
 
+Si no ens fa falta el index utilitzem el for
+
+Pero si volem saber els índexs utilitzant la instrucció for podemo utilitzar **enumerate**
+
+```python
+lista_index = ["a","b","c","d","e","f","g","h"]
+
+for item in enumerate(lista_index):
+    print(item)
+```
+
+> (0, 'a')
+ 
+> (1, 'b')
+ 
+> (2, 'c')
+ 
+> (3, 'd')
+ 
+> (4, 'e')
+ 
+> (5, 'f')
+ 
+> (6, 'g')
+ 
+> (7, 'h')
+
+Com ho fem si volem veure, per exemple el segon element de cadascuna de les tuples.
+
+```python
+for item in enumerate(lista_index):
+    print(item[1])
+```
+
+> a
+
+> b
+
+> ..
+
+> h
+
+Si volem crear una llista de tuples podem fer...
+
+```python
+el = list(enumerate(lista_index))
+el
+```
+
+> [(0, 'a'),  (1, 'b'),  (2, 'c'),  (3, 'd'),  (4, 'e'),  (5, 'f'),  (6, 'g'),  (7, 'h')]
+
+Per poder mostrar amb el for, el primer o el segon element de cadascuna de les tuples podem fer
+
+```python
+for index, elem in enumerate(lista_index):
+    print(elem)
+```
+
+> a
+
+> b
+
+> ..
+
+> h
+
+
+o veure el index
+
+```python
+for index, elem in enumerate(lista_index):
+    print(index)
+```
+> 0
+
+> 1
+
+> ..
+
+> 7
+
+Altres utilitats, anomenar cada element d'un array amb una variable
+
+```python
+nombre, apellido1, apellido2 = ["Pablo","Garcia","Bardaji"]
+print(nombre + "-" + apellido1 + "-" + apellido2)
+```
+> Pablo-Garcia-Bardaji
+
+També si algunes posicions no ens interessen,  l'assigno a _, a tantes posicions com no m'interessin
+```python
+nombre, apellido1, _ ,_ = ["Pablo","Garcia","Bardaji","Dawbio"]
+print(nombre + "-" + apellido1 )
+```
+
+> Pablo-Garcia
+
+***Exercici 3 *** Construir la llista de tuples amb un bucle while
+
+```python
+i = [0,1,2,3,4,5,6,7]
+l = ["a","b","c","d","e","f","g","h"]
+
+#Construir la llista de tuples amb un bucle while
+count=0
+length = len(l)
+array_out = []
+
+while (count < length):
+    index = i[count]
+    elem = l[count]
+    t = (index,elem)
+    array_out.append(t)
+    count += 1
+    
+array_out
+```
+
+> [(0, 'a'),  (1, 'b'),  (2, 'c'),  (3, 'd'),  (4, 'e'),  (5, 'f'),  (6, 'g'),  (7, 'h')]
 
 <a name="ajuda"></a>
 **Documentació funcions**
