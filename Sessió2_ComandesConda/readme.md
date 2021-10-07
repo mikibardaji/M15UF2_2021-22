@@ -84,6 +84,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
     * [Comprenhension](#comprenhension)
     * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
 * [Slices](#slices)
+* [Arrays Avançants](#arraysup)
 * [Utilitat Ajuda python](#ajuda)
 
 <a name="print"></a>
@@ -417,6 +418,45 @@ slic[::-1]
 ```
 
 > 'onMao'
+
+<a name="arraysup"></a>
+##### **Arrays avançats**
+
+Hi ha 3 o més tipus de Strings. 
+
+###### *Arrays Normals*
+
+```python
+s = "Hola Mundo. \n ¿Que tal estas?"
+print(s)
+```
+
+> Hola Mundo. 
+> ¿Que tal estas?
+
+###### *Raw Strings No interpreta els càracters de ESCAPE*
+
+```python
+r = r"Hola Mundo.\n¿Que tal estàs?"
+print(r)
+```
+
+> Hola Mundo.\n¿Que tal estàs?
+
+###### *Format Strings. Van be per imprimir variables*
+
+```python
+name = "Bardaji"
+name2 = "Pablo"
+print("Hello " + name + " and hello " + name2)
+frase_format = f"Hello {name} and hello {name2}"
+print(frase_format)
+```
+
+> Hello Bardaji and hello Pablo
+> Hello Bardaji and hello Pablo
+
+
 
 <a name="ajuda"></a>
 **Documentació funcions**
