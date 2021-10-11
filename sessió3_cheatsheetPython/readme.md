@@ -543,9 +543,9 @@ dir(d)
 
 > .. 
 
->     'update',
+> 'update',
 
->     'values']
+> 'values']
 
 
 
