@@ -720,9 +720,11 @@ print("sorted_values",sorted_values)
 print("sorted_dict",sorted_dict)
 ```
 
-    sorted: ['a', 'b', 'c', 'd']
-    sorted_values [1, 2, 3, 4]
-    sorted_dict {'a': 1, 'b': 2, 'c': 3, 'd': 4}
+>sorted: ['a', 'b', 'c', 'd']
+
+>sorted_values [1, 2, 3, 4]
+
+>sorted_dict {'a': 1, 'b': 2, 'c': 3, 'd': 4}
 
 
 
