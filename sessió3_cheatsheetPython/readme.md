@@ -504,7 +504,7 @@ print("tuple_list:", tuple_list)
 d= dict(tuple_list)
 ```
 
-    tuple_list: [('a', 1), ('b', 2), ('c', 3)]
+>tuple_list: [('a', 1), ('b', 2), ('c', 3)]
 
 
 
