@@ -41,10 +41,10 @@ entries[0]
 
 >    {'Rank': '1',
 
->     'Sourceid': '28773',
+>    'Sourceid': '28773',
 
 >    'Title': 'Ca-A Cancer Journal for Clinicians',
->    
+   
 >    'Type': 'journal',
 
 >    'Issn': '15424863, 00079235',
