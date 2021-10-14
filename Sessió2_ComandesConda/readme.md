@@ -572,3 +572,12 @@ Per saber totes les funcions associades al objecte es com java...
  nom_objecte. <Tab> -> Autocomplete
  nom_objecte.nom_funcio <Tab>+<Shift> Documentació de la funció
 ```
+
+Comentar linees amb java dins el codi, per indicar el tipus de les variables s'utilitza :
+** Important ** Els dos ':' i el tipus de darrera, per python és sol comentari, no fa cas, la variable prendrà el tipus de valor que se li asigni, en cada moment
+
+```python
+a: int = 3
+b: bool = True
+# Los dos : y el tipo, para java es solo comentario, no hace caso, la variable tomará el tipo de valor en lo que almacenes
+```
