@@ -3,8 +3,6 @@
 
 [Web font de dades Scimago ](https://www.scimagojr.com/journalrank.php?area=2700 "Web font de dades ")
 
-### **Practica explotar un fitxer** i resoldre diferentes 
-
 #####  **Practica explotar un fitxer** i resoldre diferents consultes.
 
 Fitxer de dades : [aqui](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/scimagomedicine.csv "aqui")
@@ -12,6 +10,7 @@ Fitxer de dades : [aqui](https://github.com/mikibardaji/M15UF2_2021-22/blob/main
 
 # Entries from SciMago
 
+Para leer un fichero en python, utilizaremos una función que le pasaremos la ruta y retornarà una lista con todas las lineas del fichero.
 
 ```python
 # How to define a function in python with the word key
@@ -25,6 +24,7 @@ def read_csv_file(csv_file_path: str) -> list:
     return result
 ```
 
+De esta forma llamamos a la función que nos devolverà el contenido.
 
 ```python
 # Import notebook
@@ -58,6 +58,7 @@ entries[0]
 >    'Categories': 'Hematology (Q1); Oncology (Q1)'}
 
 
+** Exercici 1 ** Detectar tots els valors diferents de la columna Type.
 
 
 ```python
@@ -72,6 +73,7 @@ def get_unique_type(lista:list) -> list:
     return unique
 ```
 
+I la crida seria... 
 
 ```python
 # Buscar cuantos tipos de entradas hay diferentes
