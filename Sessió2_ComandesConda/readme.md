@@ -90,6 +90,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
     * [Comprenhension](#comprenhension)
     * [Exercici Llistes amb comprenhension](#exercici2_comprenhension)
 * [Slices](#slices)
+* [Conjunts (Sets)](#sets)
 * [Arrays Avançats](#arraysup)
 * [Bucles e indexs Avançats](#buclessup)
 * [Utilitat Ajuda python](#ajuda)
@@ -425,6 +426,135 @@ slic[::-1]
 ```
 
 > 'onMao'
+<a name="sets"></a>
+#### ** Sets **
+Objecte creats, similars a la teoría de conjunts. 
+- S'utilitzen sobretot quant vols elements, que no es repeteixin. 
+- Els elements no tenen ordre, (si tenen ordre de tal com els fiques), quant començes a utilitzarlos amb diferents operacions, aquest ordre es pot perdre.
+
+```python
+# num_set: set ={} #igual que un dict
+num_set: set = set() #Mejor así. Desambigua
+
+num_set.add(1)
+num_set.add(1)
+num_set.add(1)
+num_set.add(2)
+num_set.add(2)
+num_set
+```
+
+>  {1, 2}
+
+
+
+```python
+len(num_set)
+```
+
+> 2
+
+
+```python
+num_set.pop()
+```
+
+> 1
+
+```python
+#Borra si existe, sin dar error , si no existe -> Remove si no existe , fallara
+num_set.discard(2)
+```
+
+
+```python
+seta:set = {1,2,3}
+setb:set = {3,4,5}
+seta
+setb
+```
+
+> {1, 2, 3}
+
+> {3, 4, 5}
+
+
+
+
+```python
+#unió tots els elements amb un eliminat duplicats
+seta.union(setb)
+seta | setb
+```
+
+
+
+> {1, 2, 3, 4, 5}
+
+> {1, 2, 3, 4, 5}
+
+
+
+```python
+#elements que es troben als dos conjunts
+seta.intersection(setb)
+seta & setb
+```
+> {3}
+
+> {3}
+
+
+```python
+#saber si un objecte es subconjunt d'un altre o sigui que tots els seus elements es
+#troben al b.
+seta.issubset(setb)
+```
+
+> False
+
+
+```python
+#saber si un objecte es superconjunt del altre ( o sigui que tots els elementos del altre)
+seta.issuperset(setb)
+```
+
+> False
+
+
+
+```python
+#Poder eliminar duplicats d'una llista, la passo a un conjunt(set)
+types_list = ["journal","journal","journal","journal","journal","others"]
+types_set = set(types_list)
+types_set
+```
+
+
+> {'journal', 'others'}
+
+
+
+```python
+# Set comrenhension
+set2 = {elem*2 for elem in seta}
+print(set2)
+```
+
+>   {2, 4, 6}
+
+
+```python
+#Dict comprenhensio
+d1 = {"a": 1, "b":2}
+d2 = {k: v for k, v in d1.items()}
+print(d2)
+```
+
+>   {'a': 1, 'b': 2}
+
+
+
 
 <a name="arraysup"></a>
 ##### **Arrays avançats**
