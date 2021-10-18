@@ -557,7 +557,7 @@ print(d2)
 
 
 <a name="arraysup"></a>
-##### **Arrays avançats**
+###### **Arrays avançats**
 
 Hi ha 3 o més tipus de Strings. 
 
@@ -580,7 +580,7 @@ print(r)
 
 > Hola Mundo.\n¿Que tal estàs?
 
-####### *Format Strings. Van be per imprimir variables*
+######  ** Format Strings. Van be per imprimir variables **
 
 ```python
 name = "Bardaji"
