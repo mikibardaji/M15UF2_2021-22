@@ -19,6 +19,6 @@
 4. [Sessió 4](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessio4_ExplotacioFitxersCSV "Sessió 4")
 	- Llegir fitxers CSV 
 	- Explotació de dades Importades
-5. [Sessió 5](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio3_exercicisInicialsPython/readme.md "Sessió5")
+5. [Sessió 5](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessio5_exercicisRepasPython "Sessió5")
 	- Sessió de reforç programació amb python (bucles, llistes, etc)
 
