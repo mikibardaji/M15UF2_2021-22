@@ -49,6 +49,12 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 · [Python cheatsheets](https://perso.limsi.fr/pointal/_media/python:cours:mementopython3-english.pdf)
 
+· [Python cheatsheets begginners](https://ehmatthes.github.io/pcc/cheatsheets/README.html)
+
+· [10 must have python cheatsheets](https://betterprogramming.pub/10-must-have-python-cheatsheets-2b74e8097bc3)
+
+
+
 - Python per defecte es **tipat implicit i dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que no ens falta declarar el tipus de la variable al utilitzar per primer cop una variable(*implicit*), i una variable pot canviar de tipus durant el programa(*dinamic*). **Exemple**
 
 ```python
