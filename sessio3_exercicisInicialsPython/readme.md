@@ -7,7 +7,7 @@
 
 ###### [Web d'exercicis per treballar a classe](https://pynative.com/python-exercises-with-solutions/)
 
-- [Exercici 2 i 3 secció bucles](https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/#h-exercise-2-print-the-following-pattern "Bibliografia per treballar amb Python")
+- [Exercici 2, 3, 5 i 6 secció bucles](https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/#h-exercise-2-print-the-following-pattern "Bibliografia per treballar amb Python")
 
 
 
