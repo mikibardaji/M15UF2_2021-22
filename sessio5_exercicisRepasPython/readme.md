@@ -7,12 +7,12 @@
 
 ###### [Web d'exercicis per treballar a classe](https://pynative.com/python-exercises-with-solutions/)
 
-- [Exercici 2, 3, 5 i 6, 8 i 10 secció bucles](https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/#h-exercise-2-print-the-following-pattern "Bibliografia per treballar amb Python")
+- [Exercici 2, 3, 5 i 6, 8 i 10 secció bucles](https://pynative.com/python-if-else-and-for-loop-exercise-with-solutions/#h-exercise-2-print-the-following-pattern "Bucles")
 
 
-- [Exercici secció String](https://pynative.com/python-string-exercise/ "Bibliografia per treballar amb Python)
+- [Exercici secció String](https://pynative.com/python-string-exercise/ "String")
 
-- [Exercici secció Data Estructure](https://pynative.com/python-data-structure-exercise-for-beginners/)
+- [Exercici secció Data Estructure](https://pynative.com/python-data-structure-exercise-for-beginners/ "Data Estructure")
 
 
 
