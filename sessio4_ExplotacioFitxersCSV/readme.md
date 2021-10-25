@@ -87,11 +87,6 @@ print(unicos)
 # Entries from SciMago
 
 
-```python
-from IPython.core.interactiveshell import InteractiveShell
-InteractiveShell.ast_node_interactivity = "all"
-```
-
 
 ```python
 # How to define a function in python with the word key
@@ -123,26 +118,27 @@ entries[0]
 
 
 
-    {'Rank': '1',
-     'Sourceid': '28773',
-     'Title': 'Ca-A Cancer Journal for Clinicians',
-     'Type': 'journal',
-     'Issn': '15424863, 00079235',
-     'SJR': '62,937',
-     'SJR Best Quartile': 'Q1',
-     'H index': '168',
-     'Total Docs. (2020)': '47',
-     'Total Docs. (3years)': '119',
-     'Total Refs.': '3452',
-     'Total Cites (3years)': '15499',
-     'Citable Docs. (3years)': '80',
-     'Cites / Doc. (2years)': '126,34',
-     'Ref. / Doc.': '73,45',
-     'Country': 'United States',
-     'Region': 'Northern America',
-     'Publisher': 'Wiley-Blackwell',
-     'Coverage': '1950-2020',
-     'Categories': 'Hematology (Q1); Oncology (Q1)'}
+>    {'Rank': '1',
+>     'Sourceid': '28773',
+>     'Title': 'Ca-A Cancer Journal for Clinicians',
+>     'Type': 'journal',
+>     'Issn': '15424863, 00079235',
+>     'SJR': '62,937',
+>     'SJR Best Quartile': 'Q1',
+>     'H index': '168',
+>     'Total Docs. (2020)': '47',
+>     'Total Docs. (3years)': '119',
+>     'Total Refs.': '3452',
+>     'Total Cites (3years)': '15499',
+>     'Citable Docs. (3years)': '80',
+>     'Cites / Doc. (2years)': '126,34',
+>     'Ref. / Doc.': '73,45',
+>     'Country': 'United States',
+>     'Region': 'Northern America',
+>     'Publisher': 'Wiley-Blackwell',
+>     'Coverage': '1950-2020',
+>     'Categories': 'Hematology (Q1); Oncology (Q1)'}
+>     
 
 
 
