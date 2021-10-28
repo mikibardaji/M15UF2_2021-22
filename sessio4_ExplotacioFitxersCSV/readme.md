@@ -58,6 +58,15 @@ entries[0]
 >    'Categories': 'Hematology (Q1); Oncology (Q1)'}
 
 
+### Exercicis
+
+
+* [Ex1 - Detectar tots els valors diferents de la columna Type.](#ex1)
+* [Declaracions funcions](#funcions)
+
+
+<a name="ex1"></a>
+
 ** Exercici 1 ** Detectar tots els valors diferents de la columna Type.
 
 
