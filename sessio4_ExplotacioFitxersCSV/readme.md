@@ -251,6 +251,9 @@ print(re.split('; |, ', text))
 <a name="ex6"></a>
 ### Exercici 6: Llistar totes les categories
 
+--> [Solució Pablo exercici6](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q6.py "Solucion Pablo")
+
+Segona solució--> 
 
 ```python
 categorias: set = set() #Mejor así. Desambigua
@@ -281,6 +284,7 @@ for item in mylist:
 <a name="ex7"></a>
 ### Exercici 7: Categoría con más entradas
 
+--> [Solució Pablo exercici7](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q7.py "Solucion Pablo")
 
 ```python
 categorias: dict = set() #Mejor así. Desambigua
@@ -318,6 +322,7 @@ for key in dictionary2:
 <a name="ex8"></a>
 # Exercici 8 Todas las entradas de "Sports Medicine" o "Sports science"
 
+--> [Solució Pablo exercici8](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q8.py "Solucion Pablo")
 
 ```python
 i=0
