@@ -62,6 +62,15 @@ entries[0]
 
 
 * [Ex1 - Detectar tots els valors diferents de la columna Type.](#ex1)
+* [Ex2 - ](#ex2)
+* [Ex3 - ](#ex3)
+* [Ex4 - ](#ex4)
+* [Ex5 - ](#ex5)
+* [Ex6 - Llistar totes les categories](#ex6)
+* [Ex7 - Categoría con más entradas](#ex7)
+* [Ex8 - Todas las entradas de "Sports Medicine" o "Sports science"](#ex8)
+* [Ex9 - Todas las regiones cubiertas por todas las entries](#ex9)
+* [Ex10 - Exercici 10 Media del H-Index por region](#ex10)
 * [Declaracions funcions](#funcions)
 
 
@@ -239,7 +248,7 @@ print(re.split('; |, ', text))
 
     ['python is', 'an easy;language', 'to', 'learn.']
 
-
+<a name="ex6"></a>
 ### Exercici 6: Llistar totes les categories
 
 
@@ -269,7 +278,7 @@ for item in mylist:
    > 286 Waste Management and Disposal
    > 287 Water Science and Technology
 
-
+<a name="ex7"></a>
 ### Exercici 7: Categoría con más entradas
 
 
@@ -306,7 +315,7 @@ for key in dictionary2:
 >  19 - Health (social science) : 195
 >  20 - Clinical Psychology : 195
 
-
+<a name="ex8"></a>
 # Exercici 8 Todas las entradas de "Sports Medicine" o "Sports science"
 
 
@@ -333,6 +342,7 @@ for entrada in entries:
 >  'AME Publishing Company', 'Coverage': '2020', 'Categories': 'Orthopedics and Sports Medicine; Surgery'}
 
 
+<a name="ex9"></a>
 # Exercici 9 Todas las regiones cubiertas por todas las entries
 
 
@@ -357,7 +367,7 @@ regiones
  >    'Western Europe'}
 
 
-
+<a name="ex10"></a>
 # Exercici 10 Media del H-Index por region
 
 
@@ -398,7 +408,7 @@ for entrada_diccionario in dictionary:
 >    Latin America - 18.331550802139038
 >    Africa - 17.75
 
-
+<a name="ex5"></a>
 # Exercici 5 -  Ranking de paises por H-Index
 
 
@@ -406,7 +416,7 @@ for entrada_diccionario in dictionary:
 ```python
 
 ```
-
+<a name="ex4"></a>
 # Exercici 4.- Cual es publisher más antiguo que aún publica (tiene publicación el último año)
 
 
@@ -448,7 +458,7 @@ print('The publishers -> ' ,name, ' first publish in ', year_min)
   
  >   The publishers ->  ['Wiley-Blackwell', 'Massachussetts Medical Society', 'American Physiological Society', 'Elsevier Ltd.']  first publish in  1823
 
-
+<a name="ex3"></a>
 # Exercici 3 Agrupar publisher por numero de tipo de publicaciones
 
 
