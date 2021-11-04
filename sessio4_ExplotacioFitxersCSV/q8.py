@@ -13,11 +13,12 @@ def is_sport_entry(clean_entry: dict, sport_categories: list[str]) -> bool:
     entry_categories: list[str] = clean_entry['Categories']
 
     for category in entry_categories:
+
         if category in sport_categories:
             result = True
 
     return result
-
+    #return set(entry_categories) & set(sport_categories) hace una intersección si existe 
 # -----------------------------------------------------------------------------
 def q8():
     
@@ -29,7 +30,7 @@ def q8():
     unique_categories_list: list[str] = q6.get_unique_categories(clean_entries)
 
     # Get sport categories
-    sport_categories: list[str] = [category for category in unique_categories_list if ('Sports' in category)]
+    sport_categories: list[str] = [category for category in unique_categories_list if ('sports' in category.lower())]
 
     # Get sport entries
     sport_entries: list[dict] = [entry for entry in clean_entries if is_sport_entry(entry, sport_categories)]
