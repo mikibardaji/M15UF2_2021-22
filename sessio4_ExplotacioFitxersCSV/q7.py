@@ -1,5 +1,6 @@
 # Imports
 import utils
+import pprint
 import q6
 
 # -----------------------------------------------------------------------------
@@ -41,6 +42,7 @@ def q7():
     # Make ranking
     category_ranking: dict[str, int] = {category: get_num_entries(category, clean_entries) for category in unique_categories_list}
 
+    pprint(category_ranking)
     # Sort ranking
     sorted_category_ranking: list[tuple[str, int]] = sort_ranking(category_ranking)
 
