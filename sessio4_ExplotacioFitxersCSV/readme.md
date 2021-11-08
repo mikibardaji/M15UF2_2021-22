@@ -309,7 +309,7 @@ for key in dictionary2:
 >  20 - Clinical Psychology : 195
 
 <a name="ex8"></a>
-# Exercici 8 Todas las entradas de "Sports Medicine" o "Sports science"
+### Exercici 8 Todas las entradas de "Sports Medicine" o "Sports science"
 
 --> [Solució Pablo exercici8](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q8.py "Solucion Pablo")
 
@@ -337,7 +337,7 @@ for entrada in entries:
 
 
 <a name="ex9"></a>
-# Exercici 9 Todas las regiones cubiertas por todas las entries
+### Exercici 9 Todas las regiones cubiertas por todas las entries
 
 
 ```python
@@ -362,7 +362,7 @@ regiones
 
 
 <a name="ex10"></a>
-# Exercici 10 Media del H-Index por region
+### Exercici 10 Media del H-Index por region
 
 
 ```python
@@ -403,7 +403,7 @@ for entrada_diccionario in dictionary:
 >    Africa - 17.75
 
 <a name="ex5"></a>
-# Exercici 5 -  Ranking de paises por H-Index
+### Exercici 5 -  Ranking de paises por H-Index
 
 
 
@@ -411,7 +411,7 @@ for entrada_diccionario in dictionary:
 
 ```
 <a name="ex4"></a>
-# Exercici 4.- Cual es publisher más antiguo que aún publica (tiene publicación el último año)
+### Exercici 4.- Cual es publisher más antiguo que aún publica (tiene publicación el último año)
 
 
 
@@ -453,7 +453,7 @@ print('The publishers -> ' ,name, ' first publish in ', year_min)
  >   The publishers ->  ['Wiley-Blackwell', 'Massachussetts Medical Society', 'American Physiological Society', 'Elsevier Ltd.']  first publish in  1823
 
 <a name="ex3"></a>
-# Exercici 3 Agrupar publisher por numero de tipo de publicaciones
+### Exercici 3 Agrupar publisher por numero de tipo de publicaciones
 
 
 
