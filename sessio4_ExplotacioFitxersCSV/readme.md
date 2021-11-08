@@ -105,7 +105,7 @@ import csv
 import re
 csv_file_path = "scimago-medicine.csv"
 entries = read_csv_file(csv_file_path)
-# entries = entries[0:10]
+# entries = entries[0:10] opció per a quedar-se sol amb els 10 primers , per poder fer proves.
 entries[0]
 
 
