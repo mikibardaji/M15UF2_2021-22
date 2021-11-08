@@ -1,4 +1,4 @@
-### Lectura de fitxers amb iteradors
+# Lectura de fitxers amb iteradors
 
 |  Python v3.9 |
 | :------------ |
