@@ -463,23 +463,48 @@ print('The publishers -> ' ,name, ' first publish in ', year_min)
 # Imports
 
 import utils
+import pprint
+
 
 # ---3. Group publisher by number of publications----
 # -----------------------------------------------------------------------------
 def q3():
     
     publisher_dict:dict[str,set()]={} #dictionari clave publicador, valor conjunto de type de publicacionse
-
+    publisher_dict_num:dict[str,int]={} 
     raw_entries: list[dict] = utils.read_csv_file("scimago-medicine.csv")
-    
+    lista_tupla:list[tuple[str, int]]
+
     for publicacio in raw_entries:
+
             if publicacio['Publisher'] in publisher_dict: 
                 publisher_dict[publicacio['Publisher']].add(publicacio['Type']) #afegeixo al ser
             else:
                 publisher_dict[publicacio['Publisher']] = {publicacio['Type']} #afegeixo primer al dictionari
 
-    print(publisher_dict);
+    #print(publisher_dict);
 
+    for clave in publisher_dict:
+    # conto el numero de elements de cadascun dels conjunts
+        publisher_dict_num[clave] = len(publisher_dict[clave])
+    
+    publisher_num_type:dict[int,int]={} 
+    for clave in publisher_dict_num:
+        #aqui la clave la utilitzo per trobar el numero de types que te aquest publisher
+        #aquest valor sera la clau del nou diccionari, si existeix augmento en 1 i sino la 
+        #inicialitzo a 1
+        clau = publisher_dict_num[clave]
+        if clau in publisher_num_type:
+            publisher_num_type[clau] += 1
+        else:
+            publisher_num_type[clau] = 1
+    
+    
+    #lista_tupla = sort_ranking(publisher_dict_num)
+    #print(lista_tupla)
+    print(publisher_num_type)
+    
+    
 # Main
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
@@ -487,6 +512,8 @@ if __name__ == "__main__":
 # -----------------------------------------------------------------------------
 
 ```
+
+>    {1: 1884, 2: 20}
 
 
 
