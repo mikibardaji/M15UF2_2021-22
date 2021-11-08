@@ -40,10 +40,17 @@
 
 
 > Funcions pures: 
+> 
 >  ·Sol llegeix dels seus paràmetres d'entrada
+>  
 >  ·Sol escriu desde els seus paràmetres de sortida
+>  
 >  ·Si pels mateixos paràmetres d'entrada sempre retorna els mateixos paràmetres d'entrada
+>  
 > **Pros** 
+> 
 > Són les més reutilitzables.
+> 
 > Les més testejables
+> 
 > Amb general, son les que tenen menys bugs
