@@ -5,12 +5,12 @@
 > The SCImago Journal & Country Rank is a publicly available portal that includes the journals and country scientific indicators developed from the information contained in the Scopus® database. These indicators can be used to assess and analyze scientific domains. Journals can be compared or analysed separately. Country rankings may also be compared or analysed separately.
 
 
-#####  **Practica explotar un fitxer** i resoldre diferents consultes.
+###  **Practica explotar un fitxer** i resoldre diferents consultes.
 
 Fitxer de dades : [aqui](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/scimago-medicine.csv "aqui")
 
 
-# Entries from SciMago
+#### Entries from SciMago
 
 Per llegir un fitxer a python, utilitzarem una funció que li passarem la ruta i retornarà una llista amb totes les línies del fitxer.
 
