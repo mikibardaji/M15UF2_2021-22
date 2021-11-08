@@ -1,7 +1,7 @@
 # M15_UF2 Diari de Sessions de Classe de DAWBIO
 ## Pablo Garcia, Miquel Angel Bardají
 
-1. [Sessió 1](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/Sessio1_PreparacioEntorn "Sessió 1")
+1. [Sessió 1](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/Sessi%C3%B31_PreparacioEntorn "Sessió 1")
 	- Creació usb bootable amb iso de pops o linux
 	- Instal·lació de noves versions de python diferent al d'ubuntu
 	- Instal·lació Conda i comandes bàsiques (cheatsheet)
