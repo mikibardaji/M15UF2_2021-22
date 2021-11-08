@@ -39,7 +39,7 @@
 |  *Funcional* emprar el màxim possible de funcions impures(almenys 1  segur que hi ha) |
 
 
-> Funcions pures: 
+> **Funcions pures**: 
 > 
 >  ·Sol llegeix dels seus paràmetres d'entrada
 >  
