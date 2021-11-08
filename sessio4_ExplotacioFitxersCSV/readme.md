@@ -459,6 +459,34 @@ print('The publishers -> ' ,name, ' first publish in ', year_min)
 ### Exercici 3 Agrupar publisher por numero de tipo de publicaciones
 
 
+```python
+# Imports
+
+import utils
+
+# ---3. Group publisher by number of publications----
+# -----------------------------------------------------------------------------
+def q3():
+    
+    publisher_dict:dict[str,set()]={} #dictionari clave publicador, valor conjunto de type de publicacionse
+
+    raw_entries: list[dict] = utils.read_csv_file("scimago-medicine.csv")
+    
+    for publicacio in raw_entries:
+            if publicacio['Publisher'] in publisher_dict: 
+                publisher_dict[publicacio['Publisher']].add(publicacio['Type']) #afegeixo al ser
+            else:
+                publisher_dict[publicacio['Publisher']] = {publicacio['Type']} #afegeixo primer al dictionari
+
+    print(publisher_dict);
+
+# Main
+# -----------------------------------------------------------------------------
+if __name__ == "__main__":
+    q3()
+# -----------------------------------------------------------------------------
+
+```
 
 
 
