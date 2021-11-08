@@ -15,7 +15,7 @@
 		- diccionaris
 		- Tuples
 		- Conjunts (Sets)
-3. [Sessió 3](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessi%C3%B33_cheatsheetPython "Sessió 3")
+3. [Sessió 3](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/Sessi%C3%B33_Cheatsheet "Sessió 3")
 	- Chuletari propi de comandes bàsiques python per Llistes i Diccionaris
 4. [Sessió 4](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessio4_ExplotacioFitxersCSV "Sessió 4")
 	- Llegir fitxers CSV 
