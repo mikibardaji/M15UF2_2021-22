@@ -1,7 +1,9 @@
 #  Exercici explotació fitxers CSV
 ##              <center>Pablo Garcia, Miquel Angel Bardají</center>
 
-[Web font de dades Scimago ](https://www.scimagojr.com/journalrank.php?area=2700 "Web font de dades ")
+[Font de dades: Web Scimago ](https://www.scimagojr.com/journalrank.php?area=2700 "Web font de dades ")
+> The SCImago Journal & Country Rank is a publicly available portal that includes the journals and country scientific indicators developed from the information contained in the Scopus® database (Elsevier B.V.). These indicators can be used to assess and analyze scientific domains. Journals can be compared or analysed separately. Country rankings may also be compared or analysed separately.
+
 
 #####  **Practica explotar un fitxer** i resoldre diferents consultes.
 
