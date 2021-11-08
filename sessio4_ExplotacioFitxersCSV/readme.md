@@ -60,6 +60,7 @@ entries[0]
 
 ### Exercicis
 
+##### A les solucions, en alguns casos hi haurà dues solucions, una la proposada per Pablo Garcia, aprofitant totes les funcionalitats de Python, i una segona proposada, mes al estil de programació amb Java, fet al curs anterior.
 
 * [Ex1 - How many entries are in scimago-medicine.csv?](#ex1)
 * [Ex2 - What types of scientific publications are in the file?](#ex2)
@@ -73,39 +74,6 @@ entries[0]
 * [Ex10 - Exercici 10 Media del H-Index por region](#ex10)
 * [Declaracions funcions](#funcions)
 
-<a name="ex1"></a>
-** Exercici 1 ** How many entries are in scimago-medicine.csv?
-
-```python
-# 1. How many entries are in {csv_file_path}?
-num = len(entries)
-print(f"There are {num} entries.")
-```
-
-<a name="ex2"></a>
-
-** Exercici 2 ** Detectar tots els valors diferents de la columna Type.
-
-
-```python
-# Función que devuelve una lista de valores unicos de una lista con valores repetidos
-def get_unique_type(lista:list) -> list:
-    unique = []
-    for entrada in entries:
-        # print(entrada['Type'])
-        if (not (entrada['Type'] in unique)):
-            unique.append(entrada['Type'])
-            
-    return unique
-```
-
-I la crida seria... 
-
-```python
-# Buscar cuantos tipos de entradas hay diferentes
-unicos = get_unique_type(entries)
-print(unicos)
-```
 
 >   ['journal', 'book series', 'conference and proceedings', 'trade journal']
 
@@ -165,6 +133,19 @@ entries[0]
 >     'Coverage': '1950-2020',
 >     'Categories': 'Hematology (Q1); Oncology (Q1)'}
 >     
+
+<a name="ex1"></a>
+** Exercici 1 ** How many entries are in scimago-medicine.csv?
+
+```python
+# 1. How many entries are in {csv_file_path}?
+num = len(entries)
+print(f"There are {num} entries.")
+```
+
+<a name="ex2"></a>
+
+** Exercici 2 ** Detectar tots els valors diferents de la columna Type.
 
 
 
