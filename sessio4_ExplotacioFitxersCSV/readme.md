@@ -12,7 +12,7 @@ Fitxer de dades : [aqui](https://github.com/mikibardaji/M15UF2_2021-22/blob/main
 
 # Entries from SciMago
 
-Para leer un fichero en python, utilizaremos una función que le pasaremos la ruta y retornarà una lista con todas las lineas del fichero.
+Per llegir un fitxer a python, utilitzarem una funció que li passarem la ruta i retornarà una llista amb totes les línies del fitxer.
 
 ```python
 # How to define a function in python with the word key
@@ -26,7 +26,8 @@ def read_csv_file(csv_file_path: str) -> list:
     return result
 ```
 
-De esta forma llamamos a la función que nos devolverà el contenido.
+D'aquesta manera anomenem la funció que ens tornarà el contingut.
+
 
 ```python
 # Import notebook
