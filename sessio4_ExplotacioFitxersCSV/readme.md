@@ -61,11 +61,11 @@ entries[0]
 ### Exercicis
 
 
-* [Ex1 - Detectar tots els valors diferents de la columna Type.](#ex1)
-* [Ex2 - ](#ex2)
-* [Ex3 - ](#ex3)
-* [Ex4 - ](#ex4)
-* [Ex5 - ](#ex5)
+* [Ex1 - How many entries are in scimago-medicine.csv?](#ex1)
+* [Ex2 - What types of scientific publications are in the file?](#ex2)
+* [Ex3 - Agrupar publisher por numero de tipo de publicaciones](#ex3)
+* [Ex4 - Cual es publisher más antiguo que aún publica (tiene publicación el último año)](#ex4)
+* [Ex5 - Ranking de paises por H-Index](#ex5)
 * [Ex6 - Llistar totes les categories](#ex6)
 * [Ex7 - Categoría con más entradas](#ex7)
 * [Ex8 - Todas las entradas de "Sports Medicine" o "Sports science"](#ex8)
@@ -73,10 +73,18 @@ entries[0]
 * [Ex10 - Exercici 10 Media del H-Index por region](#ex10)
 * [Declaracions funcions](#funcions)
 
-
 <a name="ex1"></a>
+** Exercici 1 ** How many entries are in scimago-medicine.csv?
 
-** Exercici 1 ** Detectar tots els valors diferents de la columna Type.
+```python
+# 1. How many entries are in {csv_file_path}?
+num = len(entries)
+print(f"There are {num} entries.")
+```
+
+<a name="ex2"></a>
+
+** Exercici 2 ** Detectar tots els valors diferents de la columna Type.
 
 
 ```python
