@@ -7,7 +7,7 @@
 
 #####  **Practica explotar un fitxer** i resoldre diferents consultes.
 
-Fitxer de dades : [aqui](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/scimagomedicine.csv "aqui")
+Fitxer de dades : [aqui](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/scimago-medicine.csv "aqui")
 
 
 # Entries from SciMago
@@ -33,7 +33,7 @@ De esta forma llamamos a la función que nos devolverà el contenido.
 # How to import a notebook a file
 
 import csv
-csv_file_path = "scimagomedicine.csv"
+csv_file_path = "scimago-medicine.csv"
 entries = read_csv_file(csv_file_path)
 entries[0]       
 ```
@@ -103,7 +103,7 @@ def read_csv_file(csv_file_path: str) -> list:
 
 import csv
 import re
-csv_file_path = "scimagomedicine.csv"
+csv_file_path = "scimago-medicine.csv"
 entries = read_csv_file(csv_file_path)
 # entries = entries[0:10]
 entries[0]
