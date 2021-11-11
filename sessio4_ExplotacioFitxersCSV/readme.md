@@ -438,7 +438,7 @@ year = year_min
 name = [] 
 
 for entrada in entries:
-    anyos = re.split('-|,', entrada['Coverage']) #Separa, en fu
+    anyos = re.split('-|,', entrada['Coverage']) #Separa
     anyos = [int(i) for i in anyos]
     if (year_min > anyos[0] and anyos[-1]==(year-1)):
         name.append(entrada['Publisher'])
