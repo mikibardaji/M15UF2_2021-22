@@ -153,6 +153,7 @@ n.__next__()
 n.__next__()
 ```
 
+Quant arriba al final, de la iteració dona un error i una excepció.
 
 >    ---------------------------------------------------------------------------
 >    
@@ -164,6 +165,7 @@ n.__next__()
 
 
 ```python
+    #funció que qualsevol número que li passes, multiplicarà per 2
 def mult2(i: int) -> int:
     return i*2
 ```
@@ -183,12 +185,14 @@ n2.__next__()
 
 
 ```python
+#el 1 multiplicat per 2
 n2.__next__()
 ```
 
 >  2
 
 ```python
+#el 2 que dona la iteració n es multiplicat per 2
 n2.__next__()
 ```
 
@@ -200,6 +204,7 @@ def is_even(i: int) -> bool:
     return True if i % 2 == 0 else False
 
 n = get_nums()
+#filtra la sortida si compleix la condició de la funció booleana
 n3 = filter(is_even, n)
 list(n3)
 ```
