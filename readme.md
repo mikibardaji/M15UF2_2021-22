@@ -24,5 +24,5 @@
 
 6. [Sessió 6](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessio6_Iteradors_Fitxers "Sessió 4")
 	- Llegir fitxers CSV amb iteradors
-	- Yields
-	- Maps i filter
+	- Instrucció Yields
+	- Opcions : Maps i filter
