@@ -86,6 +86,148 @@ file.close()
 |  Un iterador creat per la paraula clau "yield" |
 | Es comporta igual que un iterador creat a mà (té la funció __next__()) |
 
+```python
+def get_nums():
+    for num in range(5):
+        yield num 
+                
+```
+
+
+```python
+type(get_nums)
+```
+
+
+> function
+
+
+
+
+```python
+n = get_nums()
+n
+```
+
+
+ >   <generator object get_nums at 0x7f044a85c5f0>
+
+
+```python
+n.__next__()
+```
+
+>    0
+
+
+
+
+```python
+n.__next__()
+```
+
+>    1
+
+
+```python
+n.__next__()
+```
+
+>  2
+
+
+```python
+n.__next__()
+```
+
+> 3
+
+
+```python
+n.__next__()
+```
+
+> 4
+
+```python
+n.__next__()
+```
+
+
+>    ---------------------------------------------------------------------------
+>    
+>     StopIteration                             Traceback (most recent call last)
+>     
+>   <ipython-input-24-8d5cb7b534a9> in <module> ----> 1 n.__next__()
+>
+>  StopIteration: 
+
+
+```python
+def mult2(i: int) -> int:
+    return i*2
+```
+
+
+```python
+n = get_nums()
+n2 = map(mult2,n) 
+```
+
+
+```python
+n2.__next__()
+```
+
+>  0
+
+
+```python
+n2.__next__()
+```
+
+>  2
+
+```python
+n2.__next__()
+```
+
+> 4
+
+
+```python
+def is_even(i: int) -> bool:
+    return True if i % 2 == 0 else False
+
+n = get_nums()
+n3 = filter(is_even, n)
+list(n3)
+```
+
+> [0, 2, 4]
+
+```python
+#creo un generador amb el for
+iterador_meu = (i for i in range(4))
+type(iterador_meu)
+```
+
+    >  generator
+
+
+```python
+iterador_meu.__next__()
+```
+
+> 0
+
+
+```python
+iterador_meu.__next__()
+```
+> 1
+
+
 * *  *
 
 | Programació funcional  |
