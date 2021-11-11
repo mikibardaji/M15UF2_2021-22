@@ -39,10 +39,15 @@ for i in range(5):
 ```
 
   >  Rank;Sourceid;Title;Type;Issn;SJR;SJR Best Quartile;H index;Total Docs. (2020);Total Docs. (3years);Total Refs.;Total Cites (3years);Citable Docs. (3years);Cites / Doc. (2years);Ref. / Doc.;Country;Region;Publisher;Coverage;Categories
+  >  
   >  1;28773;"Ca-A Cancer Journal for Clinicians";journal;"15424863, 00079235";62,937;Q1;168;47;119;3452;15499;80;126,34;73,45;United States;Northern America;"Wiley-Blackwell";"1950-2020";"Hematology (Q1); Oncology (Q1)"
+  >  
   >  2;19434;"MMWR Recommendations and Reports";journal;"10575987, 15458601";40,949;Q1;143;10;9;1292;492;9;50,00;129,20;United States;Northern America;"Centers for Disease Control and Prevention (CDC)";"1990-2020";"Epidemiology (Q1); Health Information Management (Q1); Health (social science) (Q1); Health, Toxicology and Mutagenesis (Q1); Medicine (miscellaneous) (Q1)"
+  >  
   > 3;18991;"Nature Reviews Genetics";journal;"14710056, 14710064";26,214;Q1;365;106;325;7332;6348;149;21,22;69,17;United Kingdom;Western Europe;"Nature Publishing Group";"2000-2020";"Genetics (Q1); Genetics (clinical) (Q1); Molecular Biology (Q1)"
+  > 
   > 4;21318;"Nature Reviews Immunology";journal;"14741741, 14741733";20,529;Q1;390;230;436;9421;8200;202;17,33;40,96;United Kingdom;Western Europe;"Nature Publishing Group";"2001-2020";"Immunology (Q1); Immunology and Allergy (Q1); Medicine (miscellaneous) (Q1)"
+  > 
     
 
 ```python
