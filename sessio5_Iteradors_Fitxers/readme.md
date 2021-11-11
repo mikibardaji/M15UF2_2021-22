@@ -10,18 +10,20 @@
 
 |  Iteradors |
 | :------------ |
-|  **Pros:** Ocupa molt poca memoria|
-|  **Contres:** Sol es pot recorrer un sol cop|
-|   No admet acces directe|
-|   No puc donar marxa endarrera|
+|  **Pros:** |
+|  Ocupa molt poca memòria|
+|  **Contres:** |
+|  Sol es pot recorrer un sol cop|
+|  No admet acces directe|
+|  No puc donar marxa endarrera|
 
 * * *
 
 |  Implementació |
 | :------------ |
 |  Un iterador es qualsevol objecte que te dues funcions sempre|
-|  **__iter__()** > Retorna un interador |
-| **__next__()** |
+|  **__iter__()** > Retorna un iterador |
+| **__next__()** retorna el següent element del iterador, en funció de la iteraciò anterior|
 
 * * *
 
