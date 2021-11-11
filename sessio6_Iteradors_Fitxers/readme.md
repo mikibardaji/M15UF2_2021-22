@@ -165,7 +165,18 @@ Quant arriba al final, de la iteració dona un error i una excepció.
 >
 >  StopIteration: 
 
+* *  *
 
+| Programació funcional  |
+| :------------ |
+|  Per concatenar operacions fent 3 funcions bàsiques (sol treballar amb iteracions) |
+| · map |
+| · filter |
+| · reduce (no sutilitza)* |
+
+    
+    
+    
 ```python
     #funció que qualsevol número que li passes, multiplicarà per 2
 def mult2(i: int) -> int:
@@ -235,11 +246,3 @@ iterador_meu.__next__()
 > 1
 
 
-* *  *
-
-| Programació funcional  |
-| :------------ |
-|  Per concatenar operacions fent 3 funcions bàsiques (sol treballar amb iteracions) |
-| · map |
-| · filter |
-| · reduce (no sutilitza)* |
