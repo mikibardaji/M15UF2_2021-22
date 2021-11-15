@@ -172,7 +172,7 @@ Quant arriba al final, de la iteració dona un error i una excepció.
 |  Per concatenar operacions fent 3 funcions bàsiques (sol treballar amb iteracions) |
 | · map |
 | · filter |
-| · reduce (no sutilitza)* |
+| · reduce *(s'utilitza menysa)* |
 
     
     
