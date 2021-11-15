@@ -243,9 +243,9 @@ print(re.split('; |, ', text))
 <a name="ex6"></a>
 ### Exercici 6: Llistar totes les categories
 
---> [Solució Pablo exercici6](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q6.py "Solucion Pablo")
+--> [Solució Pablo exercici6 FER CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q6.py "Solucion Pablo")
 
-Segona solució--> 
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 
 ```python
 categorias: set = set() #Mejor así. Desambigua
@@ -276,8 +276,9 @@ for item in mylist:
 <a name="ex7"></a>
 ### Exercici 7: Categoría con más entradas
 
---> [Solució Pablo exercici7](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q7.py "Solucion Pablo")
+--> [Solució Pablo exercici7 CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q7.py "Solucion Pablo")
 
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 ```python
 categorias: dict = set() #Mejor así. Desambigua
 dictionary = {}
@@ -314,8 +315,9 @@ for key in dictionary2:
 <a name="ex8"></a>
 ### Exercici 8 Todas las entradas de "Sports Medicine" o "Sports science"
 
---> [Solució Pablo exercici8](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q8.py "Solucion Pablo")
+--> [Solució Pablo exercici8 CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q8.py "Solucion Pablo")
 
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 ```python
 i=0
 for entrada in entries:
@@ -342,8 +344,9 @@ for entrada in entries:
 <a name="ex9"></a>
 ### Exercici 9 Todas las regiones cubiertas por todas las entries
 
---> [Solució Pablo exercici9](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q9.py "Solucion Pablo")
+--> [Solució Pablo exercici9_CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q9.py "Solucion Pablo")
 
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 ```python
 regiones: dict = set() #Mejor así. Desambigua
 for entrada in entries:
@@ -368,8 +371,10 @@ regiones
 <a name="ex10"></a>
 ### Exercici 10 Media del H-Index por region
 
---> [Solució Pablo exercici10](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q10.py "Solucion Pablo")
+--> [Solució Pablo exercici10_CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q10.py "Solucion Pablo")
 
+
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 ```python
 # Función que devuelve una lista de valores unicos de una lista con valores repetidos
 def actualizar_lista(entrada:list, valor:int) -> list:
@@ -410,17 +415,18 @@ for entrada_diccionario in dictionary:
 <a name="ex5"></a>
 ### Exercici 5 -  Ranking de paises por H-Index
 
---> [Solució Pablo exercici5](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q5.py "Solucion Pablo")
+--> [Solució Pablo exercici5 CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q5.py "Solucion Pablo")
 
-
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 ```python
 
 ```
 <a name="ex4"></a>
 ### Exercici 4.- Cual es publisher más antiguo que aún publica (tiene publicación el último año)
 
---> [Solució Pablo exercici4](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q4.py "Solucion Pablo")
+--> [Solució Pablo exercici4 CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q4.py "Solucion Pablo")
 
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 ```python
 # 'Publisher': 'Wiley-Blackwell',
   #'Coverage': '1950-2020',
@@ -461,7 +467,9 @@ print('The publishers -> ' ,name, ' first publish in ', year_min)
 <a name="ex3"></a>
 ### Exercici 3 Agrupar publisher por numero de tipo de publicaciones
 
---> [Solució Pablo exercici3](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q3.py "Solucion Pablo")
+--> [Solució Pablo exercici3 CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q3.py "Solucion Pablo")
+
+##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
 
 ```python
 # Imports
