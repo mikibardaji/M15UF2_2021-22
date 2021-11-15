@@ -1,4 +1,9 @@
-Seguirem el tutorial oficial de [pandas 10 minutes](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html "pandas 10 minutes")
+#PANDAS
+
+###### Instal·lacio Pandas: [aqui[(https://anaconda.org/anaconda/pandas)
+
+
+Per fer una introducció a Pandas seguirem el tutorial oficial de [pandas 10 minutes](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html "pandas 10 minutes")
 
 
 Les primeres llibreries a importar son dues llibreries
