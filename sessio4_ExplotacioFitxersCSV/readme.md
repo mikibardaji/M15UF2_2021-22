@@ -342,6 +342,7 @@ for entrada in entries:
 <a name="ex9"></a>
 ### Exercici 9 Todas las regiones cubiertas por todas las entries
 
+--> [Solució Pablo exercici9](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q9.py "Solucion Pablo")
 
 ```python
 regiones: dict = set() #Mejor así. Desambigua
@@ -367,6 +368,7 @@ regiones
 <a name="ex10"></a>
 ### Exercici 10 Media del H-Index por region
 
+--> [Solució Pablo exercici10](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q10.py "Solucion Pablo")
 
 ```python
 # Función que devuelve una lista de valores unicos de una lista con valores repetidos
@@ -408,6 +410,7 @@ for entrada_diccionario in dictionary:
 <a name="ex5"></a>
 ### Exercici 5 -  Ranking de paises por H-Index
 
+--> [Solució Pablo exercici5](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q5.py "Solucion Pablo")
 
 
 ```python
@@ -416,7 +419,7 @@ for entrada_diccionario in dictionary:
 <a name="ex4"></a>
 ### Exercici 4.- Cual es publisher más antiguo que aún publica (tiene publicación el último año)
 
-
+--> [Solució Pablo exercici4](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q4.py "Solucion Pablo")
 
 ```python
 # 'Publisher': 'Wiley-Blackwell',
@@ -458,6 +461,7 @@ print('The publishers -> ' ,name, ' first publish in ', year_min)
 <a name="ex3"></a>
 ### Exercici 3 Agrupar publisher por numero de tipo de publicaciones
 
+--> [Solució Pablo exercici3](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q3.py "Solucion Pablo")
 
 ```python
 # Imports
