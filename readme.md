@@ -17,12 +17,14 @@
 		- Conjunts (Sets)
 3. [Sessió 3](./Sessi%C3%B33_Cheatsheet "Sessió 3")
 	- Chuletari propi de comandes bàsiques python per Llistes i Diccionaris
-4. [Sessió 4](./Sessi%C3%B34_exercicisRepasPython "Sessió5")
+4. [Sessió 4](./Sessi%C3%B34_exercicisRepasPython "Sessió4")
 	- Sessió de reforç programació amb python (bucles, llistes, set, etc)
-5. [Sessió 5](./Sessió5_ExplotacioFitxersCSV "Sessió 4")
+5. [Sessió 5](./Sessió5_ExplotacioFitxersCSV "Sessió 5")
 	- Llegir fitxers CSV i 10 exercicis d'explotació de dades
 
-6. [Sessió 6](./sessio6_Iteradors_Fitxers "Sessió 4")
+6. [Sessió 6](./sessio6_Iteradors_Fitxers "Sessió 6")
 	- Llegir fitxers CSV amb iteradors
 	- Instrucció Yields
 	- Opcions : Maps i filter
+
+6. [Sessió 7](./sessio7_git "Sessió 7")
