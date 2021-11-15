@@ -52,7 +52,7 @@ Per eficiencia *Python* utilitza Nans quant vol dir NA.
 
 Tipus de dades que s'utilitza a Pandas
 
-·**dtype** = Data Type. Es un camp que utilitza NumPy.
+ ·**dtype** = Data Type. Es un camp que utilitza NumPy.
    Numpy utilitza els seu propis tipus codificats al llenguatge de programació C, per eficiencia.
    
   *Exemple: float 64(bits)*
