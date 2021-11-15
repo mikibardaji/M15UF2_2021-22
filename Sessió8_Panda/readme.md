@@ -60,7 +60,7 @@ Tipus de dades que s'utilitza a Pandas
   
   1. Contingut inicialment amb el mateix tipus
   2. El dtype té que cubrir tots els continguts
-  3. El index el pots configurar .... per defecte es   .... pero por elegir amb un altre cas.
+  3. El index el pots configurar al meu gust, per defecte es  numèric, pero podem elegir d'un altre tipus segons el  cas.
 
   ```python
 ser = pd.Series([1, 3, 5, np.nan, 6, 8])
