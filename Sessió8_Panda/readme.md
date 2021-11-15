@@ -33,7 +33,7 @@ wants_dual_ser = [False, True, False, True]
 |  Peter | 4  | True  |
 
 |Part dalt | ^Serie  | ^Serie   |
-| hola  |
+| . . . .|
 
 
 ```python
@@ -47,7 +47,6 @@ Dos conceptos diferentes
    ·**NA**:  Not Avalaible(No disponible). La dada no hi és, no existeix. Concepte estadístic.
    
    ·**None**:  És un objecte, per tant no és eficient.
-
 
 
 Per eficiencia *Python* utilitza Nans quant vol dir NA.
@@ -78,13 +77,13 @@ ser
 
 No es molt normal, barrejar dades
 
-   > 0    1.0
-    1    3.0
-    2    5.0
-    3    NaN
-    4    6.0
-    5    8.0
-    dtype: float64
+>   0    1.0
+>   1    3.0
+>   2    5.0
+>   3    NaN
+>   4    6.0
+>   5    8.0
+>   dtype: float64
 
 
 
@@ -98,12 +97,12 @@ ser
 
 Si son uniformes el dtype tria un tipus de dades correctes.
 
-   > 0    1
-    1    3
-    2    5
-    3    6
-    4    8
-    dtype: int64
+ >   0    1
+ >   1    3
+ >   2    5
+ >   3    6
+ >   4    8
+ >   dtype: int64
 
 
 
@@ -117,11 +116,11 @@ ser
 Es pot forçar a un tipus de dades prefixat per nosaltres.
 
  >   0    1.0
-    1    3.0
-    2    5.0
-    3    6.0
-    4    8.0
-    dtype: float32
+ >   1    3.0
+ >   2    5.0
+ >   3    6.0
+ >   4    8.0
+ >   dtype: float32
 
 
 
@@ -138,7 +137,7 @@ ser
 
 >    0    7
 >    1    9
->   2    8
+>    2    8
 >    3    4
 >    dtype: int64
 
@@ -153,10 +152,10 @@ ser
 
 
  >   John     7
-    Mary     9
-    Lucy     8
-    Peter    4
-    dtype: int64
+ >   Mary     9
+ >   Lucy     8
+ >   Peter    4
+ >   dtype: int64
 
 
   #### DataFrame
