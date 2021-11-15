@@ -41,17 +41,21 @@ ser = pd.Series([1, 3, 5, np.nan, 6, 8])
 ```
 Dos conceptos diferentes
 
+
    ·**NaN**: Not a Number (infinit, Indeterminar). La dada esta calculada. Concepte matemàtic.
    
    ·**NA**:  Not Avalaible(No disponible). La dada no hi és, no existeix. Concepte estadístic.
    
    ·**None**:  És un objecte, per tant no és eficient.
 
+
+
 Per eficiencia *Python* utilitza Nans quant vol dir NA.
 
 
 Tipus de dades que s'utilitza a Pandas
-·**dtype** = Data Type. Es un camp que utilitza NumPy.
+
+ ·**dtype** = Data Type. Es un camp que utilitza NumPy.
    Numpy utilitza els seu propis tipus codificats al llenguatge de programació C, per eficiencia.
    
   *Exemple: float 64(bits)*
