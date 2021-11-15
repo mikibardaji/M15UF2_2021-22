@@ -36,11 +36,20 @@ wants_dual_ser = [False, True, False, True]
 | . . . .|
 
 
-```python
-ser = pd.Series([1, 3, 5, np.nan, 6, 8])
-```
-Dos conceptos diferentes
 
+  
+  #### Series
+  
+  Te 3 característiques principals, de les múltiples que té
+  
+  1. Contingut inicialment amb el mateix tipus
+  2. El dtype té que cubrir tots els continguts
+  3. El index el pots configurar al meu gust, per defecte es  numèric, pero podem elegir d'un altre tipus segons el  cas.
+
+
+No es molt normal, barrejar dades
+
+Tres conceptes de dades diferents:
 
    ·**NaN**: Not a Number (infinit, Indeterminar). La dada esta calculada. Concepte matemàtic.
    
@@ -59,23 +68,12 @@ Tipus de dades que s'utilitza a Pandas
    
   *Exemple: float 64(bits)*
   
-  
-  #### Series
-  
-  Te 3 característiques principals, de les múltiples que té
-  
-  1. Contingut inicialment amb el mateix tipus
-  2. El dtype té que cubrir tots els continguts
-  3. El index el pots configurar al meu gust, per defecte es  numèric, pero podem elegir d'un altre tipus segons el  cas.
 
   ```python
 ser = pd.Series([1, 3, 5, np.nan, 6, 8])
 ser
 
 ```
-
-
-No es molt normal, barrejar dades
 
 >   0    1.0
 >   
