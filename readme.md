@@ -27,4 +27,4 @@
 	- Instrucció Yields
 	- Opcions : Maps i filter
 
-6. [Sessió 7](./sessio7_git "Sessió 7")
+6. [Sessió 7](./sessió7_git "Sessió 7")
