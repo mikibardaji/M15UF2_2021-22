@@ -29,3 +29,6 @@
 
 7. [Sessió 7](./sessió7_git "Sessió 7")
 	- Repàs eina control Versions Git.
+
+8. [Sessió 8](./Sessió8_Panda "Sessió 9")
+	- Panda.
