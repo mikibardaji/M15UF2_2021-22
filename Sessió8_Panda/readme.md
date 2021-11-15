@@ -33,7 +33,7 @@ wants_dual_ser = [False, True, False, True]
 |  Peter | 4  | True  |
 
 |Part dalt | ^Serie  | ^Serie   |
-|-------------|
+|. . . . . |
 
 
 ```python
