@@ -27,4 +27,5 @@
 	- Instrucció Yields
 	- Opcions : Maps i filter
 
-6. [Sessió 7](./sessió7_git "Sessió 7")
+7. [Sessió 7](./sessió7_git "Sessió 7")
+	- Repàs eina control Versions Git.
