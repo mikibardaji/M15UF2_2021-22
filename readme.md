@@ -19,7 +19,7 @@
 	- Chuletari propi de comandes bàsiques python per Llistes i Diccionaris
 4. [Sessió 4](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/Sessi%C3%B34_exercicisRepasPython "Sessió5")
 	- Sessió de reforç programació amb python (bucles, llistes, set, etc)
-5. [Sessió 5](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessio4_ExplotacioFitxersCSV "Sessió 4")
+5. [Sessió 5](./Sessió5_ExplotacioFitxersCSV "Sessió 4")
 	- Llegir fitxers CSV i 10 exercicis d'explotació de dades
 
 6. [Sessió 6](https://github.com/mikibardaji/M15UF2_2021-22/tree/main/sessio6_Iteradors_Fitxers "Sessió 4")
