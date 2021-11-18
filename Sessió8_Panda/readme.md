@@ -1,6 +1,6 @@
 # PANDAS
 
-###### Instal·lacio Pandas a conda: [aqui](https://anaconda.org/anaconda/pandas)
+###### Instal·lacio Pandas a conda: [Instruccions](https://anaconda.org/anaconda/pandas)
 
 
 Per fer una introducció a Pandas seguirem el tutorial oficial de [pandas 10 minutes](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html "pandas 10 minutes")
