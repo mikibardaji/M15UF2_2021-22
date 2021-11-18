@@ -206,7 +206,7 @@ Un altra forma de crear datasets, es nombrar totes les columnes i ficar la seva 
 
 **Una excepció diferent a Java, al final veieu que hi ha una coma, que amb JAva donaria error, al python l'obvia i no li fa cas**
 
-Aquesta segona taula, podem modificar-la perquè, alguna serie, no sigui sempre igual, com la columna A, sinò que tingui alguns valors diferents.
+Aquesta segona dataframe, podem modificar-la perquè, alguna serie, exemple la A, no sigui sempre igual,  sinò que tingui alguns valors diferents.
 
 
 ```python
