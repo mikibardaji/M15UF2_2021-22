@@ -290,3 +290,552 @@ df3
 </table>
 </div>
 
+
+A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBIO i si volen fer dual, veurem les principals funcions del dataframe.
+
+### Cheatsheet instruccions bàsiques.
+
+* [DataFrame - Creació DataFrame a partir de les diferents llistres](#dataframe)
+* [dtypes - Obtenir el tipus de dades de totes les columnes](#dtypes)
+* [head - Obtenir les primeres files](#head)
+* [tail - Obtenir les ultimes files](#tail)
+* [sample - Obtenir una fila aleatoria](#sample)
+* [T - Trasposar la taula, les columnes per taules i a la inversa](#T)
+* [sort_index - Ordenar els indexs, tant per fila com per columna](#sort_index)
+* [sort_values - Ordenar els valors, per la columna triada](#sort_values)
+* [loc - Cercar un valor concret dins la dataframe](#loc)
+
+
+<a name="dataframe"></a>
+
+
+```python
+#les notes de dawbio amb dataframe
+student_list=["John","Mary","Lucy","Peter"]
+grades_list = [7,9,8,4]
+wants_dual_list = [False,True,False,True]
+datos: dict[list] = {"grade": grades_list,
+                   "dual": wants_dual_list}
+students_frame = pd.DataFrame(
+    index=student_list,
+    data = datos
+)
+students_frame
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<a name="dtypes"></a>
+
+
+```python
+#Obtenim el tipus  de dades de cadascuna de les columnes.
+students_frame.dtypes
+```
+
+
+
+
+    grade    int64
+    dual      bool
+    dtype: object
+
+
+<a name="head"></a>
+
+```python
+#Obtindre les primeres 5 linees de la taula
+students_frame.head()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+
+
+```python
+# Les primeres 2 files
+students_frame.head(2)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<a name="tail"></a>
+
+
+```python
+# Les últimes 2 files
+students_frame.tail(2)
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<a name="sample"></a>
+
+
+```python
+# Linea aleatoria
+students_frame.sample()
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<a name="T"></a>
+
+
+
+```python
+# Trasposar la matriu
+students_frame.T
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>John</th>
+      <th>Mary</th>
+      <th>Lucy</th>
+      <th>Peter</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>grade</th>
+      <td>7</td>
+      <td>9</td>
+      <td>8</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th>dual</th>
+      <td>False</td>
+      <td>True</td>
+      <td>False</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+# Recupera el index (row names) i les columnes (column names)
+# Atenció! No son funcions son atributs
+print(type(students_frame.index))
+```
+
+    <class 'pandas.core.indexes.base.Index'>
+
+<a name="sort_index"></a>
+
+
+
+```python
+#Ordenació per index axis=0 el index de la primera columna, axis=1 ordena els index de la primera columna (dual,grade)
+students_frame_sorted = students_frame.sort_index(axis=1, 
+                                                  ascending=True)
+students_frame_sorted
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>dual</th>
+      <th>grade</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>False</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>True</td>
+      <td>9</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>False</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>True</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<a name="sort_values"></a>
+
+
+```python
+#Ordenació per valors axis=0 columnes 
+students_grade_sorted = students_frame.sort_values(by=['grade'], 
+                                                   axis=0, 
+                                                   ascending=False)
+students_grade_sorted
+```
+
+
+
+
+<div>
+<style scoped>
+    .dataframe tbody tr th:only-of-type {
+        vertical-align: middle;
+    }
+
+    .dataframe tbody tr th {
+        vertical-align: top;
+    }
+
+    .dataframe thead th {
+        text-align: right;
+    }
+</style>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+
+# Utilitzar sempre localització d'un atribut
+# .loc rep 2 parametres('enfonsar-se','bucejar')
+students_frame.loc["Lucy","grade"]
+```
+
+
+
+
+    8
+
+
+<a name="loc"></a>
+
+```python
+#busqueda de mes d'una columna
+students_frame.loc["Lucy",["grade","dual"]]
+```
+
+
+
+
+    grade        8
+    dual     False
+    Name: Lucy, dtype: object
+
+
+
+
+```python
+#si vull totes les columnes de Lucy fico un slice buit
+students_frame.loc["Lucy",:]
+```
+
+
+
+
+    grade        8
+    dual     False
+    Name: Lucy, dtype: object
+
+
+
+
+```python
+#si vull totes les notes dels estudiants
+students_frame.loc[:,"grade"]
+```
+
+
+
+
+    John     7
+    Mary     9
+    Lucy     8
+    Peter    4
+    Name: grade, dtype: int64
