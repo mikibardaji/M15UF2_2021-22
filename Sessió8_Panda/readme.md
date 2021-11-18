@@ -41,6 +41,7 @@ wants_dual_ser = [False, True, False, True]
 | . . . .|
 
 
+* * *
 
   
   #### Series
@@ -188,6 +189,7 @@ ser
  >   dtype: int64
  >   
 
+* * * 
 
   #### DataFrame
   
