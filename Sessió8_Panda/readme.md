@@ -41,7 +41,7 @@ wants_dual_ser = [False, True, False, True]
 | . . . .|
 
 
-* * *
+***
 
   
   #### Series
