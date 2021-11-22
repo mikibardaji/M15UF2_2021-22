@@ -30,5 +30,11 @@
 7. [Sessió 7](./sessió7_git "Sessió 7")
 	- Repàs eina control Versions Git.
 
-8. [Sessió 8](./Sessió8_Pandas "Sessió 9")
+8. [Sessió 8](./Sessió8_Pandas "Sessió 8")
 	- Pandas.
+
+9. [Sessió 9](./Sessió9_PandasScimago "Sessió 9")
+	- Explotació fitxer Scimago amb Pandas
+	- Seleccionar diferents registres a partir d'una condició
+	- Detecció Valors na, eliminació de registres amb valors incoherents.
+	- Funcions aply, map, mapapply
