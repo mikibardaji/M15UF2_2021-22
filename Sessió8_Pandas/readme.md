@@ -304,6 +304,7 @@ A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBI
 * [sort_index - Ordenar els indexs, tant per fila com per columna](#sort_index)
 * [sort_values - Ordenar els valors, per la columna triada](#sort_values)
 * [loc - Cercar un valor concret dins la dataframe](#loc)
+* [Coordenades - Sistema de coordenades](#coordenades)
 
 
 <a name="dataframe"></a>
@@ -315,7 +316,7 @@ student_list=["John","Mary","Lucy","Peter"]
 grades_list = [7,9,8,4]
 wants_dual_list = [False,True,False,True]
 datos: dict[list] = {"grade": grades_list,
-                   "dual": wants_dual_list}
+      "dual": wants_dual_list}
 students_frame = pd.DataFrame(
     index=student_list,
     data = datos
@@ -683,6 +684,14 @@ students_grade_sorted
 
 
 
+
+<a name="coordenades"></a>
+
+El sistema de coordenades comencen amb 0 i primer es fica la fila i llavors la columna.
+
+** Regla nemotècnica enfonsar-se i nedar**  Primer et tires de cap i llavors vas nedant fins la columna.
+
+```python
 # Utilitzar sempre localització d'un atribut
 # .loc rep 2 parametres('enfonsar-se','bucejar')
 students_frame.loc["Lucy","grade"]
@@ -692,7 +701,12 @@ students_frame.loc["Lucy","grade"]
 
 
 
+
 <a name="loc"></a>
+
+
+###### busqueda de varis valors de diferents columnes
+
 
 ```python
 #busqueda de mes d'una columna
@@ -737,3 +751,237 @@ students_frame.loc[:,"grade"]
     Lucy     8
     Peter    4
     Name: grade, dtype: int64
+
+
+
+
+Ja hem utilitzat la funció **loc** , ficant el nom directamente de les files primer i les columnes despŕes. 
+
+Amb les coordenades numèriques, tenim que anomenar el primer numero per columna i el segon per files.
+
+
+```python
+#La primera coordenada capbusada | i despres bucejo -> però amb numèrics.
+students_frame.iloc[0,1]
+```
+
+
+
+
+    False
+
+
+
+
+```python
+#Les comandes at e iat son sinònimes de loc e iloc, però sol poden retornar un sol valor.
+#at es una optimització
+
+students_frame.at["Lucy","grade"]
+```
+
+
+
+
+>  8
+
+
+
+```python
+students_frame.iat[2,0]
+```
+
+
+
+
+>  8
+
+
+
+
+```python
+#Podemos devolver una lista de varias filas, devuelve una lista
+students_frame.loc[["Mary","Lucy"],"grade"]
+```
+
+
+
+
+>    Mary    9
+>    Lucy    8
+>    Name: grade, dtype: int64
+
+
+
+
+```python
+type(students_frame.loc[["Mary","Lucy"],"grade"])
+```
+
+
+>    pandas.core.series.Series
+
+
+
+```python
+#Podemos devolver una lista de varias filas, devuelve una lista
+students_frame.loc[["Mary","Lucy"],
+                   ["grade","dual"]]
+```
+
+
+
+
+<div>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+students_frame.loc[students_frame.index,["grade","dual"]]
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+#seleccionar totes les columnes i files
+students_frame.loc[:,:]
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Peter</th>
+      <td>4</td>
+      <td>True</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+
+
+```python
+#no es recomanable, ficar el interval de columnes, encara que es po fer
+students_frame["John":"Lucy"]
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>grade</th>
+      <th>dual</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>John</th>
+      <td>7</td>
+      <td>False</td>
+    </tr>
+    <tr>
+      <th>Mary</th>
+      <td>9</td>
+      <td>True</td>
+    </tr>
+    <tr>
+      <th>Lucy</th>
+      <td>8</td>
+      <td>False</td>
+    </tr>
+  </tbody>
+</table>
+</div>
