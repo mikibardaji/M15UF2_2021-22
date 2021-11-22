@@ -296,14 +296,14 @@ A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBI
 ### Cheatsheet instruccions bàsiques.
 
 * [DataFrame - Creació DataFrame a partir de les diferents llistres](#dataframe)
-* [dtypes - Obtenir el tipus de dades de totes les columnes](#dtypes)
-* [head - Obtenir les primeres files](#head)
-* [tail - Obtenir les ultimes files](#tail)
-* [sample - Obtenir una fila aleatoria](#sample)
+* [DTYPES - Obtenir el tipus de dades de totes les columnes](#dtypes)
+* [HEAD - Obtenir les primeres files](#head)
+* [TAIL - Obtenir les ultimes files](#tail)
+* [SAMPLE - Obtenir una fila aleatoria](#sample)
 * [T - Trasposar la taula, les columnes per taules i a la inversa](#T)
-* [sort_index - Ordenar els indexs, tant per fila com per columna](#sort_index)
-* [sort_values - Ordenar els valors, per la columna triada](#sort_values)
-* [loc - Cercar un valor concret dins la dataframe](#loc)
+* [SORT_INDEX - Ordenar els indexs, tant per fila com per columna](#sort_index)
+* [SORT_VALUES - Ordenar els valors, per la columna triada](#sort_values)
+* [LOC - Cercar un valor concret dins la dataframe](#loc)
 * [Coordenades - Sistema de coordenades](#coordenades)
 
 
@@ -687,9 +687,11 @@ students_grade_sorted
 
 <a name="coordenades"></a>
 
-El sistema de coordenades comencen amb 0 i primer es fica la fila i llavors la columna.
+###### Sistema coordenades
 
-** Regla nemotècnica enfonsar-se i nedar**  Primer et tires de cap i llavors vas nedant fins la columna.
+El sistema de coordenades, amb dataframes comencen pel 0 i per indicar una coordenada es posa la fila primer  i llavors la columna.
+
+** Regla nemotècnica (enfonsar-se i nedar)**  Primer et tires de cap i llavors vas nedant fins la columna.
 
 ```python
 # Utilitzar sempre localització d'un atribut
