@@ -6,9 +6,10 @@
 * [Seleccionar registres amb h index superior a 450](#hindex450)
 * [canviarvalors - Canviar el h_index de tots els registres que el tenen inferior a 750](#hindex750)
 * [NAN - Tots els registres que tenen publisher a null, pasar-los a Nan](#publishernan)
-
-
-
+* [NAN - Tots els registres que tenen publisher a null, pasar-los a Nan](#publishernan)
+* [Series - Canviar el valor a series que tenen valors nans](#seriesvalor)
+* [MAP, APPLY, APPLYMAP](#map)
+  -[Canviar el ordre de les columnes](#orden)
 
 
 
@@ -1213,5 +1214,324 @@ entries4.iloc[644,:]
 >   Categories                Community and Home Care (Q1); Public Health, E...
 >   
 >   Name: 644, dtype: object
+
+<a name="cleannan"></a>
+
+Marcar todos los publisher que se encuentran a Null, pasarlos a Nan
+
+
+```python
+# Clean NAs
+
+entries4 = copy.deepcopy(entries)
+
+entries4.loc[:,"Publisher"].isnull().value_counts()
+
+null_publisher_mask = entries4.loc[:,"Publisher"].isnull()
+
+entries4.loc[null_publisher_mask,"Publisher"] = np.nan
+entries4.iloc[644,:]
+```
+
+
+
+
+    Rank                                                                    645
+    Sourceid                                                              22549
+    Title                                                 Public Health Reviews
+    Type                                                                journal
+    Issn                                                     21076952, 03010422
+    SJR                                                                   1,692
+    SJR Best Quartile                                                        Q1
+    H index                                                                  34
+    Total Docs. (2020)                                                       31
+    Total Docs. (3years)                                                     68
+    Total Refs.                                                            1891
+    Total Cites (3years)                                                    376
+    Citable Docs. (3years)                                                   65
+    Cites / Doc. (2years)                                                  5,76
+    Ref. / Doc.                                                           61,00
+    Country                                                      United Kingdom
+    Region                                                       Western Europe
+    Publisher                                                               NaN
+    Coverage                                    1973-1980, 1982-2003, 2010-2020
+    Categories                Community and Home Care (Q1); Public Health, E...
+    Name: 644, dtype: object
+
+
+<a name="updatepublisher"></a>
+
+Actualitzar tots els registres que es troben a nulls, o a nan, amb un String fixe "Unkown Publisher"
+
+```python
+# Manage NA's
+
+entries5 = copy.deepcopy(entries4)
+#2 opcions , aquestes dues linees, fan el mateix que utilitzant el parametre inplace
+update_publisher = entries5.loc[:,"Publisher"].fillna(value="Unkown Publisher")
+entries5.loc[:,"Publisher"] = update_publisher
+#segona opcio amb inplace, ho canvia a la mateixa linea (abans no)
+entries5.loc[:,"Publisher"].fillna(value="Unkown Publisher",inplace=True)
+entries5.iloc[644,:]
+```
+
+
+
+
+>    Rank                                                                    645
+>    
+>    Sourceid                                                              22549
+>    
+>    Title                                                 Public Health Reviews
+>    
+>    Type                                                                journal
+>    Issn                                                     21076952, 03010422
+>    
+>        SJR                                                                   1,692
+>    
+>        SJR Best Quartile                                                        Q1
+>    
+>        H index                                                                  34
+>    
+>        Total Docs. (2020)                                                       31
+>    
+>        Total Docs. (3years)                                                     68
+>    
+>        Total Refs.                                                            1891
+>    
+>        Total Cites (3years)                                                    376
+>    
+>        Citable Docs. (3years)                                                   65
+>    
+>        Cites / Doc. (2years)                                                  5,76
+>    
+>        Ref. / Doc.                                                           61,00
+>    
+>        Country                                                      United Kingdom
+>    
+>        Region                                                       Western Europe
+>    
+>        Publisher                                                  Unkown Publisher
+>    
+>        Coverage                                    1973-1980, 1982-2003, 2010-2020
+>    
+>        Categories                Community and Home Care (Q1); Public Health, E...
+>    
+>        Name: 644, dtype: object
+>    
+
+
+<a name="seriesvalor"></a>
+
+Canviar valors na a 0, o eliminar registres que tenen el valor na en una columna especial.
+
+```python
+ser1: pd.Series = pd.Series([0,1,2,3,np.nan,5.6])
+ser1.fillna(value=0,inplace=True)
+ser1
+```
+
+
+
+
+    0    0.0
+    1    1.0
+    2    2.0
+    3    3.0
+    4    0.0
+    5    5.6
+    dtype: float64
+
+
+
+
+```python
+#esborrar registres amb valors na
+ser2: pd.Series = pd.Series([0,1,2,3,np.nan,5.6])
+ser2=ser2.dropna()
+ser2
+```
+
+
+
+
+    0    0.0
+    1    1.0
+    2    2.0
+    3    3.0
+    5    5.6
+    dtype: float64
+
+
+<a name="map"></a>
+
+### MAP,MAPAPPLY, APPLY
+
+Instrucció MAP per aplicar una transformació a tota la fila
+
+```python
+#1 Map
+ser3: pd.Series = pd.Series([0,1,2,3])
+ser3.map(lambda x:x*2)
+```
+
+
+
+
+>    0    0
+>
+>    1    2
+>
+>    2    4
+>
+>    3    6
+>
+>    dtype: int64
+
+```python
+ser4: pd.Series = pd.Series(["John","Lucy","Mary","Peter"])
+ser4.map(lambda x: "Hello " + x)
+```
+
+
+
+
+>    0     Hello John
+>
+>    1     Hello Lucy
+>
+>    2     Hello Mary
+>
+>    3    Hello Peter
+>
+>    dtype: object
+>
+
+<a name="mapaply"></a>
+
+```python
+# DataFrame.mapaply(). Works elements wise for rows
+data = {"A": [1,2],
+       "B": [3,4]}
+df3 = pd.DataFrame(data)
+df3.applymap(lambda x:x*2)
+```
+
+<div>
+
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>2</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+
+<a name="apply"></a>
+
+```python
+#Works column wise
+df3.apply(lambda column:column.sum())
+```
+
+
+
+
+>    A    3
+>
+>    B    7
+>
+>    dtype: int64
+
+
+Crear una nova columna, dins el teu dataframe.
+
+```python
+df4 = copy.deepcopy(df3)
+df4.loc[:,"C"] = df3.B.map(lambda x:x*2)
+df4
+```
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>A</th>
+      <th>B</th>
+      <th>C</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>1</td>
+      <td>3</td>
+      <td>6</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>2</td>
+      <td>4</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<a name="orden"></a>
+
+Canviar el ordre dins un dataframe
+
+```python
+df5 = df4.loc[:,["C","A","B"]]
+df5
+```
+
+
+
+
+<div>
+<table border="1" class="dataframe">
+  <thead>
+    <tr style="text-align: right;">
+      <th></th>
+      <th>C</th>
+      <th>A</th>
+      <th>B</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th>0</th>
+      <td>6</td>
+      <td>1</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th>1</th>
+      <td>8</td>
+      <td>2</td>
+      <td>4</td>
+    </tr>
+  </tbody>
+</table>
+</div>
 
 
