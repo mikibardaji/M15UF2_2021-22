@@ -305,6 +305,8 @@ A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBI
 * [SORT_VALUES - Ordenar els valors, per la columna triada](#sort_values)
 * [LOC - Cercar un valor concret dins la dataframe](#loc)
 * [Coordenades - Sistema de coordenades](#coordenades)
+* [MASKS - Mascares de sel·lecció](#mask)
+* [Exemples: Treballant amb pandas i fitxer scimago](#scimagoexample)
 
 
 <a name="dataframe"></a>
