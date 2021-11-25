@@ -10,8 +10,9 @@
 * [NAN - Tots els registres que tenen publisher a null, pasar-los a Nan](#publishernan)
 * [Series - Canviar el valor als objectes d'una serie que conté nan](#seriesvalor)
 * [Les instruccions MAP, APPLY, APPLYMAP](#map)
-  -[Afegir columnes a un dataframe existent](#novacolumna)
-  -[Canviar el ordre de les columnes d'un dataframe](#orden)
+* [Afegir columnes a un dataframe existent](#novacolumna)
+* [Canviar el ordre de les columnes d'un dataframe](#orden)
+
 
 
 
