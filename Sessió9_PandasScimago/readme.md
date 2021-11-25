@@ -4,12 +4,14 @@
 
 * [Read - Llegir fitxer Scimago](#scimagoexample)
 * [Seleccionar registres amb h index superior a 450](#hindex450)
-* [canviarvalors - Canviar el h_index de tots els registres que el tenen inferior a 750](#hindex750)
+* [Canviar valors - Canviar el h_index de tots els registres que el tenen inferior a 750](#hindex750)
+* [Canviar els valors a h_index negatiu sempre i quant el h_index sigui inferior a 750](#hindex750negatius)
+* [Posar tots els Publisher, que actualment es troben a null, ficar-los a np.nan.](#publishernan1)
 * [NAN - Tots els registres que tenen publisher a null, pasar-los a Nan](#publishernan)
-* [NAN - Tots els registres que tenen publisher a null, pasar-los a Nan](#publishernan)
-* [Series - Canviar el valor a series que tenen valors nans](#seriesvalor)
-* [MAP, APPLY, APPLYMAP](#map)
-  -[Canviar el ordre de les columnes](#orden)
+* [Series - Canviar el valor als objectes d'una serie que conté nan](#seriesvalor)
+* [Les instruccions MAP, APPLY, APPLYMAP](#map)
+  -[Afegir columnes a un dataframe existent](#novacolumna)
+  -[Canviar el ordre de les columnes d'un dataframe](#orden)
 
 
 
@@ -663,8 +665,8 @@ entries_ok
 #ensenyar les 5 primeres
 #Ordenació per valors axis=0 columnes 
 entries_top = entries_ok.sort_values(by=['H index'], 
-                                                   axis=0, 
-                                                   ascending=False)
+                                    axis=0, 
+                                    ascending=False)
 entries_top.head(5)
 ```
 
@@ -832,8 +834,8 @@ entries2 = copy.deepcopy(entries)
 bad_entries_mask = (entries2.loc[:,"H index"] < 750)
 entries2.loc[bad_entries_mask,"H index"] = 0;
 entries2.sort_values(by=["H index"], 
-                                                   axis=0, 
-                                                   ascending=False).head(5)
+                          axis=0, 
+                          ascending=False).head(5)
 ```
 
 
@@ -1155,8 +1157,9 @@ entries3.head(5)
 </div>
 
 
-<a name="publishernan"></a>
+<a name="publishernan1"></a>
 
+Posar tots els Publisher, que actualment es troben a null, ficar-los a np.nan.
 
 ```python
 # Clean NAs
@@ -1459,6 +1462,7 @@ df3.apply(lambda column:column.sum())
 >
 >    dtype: int64
 
+<a name="novacolumna"></a>
 
 Crear una nova columna, dins el teu dataframe.
 
