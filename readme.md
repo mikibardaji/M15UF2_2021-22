@@ -42,3 +42,8 @@
 
 10. [Sessió 10](./Sessió10_MesPandas "Sessió 10")
 	- Joins amb Dataframe
+	- Group By (Grouping)
+
+11. [Sessió 11](./Sessió11_Grafiques "Sessió 11")
+	- Descriptiva
+	- Inferencial
