@@ -57,7 +57,5 @@
 11. [Sessió 11](./Sessió11_Grafiques "Ses
 sió 11")
 
-	Tipus
-	- Descriptiva
-	- Inferencial
-	- MatPilot 
+	
+	- Llibreria *MatPilot* 
