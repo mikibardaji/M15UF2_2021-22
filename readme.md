@@ -40,7 +40,7 @@
 	- Funcions aply, map, mapapply
 	- Afegir noves columnes, canvi d'ordre
 
-10. [Sessió 10](./Sessió10_MesPandas "Sessió 10")
+10. [Sessió 10](./Sessió10_JoinPandas "Sessió 10")
 	- Joins amb Dataframe
 	- Group By (Grouping)
 
