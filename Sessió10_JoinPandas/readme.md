@@ -525,6 +525,8 @@ join
 
 <a name="grouping"></a>
 
+#### Grouping - Agrupacions
+
 Per realitzar el que amb sql coneixem amb la comanda **Group by**. [grouping documentació oficial](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#grouping "grouping documentacion oficial")
 
 ```python
@@ -768,11 +770,16 @@ df3_grouped.cumcount()
 
 <a name="timeseries"></a>
 
+#### Time Series
+
 [time series documentació oficial](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#time-series "time series documentacion oficial")
 
 
 
 <a name="category"></a>
+
+#### Categoricals
+
 
 Es pot marcar els valors d'una de les columnes, com categories, marcant-les no com a valors sinò com categories.
 [categories documentació oficial](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#categoricals "categoricals  documentacion oficial")
@@ -947,5 +954,3 @@ students_frame.sort_values(by=["cat_grade","grade"],ascending=False)
   </tbody>
 </table>
 </div>
-
-
