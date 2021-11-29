@@ -31,7 +31,14 @@
 	- Repàs eina control Versions Git.
 
 8. [Sessió 8](./Sessió8_Pandas "Sessió 8")
-	- Pandas.
+	- Instruccions bàsiques pandas.
+		* dataframe
+		* DTYPES
+		* HEAD
+		* SORT_INDEX
+		* SORT_VALUES
+		* MASKS
+
 
 9. [Sessió 9](./Sessió9_PandasScimago "Sessió 9")
 	- Explotació fitxer Scimago amb Pandas
@@ -43,7 +50,14 @@
 10. [Sessió 10](./Sessió10_JoinPandas "Sessió 10")
 	- Joins amb Dataframe
 	- Group By (Grouping)
+	- Time Series
+	- Categories
 
-11. [Sessió 11](./Sessió11_Grafiques "Sessió 11")
+
+11. [Sessió 11](./Sessió11_Grafiques "Ses
+sió 11")
+
+	Tipus
 	- Descriptiva
 	- Inferencial
+	- MatPilot 
