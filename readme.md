@@ -59,3 +59,4 @@ sió 11")
 
 	
 	- Llibreria *MatPilot* 
+	- Creació diferents gràfiques.
