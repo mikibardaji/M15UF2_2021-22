@@ -7,7 +7,9 @@ Per fer una introducció a Pandas seguirem el tutorial oficial de [pandas 10 min
 
 
 Les primeres llibreries a importar son dues llibreries
+
  · **np** --> numerical panda, es una llibreria per a realitzar càlcul numèric
+ 
  · **pd** --> llibreria panda, es la llibreria per a gestionar i analitzar dades tabulars(dades que es troben amb forma de taula)
 
 ```python
@@ -15,9 +17,9 @@ import numpy as np
 import pandas as pd
 ```
 
- Panda utilitza dos tipus bàsics:
+ Panda utilitza dos tipus dades bàsics:
  1. **Series** , s'assembla a una llista.
- 2. **DataFrame**, la tabla amb sí.
+ 2. **DataFrame**, les dades amb una taula, o un conjunt de Series.
  
  
  *Exemple: Nem a crear una taula d'alumnes que volen fer la dual*
