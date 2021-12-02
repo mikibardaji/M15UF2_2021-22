@@ -75,10 +75,7 @@ entries[0]
 * [Ex8 - Todas las entradas de "Sports Medicine" o "Sports science"](#ex8)
 * [Ex9 - Todas las regiones cubiertas por todas las entries](#ex9)
 * [Ex10 - Exercici 10 Media del H-Index por region](#ex10)
-* [Ex11 . ](#ex11)
 
-
->   ['journal', 'book series', 'conference and proceedings', 'trade journal']
 
 
 # Entries from SciMago
