@@ -781,7 +781,7 @@ df3_grouped.cumcount()
 #### Categoricals
 
 
-Es pot marcar els valors d'una de les columnes, com categories, marcant-les no com a valors sinò com categories.
+Es pot marcar els diferents valors d'una de les columnes, com *Categories*, marcant-les com categories dintre la columna, no com a valors.
 [categories documentació oficial](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#categoricals "categoricals  documentacion oficial")
 
 
