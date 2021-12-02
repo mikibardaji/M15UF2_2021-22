@@ -7,7 +7,7 @@
 
 Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqui aquella nota, amb les expressions Insuf, Suficiente, Bien, Notable y Excelente.
 
-[Diferents Solucions Exercici](CategoricalGrade.ipynb "Diferents Solucions Exercici")
+· [Diferents Solucions Exercici](CategoricalGrade.ipynb "Diferents Solucions Exercici")
 
 
 ------------
