@@ -692,7 +692,7 @@ students_grade_sorted
 
 <a name="coordenades"></a>
 
-###### Sistema coordenades
+##### Sistema coordenades
 
 El sistema de coordenades, amb dataframes comencen pel 0 i per indicar una coordenada es posa la fila primer  i llavors la columna.
 
