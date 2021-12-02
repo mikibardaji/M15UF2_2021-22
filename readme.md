@@ -54,9 +54,14 @@
 	- Categories
 
 
-11. [Sessió 11](./Sessió11_Grafiques "Ses
-sió 11")
+11. [Sessió 11](./Sessió11_Grafiques "Sessió 11")
 
 	
 	- Llibreria *MatPilot* 
 	- Creació diferents gràfiques.
+
+12. [Sessió 12](./Sessió12_ScimagoPandas "Sessió 12")
+
+	- Exercicis SCImago amb Pandas 
+
+
