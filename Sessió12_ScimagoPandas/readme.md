@@ -9,25 +9,25 @@ Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqu
 
 [Diferents Solucions Exercici](CategoricalGrade.ipynb "Diferents Solucions Exercici")
 
-### Exercici1 - How many entries are in scimago-medicine.csv? 
-
-· [Solucions Exercic1](q1.py "Solucions")
+### [Exercici1 - How many entries are in scimago-medicine.csv?](q1.py "Solucions") 
 
 
-### Exercici2 - What types of scientific publications are in the file?? 
-
-· [Solucions Exercici2](q2.py "Solucions ")
 
 
-### Exercici9 - All regions covered by all entries?
+### [Exercici2 - What types of scientific publications are in the file??](q2.py "Solucions")
 
-· [Solucions Exercici9](q9.py "Solucions")
 
-### Exercici12 - List rows with NAs
 
-· [Solucions Exercici12](q12.py "Solucions")
 
-### [Exercici10 - Mean of H index by region](q12.py "Solucions")
+### [Exercici9 - All regions covered by all entries?](q9.py "Solucions")
+
+
+
+### [Exercici12 - List rows with NAs](q12.py "Solucions")
+
+
+
+### [Exercici10 - Mean of H index by region](q10.py "Solucions")
 
 
 
