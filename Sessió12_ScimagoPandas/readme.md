@@ -27,30 +27,29 @@ Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqu
 
 · [Solucions Exercici12](q12.py "Solucions")
 
-### Exercici10 - Mean of H index by region
+### [Exercici10 - Mean of H index by region](q12.py "Solucions")
 
-· [Solucions Exercici12](q12.py "Solucions")
 
-### Exercici5 - Ranking of countries according to H index
 
-· [Solucions Exercici5](q5.py "Solucions")
+### [Exercici5 - Ranking of countries according to H index](q5.py "Solucions")
 
-### Exercici3 - Group publisher by number of publication types
 
-· [Solucions Exercici3](q3.py "Solucions")
 
-### Exercici4 - What is the oldest publisher that is still active? (some publications in 2020)
+### [Exercici3 - Group publisher by number of publication types](q3.py "Solucions")
 
-· [Solucions Exercici4](q4.py "Solucions")
+
+
+### [Exercici4 - What is the oldest publisher that is still active? (some publications in 2020)](q4.py "Solucions")
+
+
 
 ### [Exercici6 - List all Categories](q6.py "Solucions")
 
-· [Solucions Exercici5](q6.py "Solucions")
 
-### Exercici7 - Category with most entries
 
-· [Solucions Exercici3](q7.py "Solucions")
+### [Exercici7 - Category with most entries](q7.py "Solucions")
 
-### Exercici8 - All entries in the categories: Sports Medicine or Sports Science
+ 
 
-· [Solucions Exercici4](q8.py "Solucions")
+### [Exercici8 - All entries in the categories: Sports Medicine or Sports Science](q8.py "Solucions")
+
