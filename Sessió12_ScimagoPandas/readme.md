@@ -43,7 +43,7 @@ Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqu
 
 · [Solucions Exercici4](q4.py "Solucions")
 
-### Exercici6 - List all Categories
+### [Exercici6 - List all Categories](q6.py "Solucions")
 
 · [Solucions Exercici5](q6.py "Solucions")
 
