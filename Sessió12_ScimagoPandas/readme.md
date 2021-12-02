@@ -21,15 +21,15 @@ Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqu
 
 ### Exercici9 - All regions covered by all entries?
 
-[Solucions Exercici9](q9.py "Solucions")
+        [Solucions Exercici9](q9.py "Solucions")
 
 ### Exercici12 - List rows with NAs
 
-[Solucions Exercici12](q12.py "Solucions")
+        [Solucions Exercici12](q12.py "Solucions")
 
 ### Exercici10 - Mean of H index by region
 
-[Solucions Exercici12](q12.py "Solucions")
+        [Solucions Exercici12](q12.py "Solucions")
 
 ### Exercici5 - Ranking of countries according to H index
 
