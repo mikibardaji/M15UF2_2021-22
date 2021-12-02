@@ -9,6 +9,9 @@ Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqu
 
 [Diferents Solucions Exercici](CategoricalGrade.ipynb "Diferents Solucions Exercici")
 
+
+------------
+
 ### [Exercici1 - How many entries are in scimago-medicine.csv?](q1.py "Solucions") 
 
 
