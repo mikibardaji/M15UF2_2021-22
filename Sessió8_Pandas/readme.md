@@ -50,12 +50,12 @@ wants_dual_ser = [False, True, False, True]
   
   Te 3 característiques principals, de les múltiples que té
   
-  1. Contingut inicialment amb el mateix tipus
-  2. El dtype té que cubrir tots els continguts
-  3. El index el pots configurar al meu gust, per defecte es  numèric, pero podem elegir d'un altre tipus segons el  cas.
+    1. Contingut inicialment amb el mateix tipus
+    2. El dtype té que cubrir tots els continguts
+    3. El index el pots configurar al meu gust, per defecte es  numèric, pero podem elegir d'un altre tipus segons el  cas.
 
 
-No es molt normal, barrejar dades
+No es molt normal, barrejar tipus de dades
 
 Tres conceptes de dades diferents:
 
