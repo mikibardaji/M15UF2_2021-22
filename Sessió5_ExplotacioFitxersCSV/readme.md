@@ -135,7 +135,7 @@ entries[0]
 >     
 
 <a name="ex1"></a>
-** Exercici 1 ** How many entries are in scimago-medicine.csv?
+**Exercici 1** How many entries are in scimago-medicine.csv?
 
 ```python
 # 1. How many entries are in {csv_file_path}?
@@ -145,7 +145,7 @@ print(f"There are {num} entries.")
 
 <a name="ex2"></a>
 
-** Exercici 2 ** Detectar tots els valors diferents de la columna Type.
+**Exercici 2** Detectar tots els valors diferents de la columna Type.
 
 
 
@@ -242,7 +242,7 @@ print(re.split('; |, ', text))
 
 --> [Solució Pablo exercici6 FER CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q6.py "Solucion Pablo")
 
-##### Segona solució PROPOSADA MÉS ESTIL JAVA--> 
+##### Segona solució PROPOSADA MÉS ESTIL JAVA a continuació --> 
 
 ```python
 categorias: set = set() #Mejor así. Desambigua
