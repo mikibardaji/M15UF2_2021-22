@@ -158,8 +158,10 @@ A la linea 1 es queixa de que no hi ha el format camel-case
 **Fora de tema**
 
 Metodologíes de treball
+
 · **Waterfall (cascada)**, vas fent tasques i al final fiques un dia d'entrega, sense mostra anteriorment.
- ·**Agiles**, vas fent entregues, millorant-les però anant fent entregues de mini demos ,cada un lapsus de temps, on anirem informant de les funcionalitats de cadascuna de les versions. Hi ha diferents opcions:
+
+ ·**Metodologies Àgils**, vas fent entregues, millorant-les però anant fent entregues de mini demos ,cada un lapsus de temps, on anirem informant de les funcionalitats de cadascuna de les versions. Hi ha diferents opcions:
  
 1. SCRUM
 2. KANBAN (Els fluxos de treball poden ser una cosa tan senzilla com “Per fer”, “En curs” i “Terminat")
