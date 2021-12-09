@@ -5,9 +5,9 @@
 
 ### Exercici0 - Crear una nova columna calculada a partir d'una de les columnes  fonts
 
-Tenint les dades dels alumnes amb la nota, crear una nova columna que classifiqui aquella nota, amb les expressions Insuf, Suficiente, Bien, Notable y Excelente.
+Tenint les dades dels alumnes amb una columna de notes, crear una nova columna que classifiqui aquella nota, amb les expressions Insuf, Suficient, Bé, Notable o Excel·lent.
 
-· [Diferents Solucions Exercici](CategoricalGrade.ipynb "Diferents Solucions Exercici")
+· [Diferents Solucions del mateix Exercici](CategoricalGrade.ipynb "Diferents Solucions Exercici")
 
 
 ------------
