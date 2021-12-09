@@ -54,14 +54,21 @@
 	- Categories
 
 
-11. [Sessió 11](./Sessió11_Grafiques "Sessió 11")
+11. [Sessió 11 (25-29 novembre)](./Sessió11_Grafiques "Sessió 11")
 
 	
 	- Llibreria *MatPilot* 
 	- Creació diferents gràfiques.
 
-12. [Sessió 12](./Sessió12_ScimagoPandas "Sessió 12")
+12. [Sessió 12 (29 novembre-2 desembre)](./Sessió12_ScimagoPandas "Sessió 12")
 
 	- Exercicis SCImago amb Pandas 
 
+13. [Sessió 13 (9 desembre)](./Sessió13_Validadors "Sessió 13")
+
+	Eines per millorar codificació amb python
+	- Test unitaris
+	- Formatejadors de codi
+	- Validador de tipus
+	- Lintern
 
