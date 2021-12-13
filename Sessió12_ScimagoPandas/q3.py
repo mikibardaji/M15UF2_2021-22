@@ -24,7 +24,7 @@ def q3():
                                         .rename(columns={"Type": "NumTypes"})
                                         .sort_values(by="NumTypes", ascending=False)
     )
-
+    print(publisher_numtypes)
     # Group by NumTypes, calculate number of unique Publishers
     numtypes_numpublishers: pd.DataFrame = (publisher_numtypes
                                             .reset_index()

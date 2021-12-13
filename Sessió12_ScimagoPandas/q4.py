@@ -37,7 +37,7 @@ def q4_v1():
 
     # Show result
     print("Oldest publisher that is still active:")
-    print(entries.loc[oldest_active_mask, ["Rank", "Sourceid", "Title", "Region", "Publisher"]])
+    print(entries.loc[oldest_active_mask, ["Rank", "Sourceid", "Title", "Publisher", "Coverage"]])
 
 
 # v2. Expanding the coverage. Harder, more flexible version.
@@ -113,6 +113,6 @@ def print_longest_running_top10() -> None:
 # Main
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    q4_v2()
+    q4_v1()
     print_longest_running_top10()
 # -----------------------------------------------------------------------------

@@ -24,9 +24,13 @@ def q12():
 
 
     # Are there np.nan? Yes!
+    #mask with na's true/false
     na_mask:            pd.DataFrame = entries.loc[:, :].isna()
+    #rows mask if it have na's values
     rows_with_na_mask:  pd.Series    = na_mask.any(axis='columns')
+    #cols mask if it have na's values
     cols_with_na_mask:  pd.Series    = na_mask.any(axis='index')
+    #count rows with na'
     num_rows_with_na:   int          = rows_with_na_mask.sum()
 
 

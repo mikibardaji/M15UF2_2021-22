@@ -49,3 +49,5 @@ Tenint les dades dels alumnes amb una columna de notes, crear una nova columna q
 
 #### [Exercici8 - All entries in the categories: Sports Medicine or Sports Science](q8.py "Solucions")
 
+#### [Exercici13 - Are entry titles uniques? Are ranks unique? Whats columns can be used as a Primary Key](q13.py "Solucions")
+

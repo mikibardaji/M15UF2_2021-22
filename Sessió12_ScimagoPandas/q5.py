@@ -24,13 +24,13 @@ def q5():
 
     # Add Ranking numbers
     country_ranking: pd.DataFrame = (country_means
-                                    .reset_index()
-                                    .assign(Ranking=lambda df: df.index + 1)
-                                    .set_index("Ranking")
+                                    .reset_index() #drop index and country isn't index
+                                    .assign(Ranking=lambda df: df.index + 1) #new Column Ranking df.index +1
+                                    .set_index("Ranking") #new column is index
     )
 
     # Print result
-    print(country_ranking.head(40))
+    print(country_ranking.head(50))
 
     # Plot result
     country_means.head(40).plot(kind="bar").get_figure().savefig("s5.pdf")

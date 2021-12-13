@@ -23,6 +23,16 @@ def q9():
     print(unique_regions)
     print(f"There are {unique_regions.size} regions.")
 
+    #Other Solutions, it's worse, but it's ok
+    unique_regions2:   pd.Series    = (entries.loc[:, ["Region", "H index"]]
+                                            .groupby(["Region"])
+                                            .count()
+                                            .rename(columns={"H index":"Veces"})
+                                            .reset_index()
+                                            .assign(mon=lambda df: df.index + 1)
+                                            .set_index("mon")
+    )
+    print(unique_regions2)
 
 # Main
 # -----------------------------------------------------------------------------
