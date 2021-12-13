@@ -17,9 +17,7 @@ def q12():
 
     # Are there empty strings? No.
     empty_strings_mask:             pd.DataFrame = (entries.loc[:, :] == '')
-
     rows_with_empty_strings_mask:   pd.Series    = empty_strings_mask.any(axis='columns')
-    print(rows_with_empty_strings_mask)
     num_rows_with_empty_strings:    int          = rows_with_empty_strings_mask.sum()
 
     print("Number of rows with empty strings:", num_rows_with_empty_strings)
@@ -36,7 +34,6 @@ def q12():
     print("Number of rows with NAs:", num_rows_with_na)
     print(entries.loc[rows_with_na_mask, cols_with_na_mask])
     entries.loc[rows_with_na_mask, :].to_html("scimago-medicine-nas.html")
-
 
 
 # Main

@@ -1,7 +1,6 @@
 # Imports
 import utils
 
-import numpy as np
 import pandas as pd
 
 # -----------------------------------------------------------------------------
@@ -12,8 +11,12 @@ import pandas as pd
 def q2():
 
     # Get regions
-    entries:          pd.DataFrame = utils.read_csv_file("scimago-medicine.csv")
-    unique_types:     np.ndarray   = entries.loc[:, "Type"].unique()
+    entries:      pd.DataFrame = utils.read_csv_file("scimago-medicine.csv")
+    unique_types: pd.Series    = (entries.loc[:, "Type"]
+                                         .drop_duplicates()
+                                         .sort_values()
+                                         .reset_index(drop=True)
+    )
 
     # Prepare output
     num:              int          = len(unique_types)

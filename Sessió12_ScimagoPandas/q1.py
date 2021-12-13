@@ -7,6 +7,7 @@ import pandas as pd
 # Q1. How many entries are in scimago-medicine.csv?
 # -----------------------------------------------------------------------------
 
+# In DataFrames .size is the total count. len() returns the number of rows.
 # -----------------------------------------------------------------------------
 def q1():
     

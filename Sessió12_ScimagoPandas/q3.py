@@ -9,7 +9,8 @@ import pandas as pd
 # -----------------------------------------------------------------------------
 
 
-# One of the publishers is ''. Should be deleted in a real report.
+# In the csv file some Publishers are an empty string ''.
+# These are converted to np.nan automatically by Pandas when reading the file.
 # -----------------------------------------------------------------------------
 def q3():
 
