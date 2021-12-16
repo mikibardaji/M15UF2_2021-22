@@ -55,11 +55,12 @@ def q4_v2():
 
     # Get first and last years. Reset index to merge later with entries.
     first_year: pd.Series = (grouped_coverages.min()
-                                              .reset_index(drop=True)
-                                              .rename(columns={'Coverage': 'First Year'})
+                                             .reset_index(drop=True)
+                                             .rename(columns={'Coverage': 'First Year'})
                                               .loc[:, 'First Year']
     )
-
+    print('*****************')
+    print(first_year)
     last_year: pd.Series = (grouped_coverages.max()
                                              .reset_index(drop=True)
                                              .rename(columns={'Coverage': 'Last Year'})
@@ -113,6 +114,7 @@ def print_longest_running_top10() -> None:
 # Main
 # -----------------------------------------------------------------------------
 if __name__ == "__main__":
-    q4_v1()
-    print_longest_running_top10()
+    #q4_v1()
+    #print_longest_running_top10()
+    q4_v2()
 # -----------------------------------------------------------------------------
