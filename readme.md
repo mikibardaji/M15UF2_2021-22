@@ -41,7 +41,7 @@
 
 
 9. [Sessió 9](./Sessió9_PandasScimago "Sessió 9")
-	- Explotació fitxer Scimago amb Pandas
+	- Inici explotació fitxer Scimago amb Pandas (es fà a la sessió 12)
 	- Seleccionar diferents registres a partir d'una condició d'un camp
 	- Detecció Valors na, eliminació de registres amb valors incoherents.
 	- Funcions aply, map, mapapply
