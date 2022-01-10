@@ -72,3 +72,7 @@
 	- Validador de tipus
 	- Lintern
 
+14. [Sessió 14 (20 desembre)](./Sessió14_ExamSolutions "Exam 14")
+
+	4 preguntes examen 2021
+	
