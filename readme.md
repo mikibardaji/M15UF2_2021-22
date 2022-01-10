@@ -1,6 +1,8 @@
 # M15_UF2 Diari de Sessions de Classe de DAWBIO
 ## Pablo Garcia, Miquel Angel Bardají
 
+### Python 
+
 1. [Sessió 1](./Sessi%C3%B31_PreparacioEntorn "Sessió 1")
 	- Creació usb bootable amb iso de pops o linux
 	- Instal·lació de noves versions de python diferent al d'ubuntu
@@ -30,6 +32,8 @@
 7. [Sessió 7](./sessió7_git "Sessió 7")
 	- Repàs eina control Versions Git.
 
+### Pandas 
+
 8. [Sessió 8](./Sessió8_Pandas "Sessió 8")
 	- Instruccions bàsiques pandas.
 		* dataframe
@@ -56,7 +60,6 @@
 
 11. [Sessió 11 (25-29 novembre)](./Sessió11_Grafiques "Sessió 11")
 
-	
 	- Llibreria *MatPilot* 
 	- Creació diferents gràfiques.
 
@@ -75,4 +78,7 @@
 14. [Sessió 14 (20 desembre)](./Sessió14_ExamSolutions "Exam 14")
 
 	4 preguntes examen 2021
-	
+
+### Estadística 
+ 
+15. [Sessió 15 (10 gener 2021)](./Sessió15_Estadistica "Estadística ")	
