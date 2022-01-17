@@ -11,11 +11,15 @@
 | Possibilitat | Que pot succeïr o no (True/False)|
 | Estadística | Originalment,  és la ciencia del estat, que estudiava les dades de la població. Actualment , estudia la variabilitat de les dades i els processos aleatoris que generen aquelles dades.|
 
+------------
 
-| Branques de l'estadistica | Descripció |
-| ------------ | ------------ |
-| Estadística descriptiva | Grafiques per mostrar les possibilitats |
-| Estadística inferencial | Predir, que pot passar al futur. |
+# Branques de l'estadística
+
+
+ 1. **Estadística descriptiva**  Grafiques per mostrar les possibilitats 
+ 2. **Estadística inferencial**  Predir, que pot passar al futur. 
+
+------------
 
 | EDA | Exploratory Data Analysis |
 | ------------ | ------------ |
@@ -24,6 +28,7 @@
 |  | 3. Visualitzar -> Transformació -> Modelar[EDA] |
 |  | 4. Comunicar |
 
+------------
 
 Relació entre dades i probabilitats
 - *Si tenim probabilitats* -> Podem intentar predir succesos
