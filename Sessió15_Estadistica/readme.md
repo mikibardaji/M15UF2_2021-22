@@ -101,19 +101,22 @@ En *[estadística descriptiva](https://es.wikipedia.org/wiki/Estad%C3%ADstica_de
 
 * **Media aritmética**: La [media aritmética](https://es.wikipedia.org/wiki/Media_aritm%C3%A9tica) es el valor obtenido al sumar todos los *[datos](https://es.wikipedia.org/wiki/Dato)* y dividir el resultado entre el número total elementos. Se suele representar con la letra griega $\mu$. Si tenemos una [muestra](https://es.wikipedia.org/wiki/Muestra_estad%C3%ADstica) de $n$ valores, $x_i$, la *media aritmética*, $\mu$, es la suma de los valores divididos por el numero de elementos; en otras palabras:
 
-![Desviación](desviacionmedia.png "Desviación")
+![Desviación](aritmetica.png "Desviación media")
 
 
 * **Desviación respecto a la media**: La desviación respecto a la media es la diferencia en valor absoluto entre cada valor de la variable estadística y la media aritmética.
-$$D_i = |x_i - \mu|$$
+
+![Desviación](desviacionmedia.png "Desviación respecto la media")
 
 
 * **Varianza**: La [varianza](https://es.wikipedia.org/wiki/Varianza) es la media aritmética del cuadrado de las desviaciones respecto a la media de una distribución estadística. La varianza intenta describir la dispersión de los *[datos](https://es.wikipedia.org/wiki/Dato)*. Se representa como $\sigma^2$. 
-$$\sigma^2 = \frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n} $$
+
+![Desviación](varianza.png "Varianza")
 
 
 * **Desviación típica**: La [desviación típica](https://es.wikipedia.org/wiki/Desviaci%C3%B3n_t%C3%ADpica) es la raíz cuadrada de la varianza. Se representa con la letra griega $\sigma$.
-$$\sigma = \sqrt{\frac{\sum\limits_{i=1}^n(x_i - \mu)^2}{n}} $$
+
+![Desviación](tipica.png "Desviación típica")
 
 
 * **Moda**: La <a href="https://es.wikipedia.org/wiki/Moda_(estad%C3%ADstica)">moda</a> es el valor que tiene mayor frecuencia absoluta. Se representa con $M_0$
