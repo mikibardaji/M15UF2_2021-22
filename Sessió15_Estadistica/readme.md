@@ -65,9 +65,9 @@ En EDA se trabajan las dos ramas de la estadística (descriptiva + inferencial)
 
 # Definiciones
 
-- Población: El conjunto de elementos o sucesos que queremos estudiar.
-- Muestra: El subconjunto de la población que podemos observar.
-- Variable: Característica de la muestra que podemos medir.
+- **Población**: El conjunto de elementos o sucesos que queremos estudiar.
+- **Muestra**: El subconjunto de la población que podemos observar.
+- **Variable**: Característica de la muestra que podemos medir.
 
 
 
@@ -75,13 +75,13 @@ En EDA se trabajan las dos ramas de la estadística (descriptiva + inferencial)
 
 Hay dos tipos.
 
-1. Variables cuantitativas: Se describen con números.
-  - Contínuas: Hay un número infinito de valores. Ejemplo: Peso, altura.
-  - Discretas: Hay un número finito (normalmente pocos) de valores. Ej: Número de hijos.
+1. **Variables cuantitativas**: Se describen con números.
+  - *Contínuas*: Hay un número infinito de valores. Ejemplo: Peso, altura.
+  - *Discretas*: Hay un número finito (normalmente pocos) de valores. Ej: Número de hijos.
 
-2. Variables cualitativas: Se describen con texto.
-  - Ordinales: Tienen un orden implícito. Ej: Excelente > Notable > Bien > Suf
-  - Nominales: No tienen un orden. Cáncer, Covid19, Sida, Ébola
+2. **Variables cualitativas**: Se describen con texto.
+  - *Ordinales*: Tienen un orden implícito. Ej: Excelente > Notable > Bien > Suf
+  - *Nominales*: No tienen un orden. Cáncer, Covid19, Sida, Ébola
 
 
 
@@ -90,8 +90,8 @@ Hay dos tipos.
 
 El valor de una variable se le puede llamar también "frecuencia".
 
-- Frecuencia absoluta: El valor absoluto.
-- Frecuencia relativa: El valor dividido por el tamaño de la muestra.
+- **Frecuencia absoluta**: El valor absoluto.
+- **Frecuencia relativa**: El valor dividido por el tamaño de la muestra.
 
 
 
