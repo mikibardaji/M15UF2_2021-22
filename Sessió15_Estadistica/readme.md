@@ -127,15 +127,19 @@ En *[estadística descriptiva](https://es.wikipedia.org/wiki/Estad%C3%ADstica_de
 
 * **Cuantil**: Los [cuantiles](https://es.wikipedia.org/wiki/Cuantil) son puntos tomados a intervalos regulares de la función de distribución de una variable aleatoria. Las muestras se ordenan según sus valores de menor a mayor, y el cuantil es el valor en ese punto.
 
+![Cuantil](Cuantil.jpg "Cuantil 25%")
+
+La diferència entre Q1 i Q3, es lo que s'anomena *rang intercuantíl·lic*
 
 * **Valor atípico**: Un [valor atípico (outlier)](https://en.wikipedia.org/wiki/Outlier) es una observación que se aleja demasiado de la moda; esta muy lejos de la tendencia principal del resto de los datos. Pueden ser causados por errores en la lectura de los datos o medidas inusuales. Generalmente se recomienda eliminarlos.
-
+Aunque dependerà siempre del caso.
 
 ##### Webs de referencia per complementar 
 
 - [khan Academy amb Anglés](https://www.khanacademy.org/math/statistics-probability "khan Academy amb anglés")
 - [khan Academy amb Castellà](https://es.khanacademy.org/math/statistics-probability "khan Academy amb castella")
 - [Web per fer editors online](https://editor.codecogs.com/ "Web per fer editors online")
+- [Web per les definicions de cuantil y valor atípic](https://towardsdatascience.com/tagged/box-plot "Web per les definicions de cuantil y valor atípic")
 
 ```python
 

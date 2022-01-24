@@ -82,3 +82,13 @@
 ### Estadística 
  
 15. [Sessió 15 (10 gener 2021)](./Sessió15_Estadistica "Estadística ")	
+
+
+16. [Sessió 16 (17-20-24 gener 2021)](./Sessió16_EstadisticaDadesCovid "Dades covid ")	
+
+	Amb dades de dadescovid.cat, veurem les diferents variables descriptores Estadístiques
+	
+	- Mitjana
+	- Moda
+	- Mediana
+	
