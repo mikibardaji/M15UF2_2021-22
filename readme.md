@@ -91,4 +91,6 @@
 	- Mitjana
 	- Moda
 	- Mediana
-	
+
+17. [Sessió 17 (27 gener 2021)](./Sessió17_PracticaEstadistica "Pràctica Estadística")
+

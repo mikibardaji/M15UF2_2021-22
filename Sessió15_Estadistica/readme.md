@@ -1,6 +1,23 @@
 
 # Teoria i explicació classe
-- [stats-theory.ipynb](stats-theory.ipynb "stats-theory")
+- [Stats and theory.ipynb](stats-theory.ipynb "stats-theory")
+
+# Installation
+conda activate bio
+conda list
+
+conda install -n bio -c anaconda numpy
+conda install -n bio -c anaconda scipy
+conda install -n bio -c conda-forge matplotlib  # Comandos básicos de R
+conda install -n bio -c anaconda pandas
+conda install -n bio -c anaconda seaborn        # Equivalente a ggplot2
+
+conda install -n bio -c anaconda statsmodels
+conda install -n bio -c conda-forge pymc3
+
+cd workspace
+jupyter lab
+
 
 # Boxplots
 - https://towardsdatascience.com/understanding-boxplots-5e2df7bcbd51
@@ -21,19 +38,5 @@
   - iconv -f ISO-8859-1 -t UTF-8 aga_diari.csv > covid_dades.csv
 
 
-# Installation
-conda activate bio
-conda list
 
-conda install -n bio -c anaconda numpy
-conda install -n bio -c anaconda scipy
-conda install -n bio -c conda-forge matplotlib  # Comandos básicos de R
-conda install -n bio -c anaconda pandas
-conda install -n bio -c anaconda seaborn        # Equivalente a ggplot2
-
-conda install -n bio -c anaconda statsmodels
-conda install -n bio -c conda-forge pymc3
-
-cd workspace
-jupyter lab
 
