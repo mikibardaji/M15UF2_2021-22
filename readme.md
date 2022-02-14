@@ -92,6 +92,8 @@
 	- Moda
 	- Mediana
 
-17. [Sessió 17 (27 gener 2022)](./Sessió17_PracticaEstadistica "Pràctica Estadística")
+17. [Sessió 17 (27 gener 2022)](./Sessió17_PràcticaEstadistica "Pràctica Estadística")
 
-18. [Sessió 18 (14 febrer 2022)](./Sessió18_Òmiques "Ciencies Omiques")
+18. [Sessió 18 (14 febrer 2022)](./Sessió18_Òmiques "Ciencies Òmiques")
+
+	Introducció a ciències Òmiques.

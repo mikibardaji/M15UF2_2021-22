@@ -11,8 +11,8 @@ Omicas , es un sufix grec que significa molts, per treballar lleis de la genèti
 
 La transcripció es ADN(**ATCG**) a ARN(**UTCG**) (doble sentit), mes la tradució que es de ARN a proteinas.
 
+![[Dogma]](dogma.png "Dogma")
 
-[![Dogma](Dogma "Dogma")](dogma.png "Dogma")
 
 
 Com s'edita l'ADN, amb pyvers i amb la polimerasa que duplica la cadena.
@@ -34,7 +34,7 @@ En el cas de la indústria cosmètica no es permet l'experimentació en animals 
 
 #### Python amb bio informàtica
 
-La llibreria que utilitzarem es la [biopython](https://biopython.org/ "biopython"). Podem partir del [Tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html "Tutorial")
+La llibreria que utilitzarem es la [biopython](https://biopython.org/ "biopython"). Podem partir de la seva documentació que esta plantejada com un [Tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html "Tutorial")
 
 S'utilizen dos tipus de fitxers
 

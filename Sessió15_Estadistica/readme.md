@@ -1,6 +1,7 @@
 
 # Teoria i explicació classe
-- [Stats and theory.ipynb](stats-theory.ipynb "stats-theory")
+
+- La teoria realitzada, la farem amb les instruccion al fitxer --> [Stats and theory.ipynb](stats-theory.ipynb "stats-theory")
 
 # Installation
 conda activate bio
