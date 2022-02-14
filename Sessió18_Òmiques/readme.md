@@ -1,7 +1,7 @@
 # M15_UF2 Ciencies Òmiques
 ## Pablo Garcia, Miquel Angel Bardají
 
-Omicas , es un sufix grec que significa molts, per treballar lleis de la genètica.
+Omicas , es un sufix grec que significa molts, en aquest cas moltes opcions per treballar sobre les lleis de la genètica.
 
 
 #### Introducció Òmiques
@@ -9,7 +9,7 @@ Omicas , es un sufix grec que significa molts, per treballar lleis de la genèti
 
 ##### DOGMA CENTRAL DE LA BIOLOGIA MOLECULAR
 
-La transcripció es ADN(**ATCG**) a ARN(**UTCG**) (doble sentit), mes la tradució que es de ARN a proteinas.
+La transcripció es ADN(**ATCG**) que dona pas a les cadenes ARN(**UTCG**) (doble sentit), mes la tradució que es la creació de proteïnes a partir de les cadenes d'ARN.
 
 ![[Dogma]](dogma.png "Dogma")
 
