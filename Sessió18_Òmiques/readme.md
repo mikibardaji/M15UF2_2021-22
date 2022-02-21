@@ -51,3 +51,28 @@ S'utilizen dos tipus de fitxers
 		- **Global**
 
 		- ** [BLAST](https://es.wikipedia.org/wiki/BLAST "BLAST") ** utilitza una matriu de substitució d'aminoàcids o nucleòtids per qualificar els seus alineaments. Aquesta matriu conté la puntuació (també anomenada score) que se li dóna en alinear un nucleòtid o un aminoàcid X de la seqüència A amb un altre aminoàcid I de la seqüència B.
+
+
+### Fichero fasta
+
+	###  Ficheros Fasta
+
+- Conté una(*archivo fasta*) o més(*archivo multifasta*) seqüències.
+
+- Escritas como secuencias de ADN
+| bases nitrogenades  |  Combinacions de totes  |
+| ------------ | ------------ |
+|  A T C G |  N· K · I |
+
+
+Extreuem  fitxers FASTA de la web [NCBI](https://www.ncbi.nlm.nih.gov/ "NCBI")
+
+Buscar al cercador de nucleòtids, la paraula COVID, per exemple
+
+- **ORF** Open Reading Frame. ORFx , el numero x indica per quina base, tinc que començar per llegir una seqüència.
+
+Cadena (Orf1)**G**(Orf2)**A**(Orf3)**TAGATA**
+
+Per cada seqüència, hi ha dos coses:
+1. Un comentari que comença per > i es una sola linea
+2. La seqüència de bases dividides per línies de ...[70] caràcters pot variar.
