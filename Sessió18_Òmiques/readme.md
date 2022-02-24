@@ -9,7 +9,7 @@ Omicas , es un sufix grec que significa molts, en aquest cas moltes opcions per 
 
 ##### DOGMA CENTRAL DE LA BIOLOGIA MOLECULAR
 
-La transcripció es ADN(**ATCG**) que dona pas a les cadenes ARN(**UTCG**) (doble sentit), mes la tradució que es la creació de proteïnes a partir de les cadenes d'ARN.
+La transcripció es ADN(**ATCG**) que dona pas a les cadenes ARN(**UTCG**) (doble sentit), més la traducció que és la creació de proteïnes a partir de les cadenes d'ARN.
 
 ![[Dogma]](dogma.png "Dogma")
 
@@ -76,3 +76,14 @@ Cadena (Orf1)**G**(Orf2)**A**(Orf3)**TAGATA**
 Per cada seqüència, hi ha dos coses:
 1. Un comentari que comença per > i es una sola linea
 2. La seqüència de bases dividides per línies de ...[70] caràcters pot variar.
+
+Si es un fitxer MULTI-FASTA, és separa seqüència amb seqüència amb una linea de capçalera ( > ), 
+
+
+#### Proves amb Mòdul Biopython 
+
+ -->[biopython.ipynb](biopython.ipynb "biopython.ipynb")
+
+ Tindrem que recordar la nomenclatura de -->[biopython.ipynb](https://iupac.org/ "biopython.ipynb")
+
+ Sobres: Bacteria E.Coli para realizar ADN
