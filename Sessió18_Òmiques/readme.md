@@ -74,7 +74,7 @@ Buscar al cercador de nucleòtids, la paraula COVID, per exemple
 Cadena (Orf1)**G**(Orf2)**A**(Orf3)**TAGATA**
 
 Per cada seqüència, hi ha dos coses:
-1. Un comentari que comença per > i es una sola linea
+1. Un comentari/descripció que comença per > i es una sola linea
 2. La seqüència de bases dividides per línies de ...[70] caràcters pot variar.
 
 Si es un fitxer MULTI-FASTA, és separa seqüència amb seqüència amb una linea de capçalera ( > ), 
@@ -86,4 +86,35 @@ Si es un fitxer MULTI-FASTA, és separa seqüència amb seqüència amb una line
 
  Tindrem que recordar la nomenclatura de -->[biopython.ipynb](https://iupac.org/ "biopython.ipynb")
 
- Sobres: Bacteria E.Coli para realizar ADN
+ Per alguns dels exercicis, tindrem que tenir present la **traducció** [aminoacids_table](https://upload.wikimedia.org/wikipedia/commons/7/70/Aminoacids_table.svg"biopython.ipynb")
+
+ Treballarem també amb el GENBANK de coronavirus.
+
+ ### Fitxer GENBANK del coronaviurs
+
+ Explicació de la fitxa general del fitxer de coronavirus, extret de ... [ncbi coronavirus](https://www.ncbi.nlm.nih.gov/nuccore/NC_045512 "ncbi coronavirus")
+
+ ![[severeacute]](severeacute.png "severeacute")
+ 
+ **Locus** identificació
+
+ · **29903** posició de la seqüencia en la que acaba la seqüència.
+ · **DBLINK** projecte d'on ha sortit aquesta seqüència.
+ · **ORGANISM** Diferents classificacions del coronavirus.
+ · **Reference Authors** tots els que l'han seqüenciat
+ · **Title** Títol del article on han publicat.
+ · **JOURNAL** Mitjà on ho han publicat 
+ · **PUBMED** link del article (si el volem llegir podem intentar buscar a SCI HUB)
+ · **REFERENCE** de otras personas que han estat treballant sobre el tema.
+ · **FEATURES** les diferents anotacions que tenen el fitxer.
+  ![[anotacions]](anotacions.png "anotacions")
+ · **ORIGIN** On comença la seqüencia
+
+El fitxer // es el final d'un fitxer genbank
+
+#### Aclaracions de la part de Features concret
+
+ *5'UTR           1..265* no ho ha codificat
+ *gene*                   
+ *CDS*            Cadena codificant
+ */translation*    Cadena proteïna
