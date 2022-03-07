@@ -40,7 +40,7 @@ S'utilizen dos tipus de fitxers
 
 	1.- *BioPython.*
 		- .fasta
-		- .gb (gen basic)
+		- .gb (gen bank)
 	
 	2.- *Busqueda de secuencias.* Expressiones regulares (Regexp)
 
