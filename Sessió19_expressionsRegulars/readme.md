@@ -1,0 +1,1 @@
+Aquesta sessió la seguirem amb el python notebooks expressions_regulars  -->[Expressions Regulars](ExpresionsRegulars.ipynb "ExpresionsRegulars.ipynb")
