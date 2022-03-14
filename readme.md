@@ -97,3 +97,7 @@
 18. [Sessió 18 (14 febrer 2022)](./Sessió18_Òmiques "Ciencies Òmiques")
 
 	Introducció a ciències Òmiques.
+
+19. [Sessió 19 (7-10-14 març 2022)](./Sessió19_expressionsRegulars "Sessió19_expressionsRegulars")
+
+	Sessions introductories a les expressions regulars.
