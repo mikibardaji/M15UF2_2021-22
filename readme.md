@@ -101,3 +101,7 @@
 19. [Sessió 19 (7-10-14 març 2022)](./Sessió19_expressionsRegulars "Sessió19_expressionsRegulars")
 
 	Sessions introductories a les expressions regulars.
+
+20. [Sessió 21 (21-24 març 2022)](./Sessió20_exercicis "Sessió20_exercicis")
+
+	Exercicis per practicar expressións regulars.

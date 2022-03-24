@@ -51,3 +51,19 @@ El patró negatiu
 ![Exercici3](ex3.png "Exercici3")
 
 
+Solucions 
+
+> [^.]fg[.fkh]  
+> [arb].fg..
+> af..[fak.]
+
+
+
+
+![Exercici4](ex4.png "Exercici4")
+
+> [^A-Z][.!)?"'].[A-Z]
+
+d'aqui podem treure la nova versió treien que no hi hagi cap lletra normal
+
+> [^A-Z][^\w].[A-Z]
