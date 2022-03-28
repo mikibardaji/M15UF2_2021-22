@@ -102,6 +102,10 @@
 
 	Sessions introductories a les expressions regulars.
 
-20. [Sessió 21 (21-24 març 2022)](./Sessió20_exercicis "Sessió20_exercicis")
+20. [Sessió 20 (21-24 març 2022)](./Sessió20_exercicis "Sessió20_exercicis")
 
 	Exercicis per practicar expressións regulars.
+
+21. [Sessió 21 (28 març 2022)](./Sessió21_practica "Sessió21_practica")
+
+	Alineament.

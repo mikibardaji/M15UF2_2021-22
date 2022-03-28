@@ -2,7 +2,7 @@
 
 Els exercicis els farem a partir [regex.eu](http://regex.sketchengine.eu "regex.eu")
 
-Podem seguir l'explicació de classe o treure'l de la [tutorial regex](https://www.sketchengine.eu/guide/regular-expressions/ "tutorial regex")
+Podem seguir el manual fet a classe en sessions anteriors, sinò podem ajudar-nos del [tutorial regex](https://www.sketchengine.eu/guide/regular-expressions/ "tutorial regex")
 
 Practicarem les 4 estràtegies
  1. Positiva
@@ -61,6 +61,8 @@ Solucions
 
 
 ![Exercici4](ex4.png "Exercici4")
+
+Una primera aproximació, mirant de concatenar grups per agafar-ho tot, 
 
 > [^A-Z][.!)?"'].[A-Z]
 
