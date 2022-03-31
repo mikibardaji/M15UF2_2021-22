@@ -100,7 +100,7 @@ def print_pubmed_query_parameters_v3():
 
     clean_field: function = lambda field: { key: value
                                             for key, value
-                                            in field.items()
+                                            in field.items() #Cada Item es una tupla "Clau":"Valor"
                                             if key in ['Name', 'FullName', 'Description'] }
 
     clean_field_list = [ clean_field(field) for field in field_list ]
