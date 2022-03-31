@@ -2,6 +2,20 @@
 
 Consistirà en diferents fitxers, a la pràctica els que vulguem, on haurem de descarregar fitxers genbank i explotar-los. Fer algunes alineacions.
 
+### Enunciat Practica
+
+1. Escollir organisme i un gen a comparar entre especies.
+2. Descarregar utilitzant BioPython Entrez les seqüències d'ADN.
+3. Alinear les seqüències
+4. Mostrar els resultats dins una taula de Pandas.
+
+### Pe Omiques
+
+1. El mateix que la pràctica.
+2. Sapiguer navegar amb un fitxer Genbank.
+3. Utilitzar Regexps per extraure dades del Genbank, etc...
+
+
 Exemple:
 
 Partint d'aquest, busqueu a la taxonomia, si es carnívor.
@@ -21,6 +35,8 @@ O busqueu els **autors d'aquest article amb expressions regulars**
        5. [Link metodos](https://developer.mozilla.org/es/docs/Web/HTTP/Methods "Link metodos")
        6. [github public apis](https://github.com/public-apis/public-apis "public apis")
    
+   [Proves crida Api animechan](./apis/animechan.py "crida animechan")
+
 
    ## NCBI BioPython
 
