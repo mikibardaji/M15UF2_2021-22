@@ -132,6 +132,9 @@ def use_substitution_matrix():
     score: float = aligner.score("ACDQ","ACDQ")
     print(f"Score with BLOSUM62 matrix: {score}")
 
+    alignments: PairwiseAlignment = aligner.align("ACDQ","ACDQ")
+    for alignment in alignments:
+        print(alignment)
 
 # ---------------------------------------------------------------------
 def inspect_global_alignment():
@@ -262,8 +265,8 @@ if this_module == main_module:
   # check_aligner_parameters()
   # align_globally('GAACT',   'GAT')
   # align_locally( 'AGAACTC', 'GAACT')
-    change_aligner_parameters()
-  #  use_substitution_matrix()
+  #  change_aligner_parameters()
+    use_substitution_matrix()
   #  inspect_global_alignment()
   #  inspect_local_alignment()
   #  align_coronavirus()
