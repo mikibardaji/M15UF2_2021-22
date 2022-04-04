@@ -103,9 +103,11 @@ def change_aligner_parameters():
     print(f"Score with changed parameters: {score}")
     
     # gap_score changes automatically all gap scores!
-    aligner.gap_score = -2.5
+    aligner.gap_score = -2.5 #els canvia tots
     print(aligner)
 
+    score: float = aligner.score("ACGT","ACAT")
+    print(f"Score with GAP 2.5: {score}")
 
 # Substitution Matrix (BLOSUM62, etc.) for aligning proteins.
 # BLAST uses BLOSUM62 in blastp.
@@ -257,10 +259,10 @@ main_module: str = "__main__"
 
 if this_module == main_module:
 
-    check_aligner_parameters()
-  #  align_globally('GAACT',   'GAT')
-  #  align_locally( 'AGAACTC', 'GAACT')
-  #  change_aligner_parameters()
+  # check_aligner_parameters()
+  # align_globally('GAACT',   'GAT')
+  # align_locally( 'AGAACTC', 'GAACT')
+    change_aligner_parameters()
   #  use_substitution_matrix()
   #  inspect_global_alignment()
   #  inspect_local_alignment()
