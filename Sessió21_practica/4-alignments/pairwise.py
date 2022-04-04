@@ -129,10 +129,10 @@ def use_substitution_matrix():
     aligner.substitution_matrix = blosum62_matrix
 
     # Align using the matrix
-    score: float = aligner.score("ACDQ","ACDQ")
+    score: float = aligner.score("ACWQW","ACDQW")
     print(f"Score with BLOSUM62 matrix: {score}")
 
-    alignments: PairwiseAlignment = aligner.align("ACDQ","ACDQ")
+    alignments: PairwiseAlignment = aligner.align("ACWQW","ACDQW")
     for alignment in alignments:
         print(alignment)
 
@@ -155,7 +155,7 @@ def inspect_global_alignment():
     # Alignment attributes
     print(f"Score: {alignment.score}")
     print(f"Target seq: {alignment.target}")
-    print(f"Query seq:  {alignment.query}")
+    print(f"Query seq:  {alignment.query}") #muestra
     print(f"Num of aligned seqs:  {len(alignment)}")
     print()
 
@@ -266,9 +266,9 @@ if this_module == main_module:
   # align_globally('GAACT',   'GAT')
   # align_locally( 'AGAACTC', 'GAACT')
   #  change_aligner_parameters()
-    use_substitution_matrix()
+  #  use_substitution_matrix()
   #  inspect_global_alignment()
   #  inspect_local_alignment()
-  #  align_coronavirus()
+    align_coronavirus()
 
 # ---------------------------------------------------------------------
