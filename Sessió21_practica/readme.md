@@ -56,17 +56,16 @@ O busqueu els **autors d'aquest article amb expressions regulars**
    - [Prova 1 einfo](./3-apis/2-entrez/1-einfo/einfo-e1/einfo.py "einfo-e1")
 
    - [Prova 2 einfo](./3-apis/2-entrez/1-einfo/einfo-e2/einfo.py "einfo-e1")
-   
-     1. 
-      1. **ESearch** és un mètode get  (GET)
+    
+      2. **ESearch** és un mètode get  (GET)
    
          1. [Prova 1 esearch](./3-apis/2-entrez/2-esearch/esearch-e1/esearch.py "esearch-e1")
    
          2. [Prova 2 esearch](./3-apis/2-entrez/2-esearch/esearch-e2/esearch.py "esearch-e2")
    
-      2. **EPost** és un mètode post
+      3. **EPost** és un mètode post
    
-      3. **EFetch** recoge los datos
+      4. **EFetch** recoge los datos
 
          1. [Prova 1 efetch](./3-apis/2-entrez/3-efetch/efetch-e1/efetch.py "efetch-e1")
 
