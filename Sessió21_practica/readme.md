@@ -51,6 +51,7 @@ O busqueu els **autors d'aquest article amb expressions regulars**
    Les instruccions que veurem seran
 
       1. **EInfo** Les instruccions 
+      
    
          - [Prova 1 einfo](./3-apis/2-entrez/1-einfo/einfo-e1/einfo.py "einfo-e1")
 
