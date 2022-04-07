@@ -75,7 +75,7 @@ O busqueu els **autors d'aquest article amb expressions regulars**
 
    ### Aligment (alineament)
 
-    La teoria i les instruccions les seguirem a partir del document [python](./4-alignments/pairwise.py "pairwise")
+    La teoria i les instruccions les seguirem a partir del document [pairwise.py](./4-alignments/pairwise.py "pairwise")
 
 
    
