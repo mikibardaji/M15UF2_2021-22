@@ -52,9 +52,9 @@ O busqueu els **autors d'aquest article amb expressions regulars**
 
       1. **EInfo** Les instruccions 
    
-   - [Prova 1 einfo](./3-apis/2-entrez/1-einfo/einfo-e1/einfo.py "einfo-e1")
+         - [Prova 1 einfo](./3-apis/2-entrez/1-einfo/einfo-e1/einfo.py "einfo-e1")
 
-   - [Prova 2 einfo](./3-apis/2-entrez/1-einfo/einfo-e2/einfo.py "einfo-e1")
+         - [Prova 2 einfo](./3-apis/2-entrez/1-einfo/einfo-e2/einfo.py "einfo-e1")
    
       1. **ESearch** és un mètode get  (GET)
    
