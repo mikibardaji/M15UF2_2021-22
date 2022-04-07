@@ -49,16 +49,26 @@ O busqueu els **autors d'aquest article amb expressions regulars**
    1. [Biopython Tutorial oficial](http://biopython.org/DIST/docs/tutorial/Tutorial.html#sec143 "biopython")
    
    Les instruccions que veurem seran
+
       1. **EInfo** Les instruccions 
+   
          1. [Prova 1 einfo](./3-apis/2-entrez/1-einfo/einfo-e1/einfo.py "einfo-e1")
+   
          2. [Prova 2 einfo](./3-apis/2-entrez/1-einfo/einfo-e2/einfo.py "einfo-e1")
       2. **ESearch** és un mètode get  (GET)
+   
          1. [Prova 1 esearch](./3-apis/2-entrez/2-esearch/esearch-e1/esearch.py "esearch-e1")
+   
          2. [Prova 2 esearch](./3-apis/2-entrez/2-esearch/esearch-e2/esearch.py "esearch-e2")
+   
       3. **EPost** és un mètode post
+   
       4. **EFetch** recoge los datos
+
          1. [Prova 1 efetch](./3-apis/2-entrez/3-efetch/efetch-e1/efetch.py "efetch-e1")
+
          2. [Prova 2 efetch](./3-apis/2-entrez/3-efetch/efetch-e2/efetch.py "efetch-e2")
+
          3. [Prova 3 efetch](./3-apis/2-entrez/3-efetch/efetch-e3/efetch.py "efetch-e3")
 
    ### Aligment (alineament)
