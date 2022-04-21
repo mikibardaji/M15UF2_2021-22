@@ -13,11 +13,11 @@ Consistirà en diferents fitxers, a la pràctica els que vulguem, on haurem de d
 
 ### Pe Òmiques
 
-1. El mateix que a la pràctica.
-2. Saber navegar entre fitxers genBanks.
-3. Saber extreure informació amb Regexps.
-4. Saber alinear.
-5. Posar la informació a  taules de Pandas.
+      1. El mateix que a la pràctica.
+      2. Saber navegar entre fitxers genBanks.
+      3. Saber extreure informació amb Regexps.
+      4. Saber alinear.
+      5. Posar la informació a  taules de Pandas.
 
 
 Exemples:
