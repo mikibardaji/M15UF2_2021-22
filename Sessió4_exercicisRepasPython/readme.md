@@ -4,6 +4,7 @@
 
 · [Bibliografia per treballar amb Python](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B34_exercicisRepasPython/python-resources.pdf "Bibliografia per treballar amb Python")
 
+------------
 
 #### [Web d'exercicis per treballar a classe](https://pynative.com/python-exercises-with-solutions/)
 
