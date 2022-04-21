@@ -57,13 +57,13 @@ O busqueu els **autors d'aquest àrticle amb expressions regulars**
 
 - [Prova 2 einfo](./3-apis/2-entrez/1-einfo/einfo-e2/einfo.py "einfo-e1")
     
-      **ESearch** és un mètode get  (GET)
+      **ESearch** és un mètode tipus (GET)
    
 - [Prova 1 esearch](./3-apis/2-entrez/2-esearch/esearch-e1/esearch.py "esearch-e1")
    
 - [Prova 2 esearch](./3-apis/2-entrez/2-esearch/esearch-e2/esearch.py "esearch-e2")
    
-      **EPost** és un mètode post
+      **EPost** és un mètode tipus (POST)
    
       **EFetch** recull les dades
 
@@ -76,10 +76,3 @@ O busqueu els **autors d'aquest àrticle amb expressions regulars**
    ### Aligment (alineament)
 
     Aquest apartat, explicació teòrica de aligment i les diferents instruccions per treballar amb aligment, ho seguirem al document [pairwise.py](./4-alignments/pairwise.py "pairwise")
-
-
-   
-
-
-
-
