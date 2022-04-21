@@ -77,7 +77,7 @@
 
 14. [Sessió 14 (20 desembre)](./Sessió14_ExamSolutions "Exam 14")
 
-	4 preguntes examen 2021
+	Enunciats, fitxers d'inici i solucions de l'examen curs 2021/2022
 
 ### Estadística 
  

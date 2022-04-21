@@ -10,6 +10,8 @@ Consistirà en diferents fitxers, a la pràctica els que vulguem, on haurem de d
       3. Extreure informació del GenBank, extreure alguna informació utilitzant Regexps.
       4. Alinear sequències.
       5. Mostrar resultats amb format de taula Pandas.
+   
+**Enunciat complet --> [Enunciat complet](./omics-pt "Enunciat complet")**
 
 ### Pe Òmiques
 
