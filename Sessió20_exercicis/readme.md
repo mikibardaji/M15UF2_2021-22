@@ -10,6 +10,7 @@ Practicarem les 4 estràtegies
  3. Múltiples Regex
  4. Fer grups
 
+------------
 ### Exercici 1
 
 ![Exercici1](ex1.png "Exercici1")
@@ -26,7 +27,7 @@ b) Treure el patró d'aquestes parts úniques
 
  > p.t
 
-
+------------
 ### Exercici 2
 
 ![Exercici2](ex2.png "Exercici2")
@@ -46,6 +47,7 @@ Si utilitzessim el patró amb negatiu.
 
 > ap.[^pd][^ ]
 
+------------
 ### Exercici 3
 
 ![Exercici3](ex3.png "Exercici3")
@@ -57,7 +59,7 @@ Solucions
 > [arb].fg..
 > af..[fak.]
 
-
+------------
 ### Exercici 4
 
 ![Exercici4](ex4.png "Exercici4")
