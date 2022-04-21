@@ -5,25 +5,25 @@ Consistirà en diferents fitxers, a la pràctica els que vulguem, on haurem de d
 
 ### Enunciat Practica
 
-1. Escoger organismo y gen (o genes) a comparar entre especies.
-2. Descargar Genbanks usando Biopython Entrez.
-3. Extraer información del GenBank, extraer alguna información usando Regexps.
-4. Alinear Secuencias.
-5. Mostrar resultados en forma de tablas de Pandas.
+      1. Escollir organisme i gen (o gens) a comparar entre espècies.
+      2. Descarregar Genbanks utilitzant Biopython Entrez.
+      3. Extreure informació del GenBank, extreure alguna informació utilitzant Regexps.
+      4. Alinear sequències.
+      5. Mostrar resultats amb format de taula Pandas.
 
 ### Pe Òmiques
 
-1. Lo mismo que la práctica
-2. Saber navegar entre ficheros genBanks
-3. Saber extraer información con Regexps
-4. Saber alinear
-5. Poner la información en tablas de Pandas.
+1. El mateix que a la pràctica.
+2. Saber navegar entre fitxers genBanks.
+3. Saber extreure informació amb Regexps.
+4. Saber alinear.
+5. Posar la informació a  taules de Pandas.
 
 
-Exemple:
+Exemples:
 
 Partint d'aquest, busqueu a la taxonomia, si es carnívor.
-O busqueu els **autors d'aquest article amb expressions regulars**
+O busqueu els **autors d'aquest àrticle amb expressions regulars**
 
 
 ###### Incís aclaratori
@@ -65,7 +65,7 @@ O busqueu els **autors d'aquest article amb expressions regulars**
    
       **EPost** és un mètode post
    
-      **EFetch** recoge los datos
+      **EFetch** recull les dades
 
 - [Prova 1 efetch](./3-apis/2-entrez/3-efetch/efetch-e1/efetch.py "efetch-e1")
 
@@ -75,7 +75,7 @@ O busqueu els **autors d'aquest article amb expressions regulars**
 
    ### Aligment (alineament)
 
-    La teoria i les instruccions les seguirem a partir del document [pairwise.py](./4-alignments/pairwise.py "pairwise")
+    Aquest apartat, explicació teòrica de aligment i les diferents instruccions per treballar amb aligment, ho seguirem al document [pairwise.py](./4-alignments/pairwise.py "pairwise")
 
 
    
