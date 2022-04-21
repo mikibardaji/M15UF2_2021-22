@@ -10,7 +10,7 @@ Practicarem les 4 estràtegies
  3. Múltiples Regex
  4. Fer grups
 
-#### Exercici 1
+### Exercici 1
 
 ![Exercici1](ex1.png "Exercici1")
 
@@ -27,7 +27,7 @@ b) Treure el patró d'aquestes parts úniques
  > p.t
 
 
-#### Exercici 2
+### Exercici 2
 
 ![Exercici2](ex2.png "Exercici2")
 
@@ -38,15 +38,15 @@ a) Ho fem inicialment ficant totes les parts positives i veiem els patrons.
 
 b) Treure el patró d'aquestes parts úniques
 
-El patró positiu 
+El patró positiu podria ser aquest
 
 > ap.[th]
 
-El patró negatiu
+Si utilitzessim el patró amb negatiu.
 
 > ap.[^pd][^ ]
 
-#### Exercici 3
+### Exercici 3
 
 ![Exercici3](ex3.png "Exercici3")
 
@@ -58,14 +58,14 @@ Solucions
 > af..[fak.]
 
 
-
+### Exercici 4
 
 ![Exercici4](ex4.png "Exercici4")
 
-Una primera aproximació, mirant de concatenar grups per agafar-ho tot, 
+Una primera aproximació, mirant de concatenar grups per agafar-ho tot, seria aquesta regla 
 
 > [^A-Z][.!)?"'].[A-Z]
 
-d'aqui podem treure la nova versió treien que no hi hagi cap lletra normal
+d'aqui podem treure la nova versió, treien que no hi hagi cap lletra "normal" i també ens serviria
 
 > [^A-Z][^\w].[A-Z]

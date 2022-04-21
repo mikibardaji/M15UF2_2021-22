@@ -108,4 +108,4 @@
 
 21. [Sessió 21 (28 març 2022)](./Sessió21_practica "Sessió21_practica")
 
-	Alineament.
+	Alineament i enunciats pràctica
