@@ -11,7 +11,7 @@ Consistirà en diferents fitxers, a la pràctica els que vulguem, on haurem de d
       4. Alinear sequències.
       5. Mostrar resultats amb format de taula Pandas.
    
-**Enunciat complet --> [Enunciat complet](./omics-pt "Enunciat complet")**
+**Enunciat complet --> [Enunciat complet](./omics-pt.pdf "Enunciat complet")**
 
 ### Pe Òmiques
 
