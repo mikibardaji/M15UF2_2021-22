@@ -1,7 +1,7 @@
 # CheatSheet List and Dictionary
 
 
-# List cheatsheet list
+## List cheatsheet list
 
 
 ```python
@@ -463,7 +463,7 @@ del l4[0:2]
 del l4
 ```
 
-# Dictionari cheatsheet 
+## Dictionari cheatsheet 
 
 
 ```python
@@ -510,7 +510,6 @@ d= dict(tuple_list)
 # How to find the number of items in a dict
 len(d)
 ```
-
 
 
 
