@@ -30,12 +30,17 @@ Per desactivar l'entorn, trobant-nos al entorn s'utilitza
 <a name="python"></a>
 ## Introducció a python
 
-Llenguatge interpretat. Interprets amb els que podem treballar amb python
+Llenguatge del tipus [interpretat](https://ca.wikipedia.org/wiki/Llenguatge_interpretat "interpretat"). 
+
+Intèrprets, amb els que podem treballar amb python:
+
 - **python3**
 - **ipython** (depen del python3), versió amb format enriquit i amb colors. Versió no oficial de python
 - **jupiterlab** (va al navegador i treballar amb ipython),[cheatsheet JupiterLab](https://blog.ja-ke.tech/assets/jupyterlab-shortcuts/Shortcuts.png "cheatsheet JupiterLab"), ficarem per executarlo a la consola 
 
-```jupiter lab``` 
+```bash
+jupyter lab
+```
 
 ### ***Punts bàsics python***
 
@@ -55,7 +60,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 
 
 
-- Python per defecte es **tipat implicit i dinàmic** (va be per programes petits, interactiva o exploratoria). Vol dir que no ens falta declarar el tipus de la variable al utilitzar per primer cop una variable(*implicit*), i una variable pot canviar de tipus durant el programa(*dinamic*). **Exemple**
+- Python per defecte es **tipat implicit i dinàmic** (va bé per programes petits, de forma interactiva o exploratoria). Vol dir, que no ens falta declarar el tipus de la variable, al utilitzar-la per primer cop(*implicit*), i a més, una variable, pot canviar de tipus durant el programa(*dinàmic*). **Exemple**
 
 ```python
     var1 = 1;
@@ -70,8 +75,7 @@ Llenguatge interpretat. Interprets amb els que podem treballar amb python
 ```
 > Hola
 
- **Java** es explícit i estatic, al definir la variable tens que dir, quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
-
+ **Java** és explícit i estàtic, al definir la variable, tens que declarar quin tipus és, i no pot canviar el seu tipus durant el cicle de vida del programa.
 
 
 #### comandes bàsiques
@@ -116,8 +120,8 @@ In [4]:  say_hello():
 >Hello World!!!
 >Dawbio
 
-**Tabulacions obligatories despres dels :** 
-   Els claudàtors(corchetes) dels if's i del while, es substitueix per un tabulador.
+**Tabulacions obligatòries despres dels :** 
+   Els claudàtors(corchetes) dels if's i del while, amb Java, es substitueix per un tabulador.
 
 <a name="if"></a>
 ##### **if**
@@ -136,7 +140,7 @@ else:
 ##### **bucles (while/for)**
 
 ***while***
-El while funciona exactament igual que Java.
+El while s'executa igual que Java.
 
 ```python
 count = 1
@@ -146,7 +150,7 @@ while (count <= 10):
 ```
 
 ***for***
-Es diferent... ja que necessita un array inicialitzat.
+Es diferent a la forma vista amb Java, ja que necessita un array inicialitzat.
 
 
 ```python
@@ -155,7 +159,7 @@ for number in numbers:
     print(number)
 ```
 
-Inicialitzem, el array amb la funció **range()**, ficant el punt d'inici(inclusiu) i el punt final(exclusiu)
+Inicialitzem, el array amb la funció **range()**, ficant el punt d'inici(inclusiu) i el punt final(exclusiu).
 
 ```python
 # Solution 3
@@ -163,7 +167,7 @@ numbers = range(1,11)
 for number in numbers:
     print(number)
 ``` 
-Segona forma de fer la inicialització
+Segona forma d'inicialitzar la comanda for.
 
 ```python
 for number in range(1,11):
@@ -186,8 +190,9 @@ list(range(1, 11, 2))
 ``` 
 
 <a name="logics"></a>
-##### **Operadors lògics AND/OR/XOR/NOT**
-A diferencia de java s'escriuen amb lletres
+##### **Operadors lògics **
+A diferencia de java, s'escriuen amb lletres (AND/OR/XOR/NOT)
+
 ```python
 if (n>2) AND (n<5):
     print ("esta entre 2 y 5")
@@ -220,7 +225,7 @@ Per saber la longitud d´una llista
 len(lx)
 ```
 
-Diferencies amb java, la comilla i la comilla simple és el mateix
+Diferències amb Java, la comilla(") i la comilla simple(') és el mateix
 
 ```python
 l=["a","b","c"]
@@ -229,18 +234,18 @@ l=["a","b","c"]
 però serveix per poder ficar cometes dobles dins de la simple
 
 ```python
-msg ='Dijo "Vete de asqui!"'
+msg ='Dijo "Vete de aqui!"'
 msg
 ```
 
-> msg ='Dijo "Vete de asqui!"'
+> msg ='Dijo "Vete de aqui!"'
 
 amb python "a" == 'a' es TRUE
 
 <a name="tuples"></a>
-#### **Tuples**
+##### **Tuples**
 
-Tupla es una llista de sol lectura, millor no utilitzar
+Tupla és una llista de sol lectura, no és la opció mes recomanable..
 ```python
 t = ("a","b","c")
 t
@@ -251,7 +256,7 @@ t
 <a name="diccionari"></a>
 #### **Diccionari**
 
-Diccionari, Hash, Tabla Hash, Has Map, Mapa son tots sinònims. Es diferent de Arrays...
+Diccionari, Hash, Tabla Hash, Has Map, Mapa son tots sinònims. És diferent d'Arrays...
 
 **Arrays**
 |Claus   | Valors   |
@@ -262,8 +267,8 @@ Diccionari, Hash, Tabla Hash, Has Map, Mapa son tots sinònims. Es diferent de A
 | 3  |  "Albert" |
 | 4  |  "Carlos" |
 
-- Amb un diccionari les claus, poden ser del tipus que vulgui, no sol enters. *exemple: Strings*
-- Les claus tenen que ser uniques, no pot haver-hi repetides.
+- Amb un diccionari, les claus, poden ser del tipus que vulgui, no sol enters. *Exemple: Strings*
+- Les claus tenen que ser úniques, no hi pot haver repetides.
 
 **Diccionari**
 |  Claus | Valors   |
@@ -313,7 +318,7 @@ Per una de les possibles solucions al exercici s'introdueix un nou concepte el d
 <a name="comprenhension"></a>
 ##### **Comprenhension**
 ·Hi ha "Dict Comprenhensions" y "List Comprenhensions"
-·Per a llegir o escriure una comprenhension, es comença pel mig (pel "for")
+·Per a llegir o escriure una comprenhension, es comença per la comanda del mig (pel "for") de l'instrucció.
 ·Dict comprenhension
 
     ```d2 = {key:value for key,value in dictionary_source.items()```
@@ -321,6 +326,8 @@ Per una de les possibles solucions al exercici s'introdueix un nou concepte el d
 ·List comprenhension
 
     ```d2 = {elem for elem in List_source```
+
+Crear un nou diccionari on les claus del primer siguin els valors del segon i els valors, passin a ser les claus.
 
 [Solucions exercici1](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B32_ComandesConda/exercici1.md "exercici1")
 
@@ -428,9 +435,9 @@ slic[::-1]
 > 'onMao'
 <a name="sets"></a>
 #### ** Sets **
-Objecte creats, similars a la teoría de conjunts. 
+Objecte creats que funcionen similar a la teoría de conjunts. 
 - S'utilitzen sobretot quant vols elements, que no es repeteixin. 
-- Els elements no tenen ordre, (si tenen ordre de tal com els fiques), quant començes a utilitzarlos amb diferents operacions, aquest ordre es pot perdre.
+- Els elements no tenen ordre, (realment tenen ordre d'inserció), quant començes a utilitzarlos amb diferents operacions, aquest ordre es pot perdre.
 
 ```python
 # num_set: set ={} #igual que un dict
@@ -596,11 +603,11 @@ print(frase_format)
 
 <a name="buclesup"></a>
 ##### **Bucles avançats, recuperar el index i crear tuples**
-Utilitzem normalment els index, si vols o necessites els índexs, utilitzem el while.
+Utilitzem normalment els índex, si vols o necessites els índexs, utilitzem el while.
 
-Si no ens fa falta el index utilitzem el for
+Si no ens fa falta el index, utilitzem el for
 
-Pero si volem saber els índexs utilitzant la instrucció for podemo utilitzar **enumerate**
+Pero si volem saber els índexs, utilitzant la instrucció for podem utilitzar **enumerate**
 
 ```python
 lista_index = ["a","b","c","d","e","f","g","h"]
@@ -625,7 +632,7 @@ for item in enumerate(lista_index):
  
 > (7, 'h')
 
-Com ho fem si volem veure, per exemple el segon element de cadascuna de les tuples.
+Com ho fem si volem veure, per exemple el segon element de cadascuna de les tuples?.
 
 ```python
 for item in enumerate(lista_index):
@@ -649,7 +656,7 @@ el
 
 > [(0, 'a'),  (1, 'b'),  (2, 'c'),  (3, 'd'),  (4, 'e'),  (5, 'f'),  (6, 'g'),  (7, 'h')]
 
-Per poder mostrar amb el for, el primer o el segon element de cadascuna de les tuples podem fer
+Per poder mostrar amb el for, el primer o el segon element de cadascuna de les tuples realitzem aquesta comanda
 
 ```python
 for index, elem in enumerate(lista_index):
@@ -665,7 +672,7 @@ for index, elem in enumerate(lista_index):
 > h
 
 
-o veure el index
+o si volem veure el índex
 
 ```python
 for index, elem in enumerate(lista_index):
@@ -687,7 +694,7 @@ print(nombre + "-" + apellido1 + "-" + apellido2)
 ```
 > Pablo-Garcia-Bardaji
 
-També si algunes posicions no ens interessen,  l'assigno a _, a tantes posicions com no m'interessin
+També si algunes posicions no ens interessen,  podem assignar aquelles posicions a _ .
 ```python
 nombre, apellido1, _ ,_ = ["Pablo","Garcia","Bardaji","Dawbio"]
 print(nombre + "-" + apellido1 )
@@ -703,17 +710,17 @@ print(nombre + "-" + apellido1 )
 <a name="ajuda"></a>
 **Documentació funcions**
 
-Per saber totes les funcions associades al objecte es com java...
+Per saber totes les funcions associades al objecte, es pot fer com realitzem amb Java...
 ```
  nom_objecte. <Tab> -> Autocomplete
  nom_objecte.nom_funcio <Tab>+<Shift> Documentació de la funció
 ```
 
-Comentar linees amb java dins el codi, per indicar el tipus de les variables s'utilitza :
+Una opció molt útil, es comentar linees dins el codi, per indicar el tipus de les variables s'utilitza :
 ** Important ** Els dos ':' i el tipus de darrera, per python és sol comentari, no fa cas, la variable prendrà el tipus de valor que se li asigni, en cada moment
 
 ```python
 a: int = 3
 b: bool = True
-# Los dos : y el tipo, para java es solo comentario, no hace caso, la variable tomará el tipo de valor en lo que almacenes
+# Los dos : y el tipo, per python es sols un comentari, no ho té amb compte, la variable pendrà el tipus del valor que li assignis.
 ```
