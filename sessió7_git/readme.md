@@ -12,6 +12,6 @@
 rsync -va (carpetaOrigen) (carpetaDestino)
 ```
 
-- CUIDADO con las [TRAILING SLASHES](https://en.ryte.com/wiki/Trailing_Slashes "Trailing Slashes")
+- ANAR AMB COMPTE amb les [TRAILING SLASHES](https://en.ryte.com/wiki/Trailing_Slashes "Trailing Slashes")
 
 
