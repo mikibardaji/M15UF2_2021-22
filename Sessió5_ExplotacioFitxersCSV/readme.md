@@ -64,9 +64,10 @@ entries[0]
 ### Exercicis
 
 **A cada exercici, en alguns casos hi haurà dues solucions:
-  · Una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer , [utils.py]([https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio5_ExplotacioFitxersCSV/q6.py](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B35_ExplotacioFitxersCSV/utils.py) "Utils.py") , que es troba dins la mateixa carpeta de github, com així mateix les solucions de Pablo.  
+  · Una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer [utils.py](utils.py "Utils.py") , que es troba dins la mateixa carpeta de github, com així mateix les solucions de Pablo.  
   · Una segona proposada per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. 
   
+
 
 * [Ex1 - How many entries are in scimago-medicine.csv?](#ex1)
 * [Ex2 - What types of scientific publications are in the file?](#ex2)
