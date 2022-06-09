@@ -63,7 +63,7 @@ entries[0]
 
 ### Exercicis
 
-##### *A cada exercici, en alguns casos hi haurà dues solucions, una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python, i una segona proposada per Miquel Angel Bardají, mes a l'estil de programació amb Java, fet al curs anterior. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer utils.py. al mateix directori*
+##### **A cada exercici, en alguns casos hi haurà dues solucions, una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python, i una segona proposada per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer utils.py. al mateix directori**
 
 * [Ex1 - How many entries are in scimago-medicine.csv?](#ex1)
 * [Ex2 - What types of scientific publications are in the file?](#ex2)
