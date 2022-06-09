@@ -63,7 +63,10 @@ entries[0]
 
 ### Exercicis
 
-##### **A cada exercici, en alguns casos hi haurà dues solucions, una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python, i una segona proposada per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer utils.py. al mateix directori**
+**A cada exercici, en alguns casos hi haurà dues solucions:
+  · Una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer , [utils.py]([https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio5_ExplotacioFitxersCSV/q6.py](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/Sessi%C3%B35_ExplotacioFitxersCSV/utils.py) "Utils.py") , que es troba dins la mateixa carpeta de github, com així mateix les solucions de Pablo.  
+  · Una segona proposada per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. 
+  
 
 * [Ex1 - How many entries are in scimago-medicine.csv?](#ex1)
 * [Ex2 - What types of scientific publications are in the file?](#ex2)
@@ -240,7 +243,7 @@ print(re.split('; |, ', text))
 <a name="ex6"></a>
 ### Exercici 6: Llistar totes les categories
 
---> [Solució Pablo exercici6 FER CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio4_ExplotacioFitxersCSV/q6.py "Solucion Pablo")
+--> [Solució Pablo exercici6 FER CLICK AQUI](https://github.com/mikibardaji/M15UF2_2021-22/blob/main/sessio5_ExplotacioFitxersCSV/q6.py "Solucion Pablo")
 
 ##### Segona solució PROPOSADA MÉS ESTIL JAVA a continuació --> 
 
