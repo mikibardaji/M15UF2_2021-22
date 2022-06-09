@@ -64,7 +64,9 @@ entries[0]
 ### Exercicis
 
 **A cada exercici, en alguns casos hi haurà dues solucions:
+
   · Una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer [utils.py](utils.py "Utils.py") , que es troba dins la mateixa carpeta de github, com així mateix les solucions de Pablo.  
+  
   · Una segona proposada per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. 
   
 
@@ -150,7 +152,6 @@ print(f"There are {num} entries.")
 <a name="ex2"></a>
 
 **Exercici 2** Detectar tots els valors diferents de la columna Type.
-
 
 
 
@@ -354,7 +355,6 @@ for entrada in entries:
     regiones.add(entrada['Region'])
 regiones
 ```
-
 
 
 
