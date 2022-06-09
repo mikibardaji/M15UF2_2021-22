@@ -8,9 +8,9 @@ Per fer una introducció a Pandas seguirem el tutorial oficial de [pandas 10 min
 
 Les primeres llibreries a importar son dues llibreries
 
- · **np** --> numerical panda, es una llibreria per a realitzar càlcul numèric
+ · **np** --> numerical panda, és una llibreria per a realitzar càlcul numèric
  
- · **pd** --> llibreria panda, es la llibreria per a gestionar i analitzar dades tabulars(dades que es troben amb forma de taula)
+ · **pd** --> llibreria panda, és la llibreria per a gestionar i analitzar dades tabulars(dades amb format de taula)
 
 ```python
 import numpy as np 
