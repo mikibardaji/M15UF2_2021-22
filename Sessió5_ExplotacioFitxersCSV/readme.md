@@ -67,7 +67,7 @@ entries[0]
 
   · Una la proposada per Pablo Garcia( en un fitxer apart), aprofitant totes les funcionalitats de Python. Per les solucions suggerides per Pablo, serà necessari que tingueu també el fitxer [utils.py](utils.py "Utils.py") , que es troba dins la mateixa carpeta de github, com així mateix les solucions de Pablo.  
   
-  · Una segona proposada per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. 
+  · Una segona suggerida per Miquel Angel Bardají, més a l'estil de programació Java, realitzat al curs anterior. 
   
 
 
@@ -344,7 +344,7 @@ for entrada in entries:
 
 
 <a name="ex9"></a>
-### Exercici 9 Todas las regiones cubiertas por todas las entries
+### Exercici 9 Totes les regions cobertes per totes les entrades
 
 --> [Solució Pablo exercici9_CLICK AQUI](q9.py "Solucion Pablo")
 
