@@ -3,10 +3,10 @@
 ###### Instal·lacio Pandas a conda: [Instruccions](https://anaconda.org/anaconda/pandas)
 
 
-Per fer una introducció a Pandas seguirem el tutorial oficial de [pandas 10 minutes](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html "pandas 10 minutes")
+Per fer una introducció a Pandas, durant varies sessions, seguirem el tutorial oficial de [pandas 10 minutes](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html "pandas 10 minutes")
 
 
-Les primeres llibreries a importar son dues llibreries
+Les primeres llibreries a importar son dues:
 
  · **np** --> numerical panda, és una llibreria per a realitzar càlcul numèric
  
@@ -18,11 +18,11 @@ import pandas as pd
 ```
 
  Panda utilitza dos tipus dades bàsics:
- 1. **Series** , s'assembla a una llista.
- 2. **DataFrame**, les dades amb una taula, o un conjunt de Series.
+ 1. **Series** , estructura que s'assembla a una llista.
+ 2. **DataFrame**, estructura que presenta les dades com una taula, o en definitiva un conjunt de Series.
  
  
- *Exemple: Nem a crear una taula d'alumnes que volen fer la dual*
+ *Exemple: Crearem una taula d'alumnes que volen estudiar amb format dual*
  
  **Series**
  ```python
@@ -48,18 +48,18 @@ wants_dual_ser = [False, True, False, True]
   
   #### Series
   
-  Te 3 característiques principals, de les múltiples que té
+  Té vàries característiques, de les quals 3 són les principals:
   
-    1. Contingut inicialment amb el mateix tipus
-    2. El dtype té que cubrir tots els continguts
-    3. El index el pots configurar al meu gust, per defecte es  numèric, pero podem elegir d'un altre tipus segons el  cas.
+    1. Contingut inicialment del mateix tipus.
+    2. El dtype té que cubrir tots els possibles continguts de la sèrie.
+    3. El índex el pots configurar al meu gust, per defecte és numèric, però podem elegir d'un altre tipus segons el cas.
 
 
-No es molt normal, barrejar tipus de dades
+*No es molt normal, barrejar tipus de dades dins una serie*
 
-Tres conceptes de dades diferents:
+Dins el contingut hi ha 3 conceptes de dades diferents:
 
-   ·**NaN**: Not a Number (infinit, Indeterminar). La dada esta calculada. Concepte matemàtic.
+   ·**NaN**: Not a Number (infinit, Indeterminar). La dada està calculada. Concepte matemàtic.
    
    ·**NA**:  Not Avalaible(No disponible). La dada no hi és, no existeix. Concepte estadístic.
    
@@ -71,8 +71,8 @@ Per eficiencia *Python* utilitza Nans quant vol dir NA.
 
 Tipus de dades que s'utilitza a Pandas
 
- ·**dtype** = Data Type. Es un camp que utilitza NumPy.
-   Numpy utilitza els seu propis tipus codificats al llenguatge de programació C, per eficiencia.
+ ·**dtype** = Data Type. Es un camp que utilitza la llibreria NumPy.
+   Numpy utilitza el seu propi tipus, codificats al llenguatge de programació C, per eficiència.
    
   *Exemple: float 64(bits)*
   
@@ -82,6 +82,8 @@ ser = pd.Series([1, 3, 5, np.nan, 6, 8])
 ser
 
 ```
+
+*Sortida*
 
 >   0    1.0
 >   
@@ -131,7 +133,7 @@ ser
 ```
 
 
-Es pot forçar a un tipus de dades prefixat per nosaltres.
+Una serie es pot forçar a un tipus de dades prefixat per nosaltres.
 
  >   0    1.0
  >   
@@ -196,19 +198,19 @@ ser
   #### DataFrame
   
   
-  Podem seguir l'exemple del tutorial [aqui](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#object-creation "aqui")
+  Podem seguir l'exemple del tutorial [en aquest punt](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#object-creation "aqui")
 
-Com poder crear un dataframe a partir de 6 mesos diferents
+*Exemple:* Com poder crear un dataframe a partir de 6 mesos diferents
 
 ![](dataframe.png)
 
-Un altra forma de crear datasets, es nombrar totes les columnes i ficar la seva llista respectiva, que mostrarà aquesta columna.
+Un altra forma de crear datasets, es nombrar totes les columnes i ficar la seva llista respectiva, que es mostrarà d'aquesta forma.
 
 ![](dataframe2.png)
 
-**Una excepció diferent a Java, al final veieu que hi ha una coma, que amb JAva donaria error, al python l'obvia i no li fa cas**
+**Una excepció diferent a Java, al final veieu que hi ha una coma, que amb Java donaria error, al python l'obvia i no li fa cas**
 
-Aquesta segona dataframe, podem modificar-la perquè, alguna serie, exemple la A, no sigui sempre igual,  sinò que tingui alguns valors diferents.
+En aquest segon dataframe, podem modificar alguna serie, exemple la A, de tal manera que tingui alguns valors de tipus diferents.
 
 
 ```python
@@ -293,11 +295,11 @@ df3
 </div>
 
 
-A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBIO i si volen fer dual, veurem les principals funcions del dataframe.
+A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBIO que volen fer dual, veurem les principals funcions del dataframe.
 
 ### Cheatsheet instruccions bàsiques.
 
-* [DataFrame - Creació DataFrame a partir de les diferents llistres](#dataframe)
+* [DataFrame - Creació DataFrame a partir de les diferents llistes](#dataframe)
 * [DTYPES - Obtenir el tipus de dades de totes les columnes](#dtypes)
 * [HEAD - Obtenir les primeres files](#head)
 * [TAIL - Obtenir les ultimes files](#tail)
@@ -312,6 +314,7 @@ A partir del exemple creat per nosaltres, amb les notes dels estudiants de DAWBI
 
 
 <a name="dataframe"></a>
+Tenim varies llistes individuals, que al final formaran un sol dataframe:
 
 
 ```python
@@ -372,7 +375,7 @@ students_frame
 
 
 ```python
-#Obtenim el tipus  de dades de cadascuna de les columnes.
+# Amb aquesta instruccio obtenim el tipus  de dades de cadascuna de les columnes.
 students_frame.dtypes
 ```
 
@@ -386,8 +389,10 @@ students_frame.dtypes
 
 <a name="head"></a>
 
+###### Mostrar les primeres línies
+
 ```python
-#Obtindre les primeres 5 linees de la taula
+#Obtenir les primeres 5 linees de la taula
 students_frame.head()
 ```
 
@@ -428,7 +433,6 @@ students_frame.head()
   </tbody>
 </table>
 </div>
-
 
 
 
@@ -504,7 +508,7 @@ students_frame.tail(2)
 
 
 <a name="sample"></a>
-
+###### Linea aleatòria
 
 ```python
 # Linea aleatoria
@@ -533,14 +537,12 @@ students_frame.sample()
 </div>
 
 <a name="T"></a>
-
+###### Trasposar la matriu
 
 
 ```python
-# Trasposar la matriu
 students_frame.T
 ```
-
 
 
 
@@ -587,7 +589,7 @@ print(type(students_frame.index))
     <class 'pandas.core.indexes.base.Index'>
 
 <a name="sort_index"></a>
-
+###### Ordenació dataframe per un índex
 
 
 ```python
@@ -692,11 +694,14 @@ students_grade_sorted
 
 <a name="coordenades"></a>
 
-##### Sistema coordenades
+###### Sistema coordenades
 
-El sistema de coordenades, amb dataframes comencen pel 0 i per indicar una coordenada es posa la fila primer  i llavors la columna.
+Amb un daframe, el sistema de coordenades, comença per 0, i la coordenada s'indica primera la fila i després la columna.
 
 ** Regla nemotècnica (enfonsar-se i nedar)**  Primer et tires de cap i llavors vas nedant fins la columna.
+
+![](dive-jump.gif)
+
 
 ```python
 # Utilitzar sempre localització d'un atribut
@@ -752,7 +757,6 @@ students_frame.loc[:,"grade"]
 
 
 
-
     John     7
     Mary     9
     Lucy     8
@@ -762,9 +766,7 @@ students_frame.loc[:,"grade"]
 
 
 
-Ja hem utilitzat la funció **loc** , ficant el nom directamente de les files primer i les columnes despŕes. 
-
-Amb les coordenades numèriques, tenim que anomenar el primer numero per columna i el segon per files.
+Ja hem utilitzat la funció **loc** , ficant el nom directamente de les files primer i les columnes despŕes. Amb les coordenades numèriques, tenim que anomenar el primer numero per columna i el segon per files.
 
 
 ```python
