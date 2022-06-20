@@ -1374,7 +1374,9 @@ ser2
 
 ### MAP,MAPAPPLY, APPLY
 
-Instrucció MAP per aplicar una transformació(en aquest cas, doblar el valor) a tota la fila
+###### Instrucció MAP
+
+Aplicar una transformació(en aquest cas, doblar el valor) a tota la fila
 
 ```python
 #1 Map
@@ -1416,6 +1418,8 @@ ser4.map(lambda x: "Hello " + x)
 
 <a name="mapaply"></a>
 
+###### applymap 
+
 ```python
 # DataFrame.mapaply(). Works elements wise for rows
 data = {"A": [1,2],
@@ -1451,6 +1455,9 @@ df3.applymap(lambda x:x*2)
 
 
 <a name="apply"></a>
+###### Funció aply
+
+En aquest cas sumarem valors
 
 ```python
 #Works column wise
@@ -1468,7 +1475,7 @@ df3.apply(lambda column:column.sum())
 
 <a name="novacolumna"></a>
 
-Crear una nova columna, dins el teu dataframe.
+###### Crear una nova columna, dins el teu dataframe.
 
 ```python
 df4 = copy.deepcopy(df3)
@@ -1505,7 +1512,7 @@ df4
 
 <a name="orden"></a>
 
-Canviar el ordre dins un dataframe
+###### Canviar el ordre dins un dataframe
 
 ```python
 df5 = df4.loc[:,["C","A","B"]]
