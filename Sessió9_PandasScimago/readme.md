@@ -317,6 +317,7 @@ entries
 
 
 
+*Mostra totes les files, però sol la seva columna Rank*
 
 ```python
 entries.loc[:,"Rank"]
@@ -350,7 +351,7 @@ entries.loc[:,"Rank"]
   > Name: Rank, Length: 7125, dtype: int64
 
 
-
+*Mostra el tipus de dades de totes les files, però sol la seva columna Rank*
 
 ```python
 entries.loc[:,"Rank"].dtype
@@ -431,7 +432,8 @@ entries.index
 
 <a name="hindex450"></a>
 
-Mostrar totes les entries el qual el seu h index es superior a 450
+Podem fer filtres de files a partir del contingut d'alguna columna.
+*Exemple:* Mostrar totes les entries, el qual el seu **H index** es superior a 450
 
 ```python
 #seleccionar i mostrar les entries amb H index superior
@@ -992,11 +994,11 @@ entries2.sort_values(by=["H index"],
 
 <a name="hindex750negatius"></a>
 
-Ficar totes les entrades a h_index negatiu, si son menors de 750...
+Ficar el valor de les les entrades a h_index negatiu, si son menors de 750...
 
 
 ```python
-#canviar totes les entrades menors de 750 al seu index negat
+#canviar el valor de les entrades amb el **H index** menor a 750,  al seu valor amb negatiu.
 entries3 = copy.deepcopy(entries)
 
 bad_entries_mask = (entries3.loc[:,"H index"] < 350)
@@ -1161,7 +1163,7 @@ entries3.head(5)
 
 <a name="publishernan1"></a>
 
-Posar tots els Publisher, que actualment es troben a null, ficar-los a np.nan.
+Modificar el valor de tots els Publisher, que actualment esta informat a null, passar-los a np.nan.
 
 ```python
 # Clean NAs
@@ -1266,7 +1268,7 @@ entries4.iloc[644,:]
 
 <a name="updatepublisher"></a>
 
-Actualitzar tots els registres que es troben a nulls, o a nan, amb un String fixe "Unkown Publisher"
+Actualitzar tots els registres que es troben a nulls, o a nan, amb un valor fixe de  String=**"Unkown Publisher"**
 
 ```python
 # Manage NA's
@@ -1328,7 +1330,7 @@ entries5.iloc[644,:]
 
 <a name="seriesvalor"></a>
 
-Canviar valors na a 0, o eliminar registres que tenen el valor na en una columna especial.
+Canviar valors na a 0, o eliminant registres que tenen el valor na en una columna especial.
 
 ```python
 ser1: pd.Series = pd.Series([0,1,2,3,np.nan,5.6])
@@ -1372,7 +1374,7 @@ ser2
 
 ### MAP,MAPAPPLY, APPLY
 
-Instrucció MAP per aplicar una transformació a tota la fila
+Instrucció MAP per aplicar una transformació(en aquest cas, doblar el valor) a tota la fila
 
 ```python
 #1 Map
