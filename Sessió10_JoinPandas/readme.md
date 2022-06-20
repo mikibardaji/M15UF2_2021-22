@@ -1,6 +1,6 @@
 # Joins utilitzants Pandas
 
-Amb la taula d'alumnes, ja treballada a classe , farem diferents exercicis
+Per aquesta part on farem diferents exercicis, utilitzarem la taula d'alumnes-dual, ja treballada a classe anteriorment
 
 
 
