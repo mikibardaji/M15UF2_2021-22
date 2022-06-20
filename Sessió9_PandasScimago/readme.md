@@ -18,6 +18,7 @@
 
 <a name="scimagoexample"></a>
 
+Partirem del fitxer descarregat [scimago-medicine.csv](scimago-medicine.csv "Fitxer Scimago")
 
 ```python
 # Read scimago ranking
