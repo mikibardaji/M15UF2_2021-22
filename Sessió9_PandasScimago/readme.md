@@ -1455,7 +1455,7 @@ df3.applymap(lambda x:x*2)
 
 
 <a name="apply"></a>
-###### Funció aply
+###### Funció apply
 
 En aquest cas sumarem valors
 
