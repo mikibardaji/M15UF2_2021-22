@@ -720,7 +720,7 @@ students_frame.loc["Lucy","grade"]
 <a name="loc"></a>
 
 
-###### busqueda de varis valors de diferents columnes
+###### Búsqueda de varis valors en diferentes columnes
 
 
 ```python
@@ -769,7 +769,7 @@ students_frame.loc[:,"grade"]
 
 
 
-Ja hem utilitzat la funció **loc** , ficant el nom directamente de les files primer i les columnes despŕes. Amb les coordenades numèriques, tenim que anomenar el primer numero per columna i el segon per files.
+Ja hem utilitzat la funció **loc** , ficant el nom directament de les files primer i les columnes després. Amb les coordenades numèriques, hem d'anomenar el primer numero per columna i el segon per files.
 
 
 ```python
@@ -917,7 +917,7 @@ students_frame.loc[students_frame.index,["grade","dual"]]
 
 
 ```python
-#seleccionar totes les columnes i files
+#Mètode per seleccionar totes les files i columnes.
 students_frame.loc[:,:]
 ```
 
@@ -962,7 +962,7 @@ students_frame.loc[:,:]
 
 
 ```python
-#no es recomanable, ficar el interval de columnes, encara que es po fer
+#No es recomanable, ficar el interval de columnes, encara que es pot fer
 students_frame["John":"Lucy"]
 ```
 
@@ -1008,7 +1008,7 @@ students_frame["John":"Lucy"]
 # Mask = Objecte que amaga tota la informació que no volem
 
 students_pass = students_frame.loc[:,"grade"] >= 5
-#creo mask amb estudiants que compleixen criteris
+#Creo mask amb estudiants que compleixen criteris
 students_pass
 ```
 
@@ -1032,7 +1032,7 @@ students_pass
 
 
 ```python
-#a la mascara anterior la puc ficar per que seleccioni, sols els de la mask
+#A la mascara anterior puc indicar per que seleccioni, sols els de la mask
 students_frame.loc[students_pass,:]
 ```
 
