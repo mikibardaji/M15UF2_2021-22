@@ -1,19 +1,22 @@
 # Gràfiques amb Pandas
 
-A estadística, hi ha dos tipus:
+A estadística, existeixen 2 tipus:
   - Descriptiva (Gràfiques)
   - Inferencia (Previssions)
 
-Una ajuda per l'estadística que veurem seria la web [khan academy](https://es.khanacademy.org/ "khan academy").
+Per ajudar-nos en l'estadística que veurem, seria visualitzar i aprendre de la web [khan academy](https://es.khanacademy.org/ "khan academy").
 
-Instalarem la llibreria matplotlib. Llibreria que utilitzara Pandas per sota, nosaltres no la cridarem
+Per realitzar gràfiques, tenim que instal·lar la llibreria **matplotlib**. Llibreria que utilitzara Pandas per sota, nosaltres no la cridarem
 
 Per gràfiques utilitzarem la llibreria Matplotlib(baix nivell) que l'utilitzaran el panda's o seaBorn (alt nivell)
+
+*Comandes d'instal·lació*
 
 ```shell
 conda install -n py39 -c conda-forge matplotlib
 ```
-Seguirem el apartat de 10 minutes panda [plotting](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#plotting "plotting")
+
+A partir d'aqui seguirem el apartat de [plotting](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#plotting "plotting") al tutorial 10 minutes panda 
 
 
 Codi realitzat
