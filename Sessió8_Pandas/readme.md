@@ -700,8 +700,11 @@ Amb un daframe, el sistema de coordenades, comença per 0, i la coordenada s'ind
 
 ** Regla nemotècnica (enfonsar-se i nedar)**  Primer et tires de cap i llavors vas nedant fins la columna.
 
-![](dive-jump.gif)
+<center>
+ 
+ <img src="dive-jump.gif" alt="drawing" width="200"/>
 
+</center>
 
 ```python
 # Utilitzar sempre localització d'un atribut
