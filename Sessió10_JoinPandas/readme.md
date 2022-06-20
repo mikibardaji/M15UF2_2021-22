@@ -772,7 +772,7 @@ df3_grouped.cumcount()
 
 #### Time Series
 
-[time series documentació oficial](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#time-series "time series documentacion oficial")
+[Consultar la documentació oficial de time series](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#time-series "time series documentacion oficial")
 
 
 
@@ -781,9 +781,10 @@ df3_grouped.cumcount()
 #### Categoricals
 
 
-Es pot marcar els diferents valors d'una de les columnes, com *Categories*, marcant-les com categories dintre la columna, no com a valors.
+Es pot marcar els diferents valors d'una de les columnes, del tipus *Categories*, marcant-la com categories dins la columna, no com a valors.
 [categories documentació oficial](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html#categoricals "categoricals  documentacion oficial")
 
+*Exemple*
 
 ```python
 import numpy as np 
@@ -906,7 +907,7 @@ students_frame.loc[:,"cat_grade"]
 
 
 ```python
-#reasignar todas las categorias 
+#reasignar totes les categories 
 cat_grades: list[str] = reversed(["Exc","Not","Bien","Sufi","Insuf."])
 students_frame.loc[:,"cat_grade"]= students_frame.loc[:,"cat_grade"].cat.set_categories(cat_grades)
 #Order by cat_grade and grade
